@@ -4,6 +4,6 @@ import { Store } from 'redux'
 
 declare module 'express' {
   interface StoreRequestT extends express.Request {
-    store?: any
+    store?: Store
   }
 }

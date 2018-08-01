@@ -1,17 +1,17 @@
 import * as React from 'react'
-import render from 'react-dom/server'
 
-type State = object
-
-export const HTML = ({ state, children }: { state: State, children: React.ReactElement<React.ReactChildren> }) => {
-  const content = render.renderToString( children )
+export const HTML = ({ state, children }: { state: string, children: string }) => {
   return (
     <html lang="en">
       <head>
-        
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.__PRELOADED_STATE__ = ${ state }`
+          }}
+        />
       </head>
       <body>
-        <div id="app" dangerouslySetInnerHTML={{ __html: content }} />
+        <div id="app" dangerouslySetInnerHTML={{ __html: children }} />
       </body>
     </html>
   )
