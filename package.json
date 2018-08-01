@@ -4,15 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "pack": "webpack --config webpack.config.js",
-    "babel": "babel src -d views",
-    "build": "npm run pack && npm run babel"
+    "start": "NODE_ENV=development node bin/start.js"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
+    "css-hot-loader": "^1.4.1",
     "express": "^4.16.2",
+    "history": "^4.7.2",
+    "mini-css-extract-plugin": "^0.4.1",
     "nodemon": "^1.18.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -31,6 +31,7 @@
     "@babel/plugin-proposal-class-properties": "^7.0.0-beta.55",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.55",
     "@babel/plugin-transform-modules-commonjs": "^7.0.0-beta.55",
+    "@babel/polyfill": "^7.0.0-beta.55",
     "@babel/preset-env": "^7.0.0-beta.55",
     "@babel/preset-react": "^7.0.0-beta.55",
     "@babel/preset-typescript": "^7.0.0-beta.55",
@@ -43,11 +44,18 @@
     "@types/react-redux": "^6.0.5",
     "@types/react-router-dom": "^4.3.0",
     "@types/react-router-redux": "^5.0.15",
+    "@types/redux": "^3.6.0",
     "@types/webpack-env": "^1.13.6",
     "babel-loader": "^8.0.0-beta",
     "chalk": "^2.4.1",
+    "css-loader": "^1.0.0",
     "eslint": "^5.2.0",
+    "file-loader": "^1.1.11",
+    "url-loader": "^1.0.1",
     "webpack": "^4.1.0",
-    "webpack-cli": "^3.1.0"
+    "webpack-cli": "^3.1.0",
+    "webpack-manifest-plugin": "^2.0.3",
+    "webpack-node-externals": "^1.7.2",
+    "write-file-webpack-plugin": "^4.3.2"
   }
 }
