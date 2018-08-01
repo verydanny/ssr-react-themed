@@ -4,6 +4,7 @@ import chalk from 'chalk'
 import path from 'path'
 import bodyParser from 'body-parser'
 
+import configureStore from '../client/store'
 import paths from '../../config/paths'
 import serverRender from './middleware/render'
 
@@ -19,6 +20,11 @@ if (process.env.NODE_ENV === 'development') {
 app.use(cors())
 
 app.use(bodyParser.json())
+
+app.use((req: express.StoreRequestT, res, next) => {
+  req.store = configureStore()
+  return next()
+})
 
 app.use(serverRender())
 
