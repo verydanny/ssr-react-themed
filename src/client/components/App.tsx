@@ -1,8 +1,12 @@
 import * as React from 'react'
-import style from './someThing.css'
+import { ThemeProvider } from 'react-themed'
 
-console.log(JSON.stringify(style.toString()))
+import Button from './Buttons/Button'
 
-export default () => (
-  <div className={style.someOtherThing}>Just testing</div>
-)
+const App = () => {
+  return (
+    <Button />
+  )
+}
+
+export default App

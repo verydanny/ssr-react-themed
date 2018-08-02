@@ -1,3 +1,6 @@
+const glob = require('glob')
+const DtsCreator = require('typed-css-modules')
+const path = require('path')
 const chalk = require('chalk')
 
 const logMessage = (message, level = 'info') => {
@@ -20,7 +23,19 @@ const compilerPromise = (compiler) => {
   })
 }
 
+const generateCssTypes = () => {
+  const creator = new DtsCreator()
+  glob('../src/**/*', (err, files) => {
+    files.map(filename =>
+      creator.create(filename).then(content => {
+        content.writeFile()
+      })
+    )
+  })
+}
+
 module.exports = {
   logMessage,
-  compilerPromise
+  compilerPromise,
+  generateCssTypes
 }
