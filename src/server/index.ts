@@ -3,6 +3,7 @@ import cors from 'cors'
 import chalk from 'chalk'
 import path from 'path'
 import bodyParser from 'body-parser'
+import manifestHelpers from 'express-manifest-helpers'
 
 import configureStore from '../client/store'
 import paths from '../../config/paths'
@@ -25,6 +26,14 @@ app.use((req: express.StoreRequestT, res, next) => {
   req.store = configureStore()
   return next()
 })
+
+const manifestPath = path.join(paths.clientBuild, paths.publicPath)
+
+app.use(
+  manifestHelpers({
+    manifestPath: `${manifestPath}/manifest.json`,
+  })
+)
 
 app.use(serverRender())
 

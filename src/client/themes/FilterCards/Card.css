@@ -1,0 +1,11 @@
+.Card_Body {
+  height: 100%;
+  display: flex;
+}
+
+.InlineCard .Card_Body {
+  padding-left: 20px;
+  padding-right: 15px;
+  flex-direction: column;
+  justify-content: space-between;
+}

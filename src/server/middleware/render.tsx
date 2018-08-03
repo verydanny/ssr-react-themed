@@ -22,7 +22,9 @@ const serverRenderer = () => (req: express.StoreRequestT, res: express.Response)
     return res.send(`
       <!doctype html>
       ${renderToString(
-        <HTML state={ state }>
+        <HTML 
+          state={ state } 
+          scripts={[res.locals.assetPath('app.js')]}>
           { content }
         </HTML>
       )}

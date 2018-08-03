@@ -1,0 +1,40 @@
+@value (
+  RentBlue,
+  Gray4,
+  Gray13
+) from 'ui/shared/themes/colors/colors.css';
+
+@value(HorizontalPadding) from 'ui/shared/themes/variables/variables.css';
+
+.PDPReviewGallery {
+  border-bottom: thin solid Gray13;
+}
+
+.PDPReviewGallery .PDPReviewGallery_SeeAllButton {
+  background-color: RentBlue;
+  width: 335px;
+  border-radius: 5px;
+  margin: auto;
+  color: #fff;
+  display:block;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 100%;
+  padding: 12px 0;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.PDPReviewGallery .PDPReviewGallery_WriteButton {
+  color:RentBlue;
+  display:flex;
+  justify-content: center;
+  margin: 14px auto;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 0;
+  border: none;
+  background-color: #f2f3f3;
+  text-decoration: none;
+}

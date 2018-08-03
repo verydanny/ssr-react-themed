@@ -1,0 +1,40 @@
+@value ( RentBlue ) from 'ui/shared/themes/colors/colors.css';
+.PDPMapToggleButton {
+  position: relative;
+  z-index: 9;
+}
+
+.PDPMapToggleButton_Container {
+  position: absolute;
+  top: -20px;
+  width: 100%;
+}
+
+.PDPMapToggleButton_Buttons, .PDPMapToggleButton_Buttons button {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: RentBlue;
+  border-radius: 10px;
+  border: none;
+  color: #6098f9;
+  height: 40px;
+  width: 245px;
+}
+
+.PDPMapToggleButton button {
+  color: #6098f9;
+}
+
+.PDPMapToggleButton .PDPMapToggleButton-active {
+  color: white;
+}
+
+
+.PDPMapToggleButton_Buttons > :first-child::after {
+  content: "|";
+  color: white;
+  position: relative;
+  left: 20px;
+}

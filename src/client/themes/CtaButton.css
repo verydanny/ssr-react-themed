@@ -1,0 +1,46 @@
+@value ( RentBlue ) from 'ui/shared/themes/colors/colors.css';
+
+@value ( BasicShadow, emailIcon, phoneIcon ) from 'ui/shared/themes/variables/variables.css';
+
+.CtaButton {
+  display: flex;
+  align-items: center;
+  background: RentBlue;
+  box-shadow: BasicShadow;
+  border-radius: 4px;
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding: 0 0 0 35px;
+  font-size: 11px;
+  color: #fff;
+  text-decoration:none;
+}
+
+.CtaButton-email {
+  background-image: emailIcon;
+  border: 0px;
+}
+
+
+.CtaButton-phone {
+  background-image: phoneIcon;
+}
+
+.CtaButton-phone-list,
+.CtaButton-email-list,
+.CtaButton-email-list-center {
+  height: 25px;
+}
+
+.CtaButton-phone-map,
+.CtaButton-email-map,
+.CtaButton-email-map-center {
+  width: 96px;
+  height: 28px;
+  box-sizing: content-box;
+}
+
+.CtaButton-phone-list {
+  margin-bottom: 9px;
+}

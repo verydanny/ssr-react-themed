@@ -1,0 +1,60 @@
+@value (RentBlue, Gray2, White) from 'ui/shared/themes/colors/colors.css';
+
+.ViewToggleMenu_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  border-radius: 50px;
+  margin: 0 auto 13px;
+  padding: 12px 10px;
+  background-color: RentBlue;
+  flex: 0 0 40px;
+  flex-direction: row-reverse;
+  pointer-events: auto;
+}
+
+.ViewToggleMenu_Container button,
+.ViewToggleMenu_Container button:active {
+  color: White;
+  fill: White;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 0;
+}
+
+.ViewToggleMenu_Container button:last-child {
+  border-right: 1px solid #ffffff;
+  padding-right: 24px;
+}
+
+.ViewToggleMenu,
+.ViewToggleMenu-disabled {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: White;
+  fill: White;
+  height: 100%;
+  line-height: 100%;
+  text-transform: capitalize;
+}
+
+.ViewToggleMenu-disabled,
+.ViewToggleMenu:disabled {
+  color: Gray2;
+  fill: Gray2;
+}
+
+.ViewToggleMenu_icons {
+  margin: 0 5px 0 0;
+  font-size: 17px;
+}
+
+
+.ViewToggleMenu_icons svg {
+  width: 1em;
+  height: 1em;
+}

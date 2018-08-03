@@ -1,0 +1,27 @@
+@value ( Gray13 ) from 'ui/shared/themes/colors/colors.css';
+
+.FooterSocial {
+  padding: 36px 0;
+  margin: 0 -10px;
+  border-top: 1px solid Gray13;
+}
+
+.FooterSocial ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.FooterSocial li {
+  margin: 0 15px;
+  padding: 0;
+  display: inline-block;
+}
+
+.SocialLink_Icon svg {
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,41 @@
+@value ( RentBlue ) from 'ui/shared/themes/colors/colors.css';
+
+.PDPHeader {
+  height: 45px;
+  background-color: RentBlue;
+  display: flex;
+}
+
+.PDPHeader_Logo {
+  flex-grow: 1;
+  text-align: center;
+  padding-right: 30px;
+}
+
+.PDPHeader_Logo, .PDPHeader_Back {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+body .PDPHeader_Logo svg {
+  height: 17px;
+  line-height: 0;
+  position: relative;
+  right: 10px;
+  width: 91px;
+}
+
+.PDPHeader_Back {
+  margin-left: 19px;
+  padding: 0;
+  border: 0;
+  background-color: RentBlue;
+}
+
+body .PDPHeader_Back svg {
+  position: relative;
+  bottom: 2px;
+  height: 16px;
+  padding-right: 20px;
+  width: 21px;
+}

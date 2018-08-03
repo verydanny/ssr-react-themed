@@ -2,7 +2,10 @@ import * as React from 'react'
 import createHistory from 'history/createBrowserHistory'
 import { hydrate } from 'react-dom'
 import { Provider } from 'react-redux'
-import { ConnectedRouter as Router, routerMiddleware } from 'react-router-redux'
+import { ConnectedRouter, routerMiddleware } from 'react-router-redux'
+
+import App from './components/App'
+import { configureStore } from './store'
 
 interface Window {
   store: any,
@@ -11,9 +14,6 @@ interface Window {
 }
 
 declare const window: Window
-
-import App from './components/App'
-import { configureStore } from './store'
 
 const browserHistory = window.browserHistory || createHistory()
 const store =
@@ -25,9 +25,7 @@ const store =
 
 hydrate(
   <Provider store={ store }>
-    <Router history={ browserHistory }>
-      <App/>
-    </Router>
+    <App/>
   </Provider>,
   document.getElementById('app')
 )

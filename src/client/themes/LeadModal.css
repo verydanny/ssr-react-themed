@@ -1,0 +1,72 @@
+@value ( RentBlue, UniversalGrey, Gray1 ) from 'ui/shared/themes/colors/colors.css';
+
+.LeadModal .Modal {
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.LeadModal .ModalBody {
+  padding: 16px;
+  min-height: 100%;
+  background: #fff;
+}
+
+.LeadModal .ModalBody:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.LeadModal .Overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  z-index:100;
+}
+
+.LeadModal .Modal-open {
+  display: block;
+}
+
+.LeadModal .Model-close {
+  display: none;
+}
+
+.LeadModal .CloseButton {
+  float: right;
+  font-size: 20px;
+}
+
+.LeadModal .CloseButton svg {
+  width: 1em;
+  height: 1em;
+}
+
+.LeadModal .Modal_Header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: UniversalGrey;
+  text-decoration: none;
+}
+
+.LeadModal .Modal_Header a {
+  color: RentBlue;
+}
+
+.LeadModal .Modal_SubHeader {
+  color: Gray1;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 13px;
+}
+
+.LeadModal .Modal_SubHeader_PropertyTitle {
+  color: UniversalGrey;
+}

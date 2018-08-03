@@ -1,0 +1,38 @@
+@value (
+  Black,
+  Gray1,
+  Gray4
+) from 'ui/shared/themes/colors/colors.css';
+
+@value (
+  HorizontalPadding
+) from 'ui/shared/themes/variables/variables.css';
+
+.PDPLeasingTerms {
+  background-color: Gray4;
+  display: none;
+  padding: 13px HorizontalPadding;
+}
+
+.PDPLeasingTerms-expanded {
+  display: flex;
+  justify-content: space-between;
+}
+
+.PDPLeasingTerms_Terms {
+  margin-top: 20px;
+  width: 185px;
+}
+
+.PDPLeasingTerms_Terms div {
+  color: Gray1;
+  margin-bottom: 17px;
+}
+
+.PDPLeasingTerms_Header {
+  color: Black;
+  font-weight: bold;
+  padding-right: 25px;
+  width: 118px;
+  overflow-wrap: break-word;
+}

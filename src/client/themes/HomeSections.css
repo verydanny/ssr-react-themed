@@ -1,0 +1,36 @@
+@value ( RentBlue, RentBlueDark, UniversalGrey ) from 'ui/shared/themes/colors/colors.css';
+
+.HomeSections h2 {
+  font-size: 32px;
+  font-weight: 900;
+  color: RentBlueDark;
+  margin: 0 21px;
+  padding: 39px 0 12px 0;
+}
+
+.HomeSections_SectionBody {
+  font-size: 16px;
+  line-height: 22px;
+  color: UniversalGrey;
+  margin: 0 21px;
+}
+
+.HomeSections_SectionDynamicLinks,
+.HomeSections_SectionLinks ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 21px 0 21px;
+}
+
+.HomeSections_SectionDynamicLinks li,
+.HomeSections_SectionLinks li {
+  margin-top: 24px;
+}
+
+.HomeSections_SectionDynamicLinks a,
+.HomeSections_SectionLinks a {
+  font-size: 16px;
+  font-weight: 700;
+  color: RentBlue;
+  text-decoration: none;
+}

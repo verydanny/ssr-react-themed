@@ -1,0 +1,26 @@
+@value ( Gray1 ) from 'ui/shared/themes/colors/colors.css';
+
+.SeoLinkList_Container {
+  overflow: hidden;
+}
+
+.SeoLinkList_Collapsible > button {
+  padding: 0 0 0 5px;
+  height: auto;
+}
+
+.SeoLinkList_CollapsibleToggle {
+  font-weight: 400;
+}
+
+.SeoLinkList_LinkGroup {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 5px;
+  width: 100%;
+}
+
+.SeoLinkList_LinkGroup a {
+  color: Gray1;
+  text-decoration: none;
+}

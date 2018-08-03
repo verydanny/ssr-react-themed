@@ -1,0 +1,53 @@
+@value ( RentBlue, UniversalGrey, Gray3, Red ) from 'ui/shared/themes/colors/colors.css';
+
+.MoveInDate_Container {
+  border: 1px solid Gray3;
+  color: UniversalGrey;
+  font-weight: 700;
+  font-size: 13px;
+  box-shadow: 0 0.5px 1px 0 rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  width: 100%;
+  margin: 8px 0;
+  border-radius: 4px;
+}
+
+.MoveInDate_Container:focus-within {
+  border-color: RentBlue;
+}
+
+/* Note: using added specifity here to override Icon styles */
+.MoveInDate_Container .MoveInDate_Calendar {
+  height: 21px;
+  width: 20px;
+  display: table-cell;
+  padding: 3px 0 0 13px;
+}
+
+.MoveInDate_Container .MoveInDate_DateField {
+  display: table-cell;
+  width: 100%;
+  padding: 0;
+}
+
+.MoveInDate_Container .MoveInDate_DateField input {
+  border: none;
+  box-shadow: none;
+  appearance: none;
+  background: #FFF;
+}
+
+.MoveInDate_Container .MoveInDate_DateField input::before {
+  content: 'Move in on ';
+  font-weight: 400;
+  white-space: pre;
+}
+
+.MoveInDate-invalid {
+  border: 1px solid Red;
+}
+
+.MoveInDate-invalid .MoveInDate_Calendar,
+.MoveInDate-invalid .MoveInDate_DateField input {
+  background: rgba(234, 81, 23, 0.1);
+}

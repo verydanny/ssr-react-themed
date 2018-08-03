@@ -1,0 +1,115 @@
+@value ( RentBlue, GoldYellow, White ) from 'ui/shared/themes/colors/colors.css';
+
+.PDPKeyInfo {
+  background-color: RentBlue;
+  color: White;
+  padding: 14px 0 28px 0;
+}
+
+.PDPKeyInfo_Price {
+  display: flex;
+  color: GoldYellow;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 2px 0;
+  margin: 0 10px 9px 19px;
+}
+
+.PDPKeyInfo_PropertyDetails {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.PDPKeyInfo_PropertyDetails li {
+  display: inline-block;
+  padding: 5px 10px 5px 0;
+  line-height: 1.35;
+}
+
+.PDPKeyInfo_PropertyDetails li:not(:first-child)::before {
+  content: " ";
+  width: 1px;
+  height: 14px;
+  display: inline-block;
+  background: White;
+  top: 2px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.PDPKeyInfo_PropertyDetails li.PDPKeyInfo_AvailabilityLabel::before {
+  display: none;
+}
+
+.PDPKeyInfo_AvailabilityLabel {
+  color: GoldYellow;
+  line-height: 1.35;
+}
+
+.PDPKeyInfo_PropertyLabel {
+  flex-grow: 1;
+  width: auto;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: white;
+  margin: 0 22px 0 19px;
+}
+
+.PDPKeyInfo_PropertyDetails {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 0;
+  margin: 9px 22px 0px 19px;
+}
+
+.PDPKeyInfo .Favorite, .PDPKeyInfo .Favorite-on {
+  right: 21px;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  background-image: url(data:image/svg+xml;charset=utf8;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGQ9Ik01LjUgMkMzLjUwNSAyIDIgMy41MDUgMiA1LjVjMCAyLjM3NyAyLjI1OCA0LjU0NyA1LjY3NiA3LjgzMS43MjkuNyAxLjUwNyAxLjQ0OCAyLjMyNCAyLjI1Ny44MTctLjgwOSAxLjU5NS0xLjU1NyAyLjMyNC0yLjI1N0MxNS43NDIgMTAuMDQ3IDE4IDcuODc3IDE4IDUuNSAxOCAzLjUwNSAxNi40OTUgMiAxNC41IDJjLTEuNTM4IDAtMy4wMzguOTkzLTMuNTY3IDIuMzYxYTEgMSAwIDAgMS0xLjg2NiAwQzguNTM4IDIuOTkzIDcuMDM4IDIgNS41IDJNMTAgMThhMSAxIDAgMCAxLS43MDktLjI5NWMtMS4wNjctMS4wNzQtMi4wNzQtMi4wNDEtMy0yLjkzMkMyLjUwMiAxMS4xMzMgMCA4LjcyOSAwIDUuNSAwIDIuNDE2IDIuNDE2IDAgNS41IDAgNy4yNDEgMCA4LjkwOS44MDggMTAgMi4wODYgMTEuMDkxLjgwOCAxMi43NTkgMCAxNC41IDAgMTcuNTg0IDAgMjAgMi40MTYgMjAgNS41YzAgMy4yMjktMi41MDIgNS42MzMtNi4yOTEgOS4yNzMtLjkyNi44OTEtMS45MzMgMS44NTgtMyAyLjkzMkExIDEgMCAwIDEgMTAgMTgiIGlkPSJhIi8+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMSkiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PG1hc2sgaWQ9ImIiIGZpbGw9IiNmZmYiPjx1c2UgeGxpbms6aHJlZj0iI2EiLz48L21hc2s+PHVzZSBmaWxsPSIjMDAzQkRFIiB4bGluazpocmVmPSIjYSIvPjxnIG1hc2s9InVybCgjYikiIGZpbGw9IiMwMDNCREUiPjxwYXRoIGQ9Ik0tMi0zaDI0djI0SC0yeiIvPjwvZz48L2c+PC9zdmc+DQo=);
+  background-size: 25px;
+  background-position-x: 12px;
+  background-position-y: 12px;
+}
+
+.PDPKeyInfo .Favorite-on {
+  background-image: url(data:image/svg+xml;charset=utf8;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGQ9Ik0xMCAxOGExIDEgMCAwIDEtLjcwOS0uMjk1Yy0xLjA2Ny0xLjA3NC0yLjA3NC0yLjA0MS0zLTIuOTMyQzIuNTAyIDExLjEzMyAwIDguNzI5IDAgNS41IDAgMi40MTYgMi40MTYgMCA1LjUgMCA3LjI0MSAwIDguOTA5LjgwOCAxMCAyLjA4NiAxMS4wOTEuODA4IDEyLjc1OSAwIDE0LjUgMCAxNy41ODQgMCAyMCAyLjQxNiAyMCA1LjVjMCAzLjIyOS0yLjUwMiA1LjYzMy02LjI5MSA5LjI3My0uOTI2Ljg5MS0xLjkzMyAxLjg1OC0zIDIuOTMyQTEgMSAwIDAgMSAxMCAxOCIgaWQ9ImEiLz48L2RlZnM+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAxKSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48bWFzayBpZD0iYiIgZmlsbD0iI2ZmZiI+PHVzZSB4bGluazpocmVmPSIjYSIvPjwvbWFzaz48dXNlIGZpbGw9IiMwMDNiZGUiIHhsaW5rOmhyZWY9IiNhIi8+PGcgbWFzaz0idXJsKCNiKSIgZmlsbD0iIzAwM2JkZSI+PHBhdGggZD0iTS0yLTNoMjR2MjRILTJ6Ii8+PC9nPjwvZz48L3N2Zz4NCg==);
+}
+
+.PDPKeyInfo .RatingBar {
+  width: auto;
+  display: flex;
+  margin-left: 15px;
+  margin-top: -3px;
+  align-items: center;
+}
+
+.PDPKeyInfo .RatingBar::before {
+  content: " ";
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  background: White;
+  margin-right: 10px;
+}
+
+
+@value PDPKeyInfo_RATING_STAR_WIDTH 15px;
+@value PDPKeyInfo_RATING_TOTAL_WIDTH calc(5 * PDPKeyInfo_RATING_STAR_WIDTH);
+.PDPKeyInfo .RatingBar_Background, .PDPKeyInfo .RatingBar_Icons {
+  background-size: PDPKeyInfo_RATING_STAR_WIDTH;
+  height: PDPKeyInfo_RATING_STAR_WIDTH;
+  width: PDPKeyInfo_RATING_TOTAL_WIDTH;
+  max-width: PDPKeyInfo_RATING_TOTAL_WIDTH;
+}
+
+.PDPKeyInfo .RatingBar .Label {
+  font-size: 12px;
+  line-height: 20px;
+  margin-left: 7px;
+  vertical-align: middle;
+  color: white;
+}

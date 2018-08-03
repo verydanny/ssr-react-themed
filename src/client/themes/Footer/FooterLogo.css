@@ -1,0 +1,17 @@
+@value ( RentBlue ) from 'ui/shared/themes/colors/colors.css';
+
+.FooterLogo {
+  padding: 43px 0;
+  text-align: center;
+}
+
+.FooterLogo svg {
+  fill: RentBlue;
+  font-size: 29px;
+}
+
+
+.FooterLogo svg  {
+  width: 146px;
+  height: 24px;
+}

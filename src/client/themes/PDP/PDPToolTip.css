@@ -1,0 +1,17 @@
+@value ( UniversalGrey ) from 'ui/shared/themes/colors/colors.css';
+
+.PDPMapToggleButton .ToolTip_Body {
+  margin: auto;
+  top: 13px;
+  width: 264px;
+  font-size: 14px;
+  text-align: left;
+  padding: 20px 40px 20px 20px;
+  line-height: 20px;
+
+}
+
+/* NOTE: sets position of tooltip arrow */
+.PDPMapToggleButton .ToolTip_Body::before {
+  margin-left: 45px;
+}

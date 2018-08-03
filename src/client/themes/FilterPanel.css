@@ -1,0 +1,54 @@
+@value (
+  Gray2,
+  RentBlue,
+  UniversalGrey
+) from 'ui/shared/themes/colors/colors.css';
+
+.FilterPanel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.FilterPanel_Header,
+.FilterPanel_Footer {
+  padding: 0.5rem;
+  background-color: #fff;
+  border-bottom: 1.4px solid Gray2;
+}
+
+.FilterPanel_Header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FilterPanel_Footer {
+  display: flex;
+  justify-content: center;
+}
+
+/* Using extra class for specificity precedence */
+.FilterPanel .FilterPanel_Header svg {
+  width: 22px;
+  height: 22px;
+}
+
+.FilterPanel_Footer {
+  border-top: 1px solid Gray2;
+}
+
+.FilterPanel_Header_CancelButton {
+  color: RentBlue;
+  font-size: 19px;
+}
+
+.FilterPanel_Header_FilterText {
+  color: UniversalGrey;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 2px;
+}
+
+.FilterPanel .Form {
+  padding: 10px 32px;
+}

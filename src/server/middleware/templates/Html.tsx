@@ -1,6 +1,7 @@
 import * as React from 'react'
 
-export const HTML = ({ state, children }: { state: string, children: string }) => {
+export const HTML = ({ state, scripts, children }: { state: string, scripts: string[], children: string }) => {
+  console.log(scripts)
   return (
     <html lang="en">
       <head>
@@ -12,6 +13,9 @@ export const HTML = ({ state, children }: { state: string, children: string }) =
       </head>
       <body>
         <div id="app" dangerouslySetInnerHTML={{ __html: children }} />
+        {scripts.map((src) => {
+          return <script key={src} src={src} />;
+        })}
       </body>
     </html>
   )

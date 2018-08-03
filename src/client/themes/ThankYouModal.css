@@ -1,0 +1,70 @@
+@value ( UniversalGrey, RentBlue, Gray3 ) from 'ui/shared/themes/colors/colors.css';
+
+.ThankYouModal {
+
+}
+
+.ThankYouModal .Modal {
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ThankYouModal .ModalBody {
+  padding: 16px;
+  height: 100%;
+  background: #FFF;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.ThankYouModal .Modal-open {
+  display: block;
+}
+
+.ThankYouModal .Modal-close {
+  display: none;
+}
+
+.ThankYouModal_CloseButton {
+  float: right;
+  font-size: 20px;
+  z-index: 10010;
+}
+
+.ThankYouModal_CloseButton svg{
+  width: 1em;
+  height: 1em;
+}
+
+.ThankYouModal_Header {
+  color: UniversalGrey;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid Gray3;
+}
+
+.ThankYouModal_CheckMarkIcon > svg {
+  width: 25px;
+  height: 25px;
+}
+
+.ThankYouModal_Message {
+  padding-left: 13px;
+}
+
+.ThankYouModal_BackToSearch {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: RentBlue;
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: underline;
+}

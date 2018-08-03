@@ -1,0 +1,10 @@
+@value ( RentBlue, White ) from 'ui/shared/themes/colors/colors.css';
+
+.ClampLines_Button {
+  font-size: 13px;
+  font-weight: 700;
+  color: RentBlue;
+  border: 0;
+  background: White;
+  padding: 15px 0 5px 0;
+}

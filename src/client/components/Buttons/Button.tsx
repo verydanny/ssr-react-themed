@@ -1,19 +1,12 @@
 import * as React from 'react'
-import themed from 'react-themed'
 import styles from './someThing.css'
 import tokenizeCss from 'simple-tokenizer'
+import { themed } from 'react-themed-too'
 
-const tokenize = new tokenizeCss({})
-const theCssString = styles.toString()
+const Button = ({ theme, ...props }: { theme: any }) => (
+  <button className={theme.Button}>
+    <h2>Big ass button</h2>
+  </button>
+)
 
-const tokenizedCss = tokenize.tree(theCssString)
-
-tokenizedCss.map((item) => console.log(item))
-
-export default () => {
-  return (
-    <button>
-      <h2>I'm one big dinger</h2>
-    </button>
-  )
-}
+export default themed('Button')(Button)

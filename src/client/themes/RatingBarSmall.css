@@ -1,0 +1,6 @@
+/* Override the background stars to be white instead of gray */
+/* Using the .RatingBar class to provide extra specificity */
+.RatingBar .RatingBar_Background {
+  background-image: url(data:image/svg+xml;charset=utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC45IiBoZWlnaHQ9IjEwLjkiIHZpZXdCb3g9IjAgMCA1MSA0OCI+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTI1IDFsNiAxN2gxOEwzNSAyOWw1IDE3LTE1LTEwLTE1IDEwIDUtMTdMMSAxOGgxOHoiLz48L3N2Zz4=);
+  margin-right: 3px;
+}

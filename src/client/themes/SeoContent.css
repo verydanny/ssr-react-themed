@@ -1,0 +1,8 @@
+/*
+ *  NOTE: This is necessary in order to scroll to the last listing card, if the
+ *  last listing card is the currently selected card.
+ */
+.SeoContent {
+  min-height: 350px;  /* (Listing cell height x 2) - 50px scrollTop offset */
+  padding-bottom: 15px;
+}

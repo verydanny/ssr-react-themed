@@ -1,0 +1,15 @@
+@value (Gray4) from 'ui/shared/themes/colors/colors.css';
+
+.PDPPetPolicy {
+  background-color: Gray4;
+  display: none;
+  padding-top: 21px;
+}
+
+.PDPPetPolicy-expanded {
+  display: block;
+}
+
+.PDPPetPolicy .PDPSectionList_List > div > div:not(:last-child){
+  margin-bottom: 1em;
+}

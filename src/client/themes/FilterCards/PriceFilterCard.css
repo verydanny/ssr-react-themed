@@ -1,0 +1,131 @@
+@value ( RentBlue, White ) from 'ui/shared/themes/colors/colors.css';
+
+.PriceFilterCard .RangeSlider {
+  width: 100%;
+}
+
+.PriceFilterCard .RangeSlider_Text {
+  color: #787878;
+  text-align: center;
+  padding-bottom: 6px;
+}
+
+.PriceFilterCard .slider {
+  background: RentBlue;
+  border: 13.5px solid White;
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+  height: 12px;
+  width: 12px;
+  margin-top: -22px;
+  outline: none;
+  object-fit: contain;
+  right: -26px;
+}
+
+.PriceFilterCard-noValue .ApplyButton {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.PriceFilterCard-noValue .minLabel {
+  visibility: hidden;
+}
+
+.PriceFilterCard .slider:active {
+  transform: none;
+}
+
+.PriceFilterCard .slider:focus {
+  box-shadow: 0 0 0 5px rgba(63, 81, 181, 0.2);
+}
+
+.PriceFilterCard .sliderContainer {
+  transition: left 0.07s ease-out;
+}
+
+.PriceFilterCard .labelContainer {
+  position: relative;
+  white-space: nowrap;
+}
+
+.PriceFilterCard .minLabel,
+.PriceFilterCard .maxLabel {
+  color: White;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  top: 10px;
+}
+
+.InlinePriceFilterCard-sliding .minLabel,
+.InlinePriceFilterCard-sliding .maxLabel {
+  opacity: 0.75;
+}
+
+.PriceFilterCard .minLabel {
+  left: -1px;
+}
+
+.PriceFilterCard .maxLabel {
+  right: -36px;
+}
+
+.PriceFilterCard .valueLabel {
+  font-size: 14px;
+  position: absolute;
+  top: -43px;
+  left: 5px;
+}
+
+.PriceFilterCard .track,
+.PriceFilterCard .activeTrack  {
+  background: White;
+  height: 5px;
+  border-radius: 20px;
+  transition: left 0.07s ease-out, width 0.07s ease-out;
+}
+
+.PriceFilterCard .track {
+  cursor: pointer;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 12px;
+  width: 110%;
+  max-width: 255px;
+  transition: left 0.07s ease-out, width 0.07s ease-out;
+}
+
+.PriceFilterCard .activeTrack {
+  position: relative;
+  padding-right: 12px;
+  margin-left: -18px;
+}
+
+.PriceFilterCard .inputRange {
+  height: 1rem;
+  margin-right: 38px;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: visible;
+}
+
+.PriceFilterCard .disabledInputRange {
+  background: #cccccc;
+  border: 1px solid #cccccc;
+  box-shadow: none;
+  transform: none;
+}
+
+.PriceFilterCard {
+  height: 200px;
+  border-radius: 6px;
+  background-color: RentBlue;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 24px;
+  background-image: url(data:image/svg+xml;charset=utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOTAiIGhlaWdodD0iODUiIHZpZXdCb3g9IjAgMCA5MCA4NSI+DQogICAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIC0xKSI+DQogICAgICAgIDxnIGZpbGw9IiNGRkYiIGZpbGwtb3BhY2l0eT0iLjMiIGZpbGwtcnVsZT0ibm9uemVybyIgbWFzaz0idXJsKCNiKSI+DQogICAgICAgICAgICA8cGF0aCBkPSJNMTEzLjQ4MiAxNS42NDVsLS4yMjEtLjIyYy00LjEwMi00LjA5OC0xMC4wNy03Ljg3Ni0xNi44NDgtMTAuNjk3QTUyLjcxOCA1Mi43MTggMCAwIDAgOTIuNjggMy4zM3YtLjA3NGMtLjA3My01LjQyMi00LjQ0NS05Ljc4OS05Ljg3My05Ljg2Mkw1Ni4yODQtN2ExMy4wMjcgMTMuMDI3IDAgMCAwLTkuMzgyIDMuODAzTDIuNjcgNDEuMDM3Yy0zLjU2MSAzLjU1Ny0zLjU2MSA5LjM0NyAwIDEyLjkwNGwyOS40MjIgMjkuMzkxYzMuNTYgMy41NTcgOS4zNTcgMy41NTcgMTIuOTE4IDBsNDQuMjgtNDQuMjMzYTEzLjEzNiAxMy4xMzYgMCAwIDAgMi44OTgtNC40MTZjNC40NDUgMS4yNTEgOC43NjggMS45MTQgMTIuNTc0IDEuODg5IDkuNDMxLS4wNSAxMi41NS00LjE3IDEzLjU4Mi02LjYyNCAxLjAwNy0yLjQ1MyAxLjc0My03LjU4LTQuODYzLTE0LjMwM3pNNTguNjkgNDAuNzQzYy0xLjAzMS41NjQtMi4wODcgMS4xNzctMy4xNDMgMS43MTctMS4wMDcuNTE1LTEuMzUxLjM5Mi0xLjcyLS42ODdhMTMuMiAxMy4yIDAgMCAwLTMuNjgzLTUuNTJjLS40NDItLjM5Mi0uOTA5LS43Ni0xLjQ3NC0uOTgxLTIuMDE0LS43ODUtMy43ODIuNTE1LTMuNTM2IDIuNjc0LjEyMiAxLjA4LjQ2NiAyLjExLjg4NCAzLjExNi43MTIgMS43NDEgMS40NzMgMy40ODMgMS45OSA1LjI5OSAxLjY3IDUuNzktMi4wMTUgMTEuNDgxLTcuODM1IDEyLjA0NWE5Ljk1NSA5Ljk1NSAwIDAgMS01Ljk2OC0xLjNjLS44MS0uNDY2LTEuNDI1LS40MTctMi4wMzkuMjctLjYxNC42NjItMS4zMDEgMS4yNzYtMS45NCAxLjkxNC0uNTY1LjU2NC0xLjE3OS41ODgtMS43NDMuMDI0LS43MTMtLjY2Mi0xLjQtMS4zNzQtMi4wODgtMi4wNi0uNTktLjYxNC0uNTQtMS4yNTIuMDUtMS44NC40NjYtLjQ2Ny45MzItLjk1NyAxLjM5OS0xLjQyNCAxLjAzMS0xLjA1NCAxLjAzMS0xLjEyOC4xOTYtMi4yODEtMS4wOC0xLjQ3Mi0yLjAzOC0zLjAxOC0yLjYyNy00Ljc2LS40NjctMS4zNDktLjM0NC0xLjY5Mi44ODQtMi4zOGE5OC43NCA5OC43NCAwIDAgMSAyLjc1LTEuNTJjMS4wODEtLjU2NSAxLjQtLjQ0MiAxLjc2OS43MTEuNjE0IDEuOTYzIDEuNjIgMy43MDUgMi44NzMgNS4zMjQuODEgMS4wNTUgMS44MTcgMS44NCAzLjA0NSAyLjMzIDIuMzA5LjkwOCA0LjQyMS0uNzExIDQuMTc1LTMuMTY0LS4wNzMtLjgzNC0uMzE5LTEuNjQ0LS42MzgtMi40MjktLjc4Ni0yLjAxMi0xLjc5My0zLjk1LTIuMzA5LTYuMDg0LS44Ni0zLjQzNS0uNDY2LTYuNTc1IDIuMzA5LTkuMDI4IDMuMTQ0LTIuNzczIDYuNjU1LTIuOTQ0IDEwLjM2NC0xLjIyNyAxLjUyMy43MTEgMS41MjMuNzM2IDIuNzAxLS40NDIuMzkzLS4zOTIuNzg2LS43ODUgMS4yMDQtMS4xNzcuOTA5LS44NTkgMS4yMDMtLjg1OSAyLjExMiAwbC44MS44MWMxLjg2NyAxLjg2NCAxLjg2NyAxLjg2NCAwIDMuNzUzLTEuMzI2IDEuMzI1LTEuMzI2IDEuMzI1LS4yMiAyLjg0NmExNi4wNjQgMTYuMDY0IDAgMCAxIDIuMDM4IDMuNzc4Yy4yNy43MzYuMTIzIDEuMy0uNTkgMS42OTN6bTUyLjUzMi0xMy43MzljLS44MzUgMS45ODctOS43NSAzLjczLTIzLjI4Mi0xLjkxMy0zLjk3OC0xLjY0NC03LjY2Mi0zLjcwNS0xMC42ODMtNS45MTMtLjA5OC4xMjMtLjIyMS4yNDUtLjMyLjM2OC0yLjk0NiAyLjk0NC03Ljc2IDIuOTQ0LTEwLjcwNyAwLTIuOTQ3LTIuOTQ0LTIuOTQ3LTcuNzUyIDAtMTAuNjk2czcuNzYtMi45NDQgMTAuNzA4IDBjMS43NjggMS43NjYgMi40NTYgNC4xNyAyLjEzNiA2LjQ1MiAyLjg5OCAyLjA2IDYuMzg2IDMuOTUgMTAuMDk0IDUuNDk1IDEuMzI2LjU0IDIuNTc5IDEuMDMgMy44MDcgMS40NDhsLS4xNDctMTAuNjQ4Yy4yMi4wOTguNDE3LjE3Mi42MzguMjcgNS43OTYgMi40MDQgMTEuMDAzIDUuNjkyIDE0LjM2NyA5LjA1M2wuMTQ4LjE0N2MzLjE5MiAzLjIxNCAzLjUxMiA1LjI3NSAzLjI0MSA1LjkzN3oiLz4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg0K);
+  background-size: 25%;
+  background-position: right top;
+  background-repeat: no-repeat;
+}

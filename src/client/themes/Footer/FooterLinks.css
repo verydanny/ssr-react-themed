@@ -1,0 +1,59 @@
+@value ( RentBlue, Gray10, Gray12, Gray13 ) from 'ui/shared/themes/colors/colors.css';
+
+.FooterLinksSection_Header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -10px;
+  border-top: 1px solid Gray13;
+}
+
+.FooterLinksSection_Header button {
+  border: none;
+  color: Gray10;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: #fff;
+  width: 100%;
+  text-align: left;
+  padding: 0;
+  margin: 10px 19px;
+}
+
+.FooterLinksSection_Links {
+  display: none;
+}
+
+.FooterLinksSection_Links {
+  list-style: none;
+  margin: 0 0 -10px;
+  padding: 0;
+}
+
+.FooterLinksSection_Links li {
+  margin: 5px 0 10px 10px;
+}
+
+.FooterLinksSection_Links a {
+  text-decoration: none;
+  font-size: 14px;
+  color: RentBlue;
+  font-weight: 600;
+  line-height: 46px;
+}
+
+.FooterLinksSection-open .FooterLinksSection_Links {
+  display: block;
+}
+
+.FooterLinksSection_ChevronIcon {
+  height: 33px;
+  font-size: 33px;
+  margin: 5px;
+}
+
+.FooterLinksSection_ChevronIcon svg {
+  fill: Gray12;
+  width: 24px;
+  height: 24px;
+}

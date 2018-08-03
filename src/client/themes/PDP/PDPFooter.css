@@ -1,0 +1,92 @@
+@value ( RentBlue, Gray1 ) from 'ui/shared/themes/colors/colors.css';
+
+.PDPFooter {
+  align-items: center;
+  background-color: #fff;
+  position: fixed;
+  touch-action: none;
+  width: calc(100vw - 40px);
+  padding: 20px;
+  bottom: -100%;
+  transition: bottom 1s, visibility 0s linear 2s;
+  box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.05);
+  visibility: hidden;
+  z-index: 10;
+}
+
+/* Attribute is added to body element when user scrolls down */
+[data-show-pdp-footer] .PDPFooter {
+  bottom: 0;
+  visibility: visible;
+  transition: bottom 1s, visibility 0s linear 0s;
+}
+
+.PDPFooter_Info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.PDPFooter_InfoContact {
+  font-size: 20px;
+  color: Gray1;
+}
+
+.PDPFooter_Price {
+  color: #000;
+  font-weight: 600;
+  margin: 0 20px;
+  align-self: center;
+  flex: 0 1 auto;
+  font-size: 24px;
+}
+
+.PDPFooter .RatingBar {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+@value PDPFOOTER_RATING_STAR_WIDTH 20px;
+@value PDPFOOTER_RATING_TOTAL_WIDTH calc(5 * PDPFOOTER_RATING_STAR_WIDTH);
+.PDPFooter .RatingBar_Background, .PDPFooter .RatingBar_Icons {
+  background-size: PDPFOOTER_RATING_STAR_WIDTH;
+  height: PDPFOOTER_RATING_STAR_WIDTH;
+  width: PDPFOOTER_RATING_TOTAL_WIDTH;
+  max-width: PDPFOOTER_RATING_TOTAL_WIDTH;
+}
+
+.PDPFooter .RatingBar .Label {
+  font-size: 14px;
+  line-height: 28px;
+  margin-left: 12px;
+  vertical-align: middle;
+}
+
+.PDPFooter_CTA {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.PDPFooter_CTA > * {
+  background-color: RentBlue;
+  border-radius: 10px;
+  color: #fff;
+  display:block;
+  flex-basis: 50%;
+  flex-grow: 1;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 100%;
+  margin-left: 20px;
+  padding: 16px 0;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.PDPFooter_CTA > *:first-child {
+  margin-left: 0;
+}

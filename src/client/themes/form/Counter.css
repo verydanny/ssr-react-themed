@@ -1,0 +1,45 @@
+@value ( UniversalGrey, RentBlue, Gray3 ) from 'ui/shared/themes/colors/colors.css';
+
+.Counter {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.Counter .Label {
+  flex: 1;
+}
+
+.Counter_Controls,
+.Counter .Label,
+.Counter .Text,
+.Counter_Button {
+  display: inline-block;
+}
+
+.Counter .Text {
+  color: UniversalGrey;
+  text-align: center;
+  vertical-align: middle;
+  width: 40px;
+  padding: 0 15px;
+}
+
+.Counter_ButtonIcon {
+  border-radius: 50%;
+  background: RentBlue;
+  width: 24px;
+  height: 24px;
+}
+
+.Counter_ButtonIcon-disabled {
+  background-color: Gray3;
+}
+
+.Counter_ButtonIcon svg {
+  font-size: 24px;
+  position: relative;
+}

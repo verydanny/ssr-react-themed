@@ -10,8 +10,6 @@ const cssLoaderClient = {
   test: /\.css$/,
   exclude: /node_modules/,
   use: [
-    'css-hot-loader',
-    MiniCssExtractPlugin.loader,
     {
       loader: 'css-loader',
       options: {

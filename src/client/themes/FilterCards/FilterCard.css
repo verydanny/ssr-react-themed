@@ -1,0 +1,30 @@
+.FilterCard {
+  color: #ffffff;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.FilterCard_Title {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+.FilterCard_Description {
+  font-size: 15px;
+}
+
+.FilterCard_Header {
+  margin-top: 30px;
+}
+
+.FilterCard_Body {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 34px;
+  display: flex;
+  padding-left: 13px;
+}

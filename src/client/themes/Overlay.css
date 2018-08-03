@@ -1,0 +1,32 @@
+:global(#region-modal) {
+  /* Create a z-index stacking context */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+}
+
+.Overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+/* Fixes double Overlay bug in rent-js leadmodal */
+/* This should be removed with leadmodal restructure */
+.Overlay .Overlay {
+  position: auto;
+  top: auto;
+  left: auto;
+  bottom: auto;
+  right: auto;
+  background-color: auto;
+  z-index: auto;
+
+  /* Center modal vertical and horizontal */
+  display: auto;
+  align-items: auto;
+  justify-content: auto;
+  /* If modal is wider than window make sure 1024 is aligned to left */
+  min-width: auto;
+}

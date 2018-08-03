@@ -1,0 +1,5 @@
+.PDPView {
+  /* Leave enough extra room to scroll under the sticky footer */
+  padding-bottom: 155px;
+  overflow-x: hidden;
+}

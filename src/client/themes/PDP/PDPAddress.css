@@ -1,0 +1,15 @@
+@value ( RentBlue, Gray1 ) from 'ui/shared/themes/colors/colors.css';
+
+.PDPAddress {
+  color: Gray1;
+  font-size: 1em;
+  line-height: 1.75em;
+  padding: 0.5em;
+  text-align: center;
+  word-break: break-word;
+}
+
+.PDPAddress_StreetAddress {
+  color: RentBlue;
+  font-size: 1.25em;
+}

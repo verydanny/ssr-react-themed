@@ -1,0 +1,45 @@
+@value ( UniversalGrey ) from 'ui/shared/themes/colors/colors.css';
+
+.BreadCrumbs {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.BreadCrumbs * {
+  font-size: 10px;
+  color: UniversalGrey;
+}
+
+.BreadCrumbs_Item {
+  list-style: none;
+  font-weight: 700;
+  display: inline;
+}
+
+.BreadCrumbs_Item_Hidden {
+  display: none;
+}
+
+.BreadCrumbs_Item:after {
+  content: "  /  ";
+}
+
+.BreadCrumbs a {
+  text-decoration: none;
+}
+
+.BreadCrumbs ol {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.BreadCrumbs_Item span {
+  font-weight: 700;
+}
+
+.BreadCrumbs h1 {
+  display: inline;
+  font-weight: 400;
+}

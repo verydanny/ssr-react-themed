@@ -1,0 +1,23 @@
+@value (
+  UniversalGrey
+) from 'ui/shared/themes/colors/colors.css';
+
+.ContentGallery :global(.image-gallery-bullets) {
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.ContentGallery :global(.image-gallery-bullet) {
+  background-color: #DBDBDB;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 12px;
+  outline: 0;
+  padding: 6px;
+}
+
+.ContentGallery :global(.active) {
+  background: UniversalGrey;
+}

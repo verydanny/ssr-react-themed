@@ -16,7 +16,7 @@ export const configureStore = ({ initialState = {}, middleware = [] } = {}) => {
   const store = createStore(
     rootReducer,
     initialState,
-    composeEnhancers
+    composeEnhancers(applyMiddleware(...[thunk].concat(...middleware)))
   )
 
   if (process.env.NODE_ENV !== 'production') {

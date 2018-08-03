@@ -1,0 +1,67 @@
+@value (
+  Gray11,
+  UniversalGrey
+) from 'ui/shared/themes/colors/colors.css';
+
+@value(HorizontalPadding) from 'ui/shared/themes/variables/variables.css';
+
+.PDPReview {
+  padding: 30px HorizontalPadding 15px HorizontalPadding;
+  color: Black;
+}
+
+.PDPReview Button {
+  border: none;
+  font-weight: 800;
+  font-size: 13px;
+  color: Black;
+  cursor: pointer;
+  text-decoration: none;
+  padding-left: 0px;
+  background-color: #f2f3f3;
+}
+
+.PDPReview_Date {
+  font-size: 12px;
+  color: Gray11;
+  margin-top: 10px;
+}
+
+.PDPReview_Text {
+  color: UniversalGrey;
+  font-size: 14px;
+  margin: 15px 0 14px 0;
+}
+
+.PDPReview_Author {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 12px;
+  color: Black;
+}
+
+.PDPReview_AuthorDescription {
+  margin-left: 5px;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: lighter;
+  color: Gray11;
+}
+
+@value PDPREVIEW_RATING_STAR_WIDTH 16px;
+@value PDPREVIEW_RATING_TOTAL_WIDTH calc(5 * PDPREVIEW_RATING_STAR_WIDTH);
+.PDPReview .RatingBar_Icons {
+  background-image: url(data:image/svg+xml;charset=utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC45IiBoZWlnaHQ9IjEwLjkiIHZpZXdCb3g9IjAgMCA1MSA0OCI+PHBhdGggZmlsbD0iIzAwNDFkOCIgZD0iTTI1IDFsNiAxN2gxOEwzNSAyOWw1IDE3LTE1LTEwLTE1IDEwIDUtMTdMMSAxOGgxOHoiLz48L3N2Zz4=);
+  background-size: PDPREVIEW_RATING_STAR_WIDTH;
+  height: PDPREVIEW_RATING_STAR_WIDTH;
+  width: PDPREVIEW_RATING_TOTAL_WIDTH;
+  max-width: PDPREVIEW_RATING_TOTAL_WIDTH;
+}
+
+.PDPReview .RatingBar_Background {
+  background-image: url(data:image/svg+xml;charset=utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC45IiBoZWlnaHQ9IjEwLjkiIHZpZXdCb3g9IjAgMCA1MSA0OCI+PHBhdGggZmlsbD0iIzlCOUI5QiIgZD0iTTI1IDFsNiAxN2gxOEwzNSAyOWw1IDE3LTE1LTEwLTE1IDEwIDUtMTdMMSAxOGgxOHoiLz48L3N2Zz4=);
+  background-size: PDPREVIEW_RATING_STAR_WIDTH;
+  height: PDPREVIEW_RATING_STAR_WIDTH;
+  width: PDPREVIEW_RATING_TOTAL_WIDTH;
+  max-width: PDPREVIEW_RATING_TOTAL_WIDTH;
+}

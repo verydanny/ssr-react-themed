@@ -1,0 +1,17 @@
+@value ( GoldYellow, RentBlue, White ) from 'ui/shared/themes/colors/colors.css';
+
+.InlineCard .ApplyButton:active {
+  background-color: GoldYellow;
+  color: RentBlue;
+}
+
+.InlineCard .ApplyButton {
+  background-color: White;
+  color: RentBlue;
+  font-size: 13px;
+  min-width: 16px;
+  border: solid 1px White;
+  padding: 9px 16px;
+  height: auto;
+  flex-basis: 48px;
+}

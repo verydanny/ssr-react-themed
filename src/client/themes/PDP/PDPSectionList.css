@@ -1,0 +1,63 @@
+@value (
+  Gray1,
+  Black
+) from 'ui/shared/themes/colors/colors.css';
+
+@value(
+  HorizontalPadding,
+  SmallMobileSize
+) from 'ui/shared/themes/variables/variables.css';
+
+.PDPSectionList {
+  color: Gray1;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: hidden;
+  padding-bottom: 20px;
+  padding-left: HorizontalPadding;
+  padding-right: HorizontalPadding;
+  word-wrap: break-word;
+}
+
+.PDPSectionList_Category {
+  color: Black;
+  font-weight: bold;
+  height: 100%;
+  margin: 0;
+  max-width: 160px;
+  min-width: 0;
+  width: 100%;
+}
+
+@media (max-width: SmallMobileSize) {
+  .PDPSectionList_Category {
+    min-width: 100px;
+  }
+}
+
+.PDPSectionList_List {
+  padding-top: 3px;
+}
+
+.PDPSectionList_List > div {
+  left: 5px;
+  list-style: none;
+  margin-bottom: 17px;
+  position: relative;
+  width: 185px;
+}
+
+@media (max-width: SmallMobileSize) {
+  .PDPSectionList {
+    padding-right: 10px;
+  }
+
+  .PDPSectionList_List > div {
+    max-width: 160px;
+    word-wrap: break-word;
+  }
+}
+
+.PDPSectionList_List:last-child {
+  margin-bottom: 0;
+}

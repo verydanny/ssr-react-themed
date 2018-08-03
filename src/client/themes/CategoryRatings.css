@@ -1,0 +1,40 @@
+@value (
+  RentBlueDark
+) from 'ui/shared/themes/colors/colors.css';
+
+@value(
+  SmallMobileSize
+) from 'ui/shared/themes/variables/variables.css';
+
+.CategoryRating {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+.CategoryRating_Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width:160px;
+  font-size:14px;
+  font-weight: bold;
+  height: 35px;
+  margin: 5px 0 5px 0;
+  color: RentBlueDark;
+}
+
+.CategoryRating_Title {
+  margin:0;
+}
+
+.CategoryRating_Value {
+  width:31px;
+  text-align: right;
+}
+
+@media screen and (max-width: SmallMobileSize) {
+  .CategoryRating_Container {
+    width: 130px;
+  }
+}

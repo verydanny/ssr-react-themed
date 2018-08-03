@@ -1,0 +1,17 @@
+@value ( Gray3 ) from 'ui/shared/themes/colors/colors.css';
+@value HorizontalMargin 20px;
+
+.PDPMap {
+  position: relative;
+  margin: HorizontalMargin auto;
+}
+
+.PDPMap_Wrapper {
+  background-color: Gray3;
+  border-radius: 10px;
+  height: 350px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 350px;
+}

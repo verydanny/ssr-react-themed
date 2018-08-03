@@ -1,0 +1,11 @@
+@value (Gray4) from 'ui/shared/themes/colors/colors.css';
+
+.PDPFloorplans {
+  background-color: Gray4;
+  display: none;
+  padding-top: 21px;
+}
+
+.PDPFloorplans-expanded {
+  display: block;
+}

@@ -1,0 +1,13 @@
+@value ( UniversalGrey ) from 'ui/shared/themes/colors/colors.css';
+
+.RecommendedOrNearby {
+  margin-top: 35px;
+}
+
+.RecommendedOrNearby_Caption {
+  color: UniversalGrey;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}

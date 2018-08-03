@@ -1,0 +1,84 @@
+@value ( Gray2, RentBlue ) from 'ui/shared/themes/colors/colors.css';
+@value MenuGap: 16px;
+
+.Header {
+  display: flex;
+  border-bottom: 1px solid Gray2;
+}
+
+.Header_Menu {
+  display: inline-flex;
+  vertical-align: middle;
+  height: 100%;
+  width: 35%;
+}
+
+.Header_MenuWrapper {
+  margin: 5px 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.Header_MenuLogo {
+  padding: 0 0 0 MenuGap;
+}
+
+.Header_MenuLogo svg {
+  width: 62px;
+  height: 12px;
+  font-size: 12px;
+}
+
+.Header_MenuChevron {
+  height: 33px;
+  font-size: 33px;
+}
+
+.Header_MenuLogo svg,
+.Header_MenuChevron svg {
+  fill: RentBlue;
+}
+
+.Header_MenuChevron svg {
+  width: 1em;
+  height: 0.8em;
+}
+
+.Header_MenuChevron {
+  height: 33px;
+  font-size: 33px;
+}
+
+.HomeHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: RentBlue;
+}
+
+.HomeHeader_Logo {
+  height: 24px;
+  width: 146px;
+}
+
+.HomeHeader_Logo svg {
+  height: 24px;
+  width: 146px;
+}
+
+.HomeHeader .HomeHeader_Hamburger {
+  position: absolute;
+  right: 22px;
+  display: flex;
+}
+
+.HomeHeader .HomeHeader_Hamburger svg {
+  fill: white;
+  height: 28px;
+  width: 28px;
+}
+
+.HomeHeader_MenuTransform {
+  top: 60px;
+}

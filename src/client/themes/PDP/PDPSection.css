@@ -1,0 +1,65 @@
+@value (
+  Black,
+  RentBlue,
+  Gray1,
+  White
+) from 'ui/shared/themes/colors/colors.css';
+
+@value VerticalPadding 28px;
+@value HorizontalPadding 21px;
+
+.PDPSection {
+  background-color: White;
+  font-size: 16px;
+  padding-bottom: VerticalPadding;
+  padding-left: HorizontalPadding;
+  padding-right: HorizontalPadding;
+  padding-top: VerticalPadding;
+  overflow-x: hidden;
+}
+
+.PDPSection_Collapsible svg {
+  width: 1em;
+  height: 0.8em;
+  bottom: 11px;
+  position: relative;
+  right: 22px;
+}
+
+.PDPSection-expanded,
+.PDPSection-expanded h2 {
+  background-color: RentBlue;
+  color: White;
+}
+
+.PDPSection_Header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+
+.PDPSection_Header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.PDPSection_Button {
+  background-color: White;
+  border-radius: 32px;
+  fill: Gray1;
+  font-size: 48px;
+  width: 36px;
+}
+
+.PDPSection_Button-expanded {
+  fill: RentBlue;
+}
+
+.PDPSection_Hidable {
+  background-color: White;
+}

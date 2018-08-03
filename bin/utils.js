@@ -25,7 +25,9 @@ const compilerPromise = (compiler) => {
 
 const generateCssTypes = () => {
   const creator = new DtsCreator()
-  glob('../src/**/*', (err, files) => {
+  const cssPath = path.resolve(__dirname, '..')
+
+  glob(, (err, files) => {
     files.map(filename =>
       creator.create(filename).then(content => {
         content.writeFile()

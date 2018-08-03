@@ -1,0 +1,11 @@
+@value (Gray4) from 'ui/shared/themes/colors/colors.css';
+
+.PDPAmenities {
+  background-color: Gray4;
+  display: none;
+  padding-top: 21px;
+}
+
+.PDPAmenities-expanded {
+  display: block;
+}
