@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Click on adjust filters renders header with rentlogo and back button 1`] = `
+<Themed(PDPHeader)
+  pushState={[Function]}
+  theme={Object {}}
+>
+  <PDPHeader
+    pushState={[Function]}
+    theme={Object {}}
+  >
+    <div
+      data-tid="pdpHeader"
+    >
+      <button
+        data-tid="pdpHeader_Back"
+        onClick={[Function]}
+      >
+        <Themed(Icon)
+          svgs={
+            Object {
+              "arrowLeft": "",
+            }
+          }
+        >
+          <Icon
+            svgs={
+              Object {
+                "arrowLeft": "",
+              }
+            }
+            theme={Object {}}
+          />
+        </Themed(Icon)>
+      </button>
+      <a
+        data-tid="pdpHeader_Logo"
+        href="/"
+      >
+        <Themed(Icon)
+          svgs={
+            Object {
+              "rentComLogo": "",
+            }
+          }
+        >
+          <Icon
+            svgs={
+              Object {
+                "rentComLogo": "",
+              }
+            }
+            theme={Object {}}
+          />
+        </Themed(Icon)>
+      </a>
+    </div>
+  </PDPHeader>
+</Themed(PDPHeader)>
+`;

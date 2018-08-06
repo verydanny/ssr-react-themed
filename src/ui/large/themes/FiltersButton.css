@@ -1,0 +1,12 @@
+@value (
+  Gray3
+) from 'ui/shared/themes/colors/colors.css';
+
+
+.Filters_Button-expand {
+  background-color: Gray3;
+}
+
+.Filters_Button-collapse {
+  background-color: #fff;
+}

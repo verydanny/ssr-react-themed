@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListingCard/Card spotlight when on map view snapshot renders correctly 1`] = `
+<div
+  className=""
+  data-tag_item="padding_box"
+  data-tag_listing_id={1}
+  data-tag_section={null}
+  data-tid="listing-section"
+  id=""
+  onClick={[Function]}
+  role="presentation"
+>
+  <span
+    itemScope={true}
+    itemType="http://schema.org/ApartmentComplex"
+  >
+    <div>
+      <div
+        className=""
+      />
+      <div>
+        <div
+          className=""
+        >
+          <Themed(Ratings)
+            listing={
+              Object {
+                "listingId": 1,
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <Connect(Themed(ImageGallery))
+      dataTagItem="image"
+    />
+    <Connect(Themed(ListingInfo))
+      isActiveCard={true}
+      listingId={1}
+      viewType="map"
+    />
+  </span>
+  <Themed(FavoriteIcon)
+    isFavorite={false}
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`ListingCard/Card spotlight when on map view snapshot renders spotlight correctly 1`] = `
+<div
+  className="sponsored-class-for-list"
+  data-tag_item="padding_box"
+  data-tag_listing_id={1}
+  data-tag_section="spotlight"
+  data-tid="listing-section"
+  id="list-1"
+  onClick={[Function]}
+  role="presentation"
+>
+  <span
+    itemScope={true}
+    itemType="http://schema.org/ApartmentComplex"
+  >
+    <Tagging
+      spotlight_listing_ids={1}
+    />
+    <div>
+      <div
+        className=""
+      />
+      <div>
+        <div
+          className="undefined"
+        >
+          <Themed(Ratings)
+            listing={
+              Object {
+                "isCurrentSpotlight": true,
+                "listingId": 1,
+              }
+            }
+          />
+          <span
+            className="sponsored-class-for-all"
+            data-tid="sponsored-listing-banner"
+          >
+            Sponsored
+          </span>
+        </div>
+      </div>
+    </div>
+    <Connect(Themed(ImageGallery))
+      dataTagItem="image"
+    />
+    <Connect(Themed(ListingInfo))
+      isActiveCard={true}
+      listingId={1}
+      viewType="list"
+    />
+  </span>
+  <Themed(FavoriteIcon)
+    isFavorite={false}
+    onClick={[Function]}
+  />
+</div>
+`;

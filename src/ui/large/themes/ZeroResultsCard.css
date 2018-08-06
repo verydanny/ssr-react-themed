@@ -1,0 +1,88 @@
+@value (
+  UniversalGrey, RentBlue, Gray1, Gray3, Gray7, RentBlueDark
+) from 'ui/shared/themes/colors/colors.css';
+
+.ZeroResultsCard {
+  width: 474px;
+  margin-left: 18px;
+  margin-right: 19px;
+  margin-bottom: 15px;
+}
+
+.ZeroResults_Text {
+  clear: both;
+  padding-bottom: 15px;
+  background-color: Gray7;
+}
+
+.ZeroResults_PropertyCount {
+  /* width: 157px; */
+  height: 22px;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  text-align: left;
+  color: UniversalGrey;
+  margin: 8px 0 20px 10px;
+  position: relative;
+  top: 8px;
+}
+
+.ZeroResults_SuggestText {
+  /* width: 317px; */
+  height: 16px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: normal;
+  color: UniversalGrey;
+  margin-left: 10px;
+}
+
+.ZeroResults_Suggestions {
+  width: 474px;
+  margin-top: 80px;
+  text-align: center;
+  align-items: center;
+}
+
+.ZeroResults_NextSteps {
+  font-size: 18px;
+  color: UniversalGrey;
+  font-weight: 700;
+}
+
+.ZeroResults_AdjustFilters {
+  font-size: 13px;
+  width: 114px;
+  height: 36px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+  margin-top: 13px;
+  cursor: pointer;
+}
+
+.ZeroResults_AdjustFilters:hover {
+  background-color: RentBlueDark;
+}
+
+.ZeroResults_ZoomOut {
+  display: flex;
+  margin-left: 190px;
+  font-size: 14px;
+  margin-top: 13px;
+  text-align: center;
+  cursor: pointer;
+  background: none;
+  margin-bottom: 80px;
+}
+
+.ZeroResults_ZoomOutOrText {
+  cursor: auto;
+}
+
+.ZeroResults_ZoomOutText {
+  color: RentBlue;
+  border: none;
+  cursor: pointer;
+  background: none;
+}

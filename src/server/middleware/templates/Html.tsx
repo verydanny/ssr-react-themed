@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 export const HTML = ({ state, scripts, children }: { state: string, scripts: string[], children: string }) => {
-  console.log(scripts)
+  
   return (
     <html lang="en">
       <head>

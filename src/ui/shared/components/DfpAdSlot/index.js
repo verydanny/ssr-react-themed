@@ -1,0 +1,1 @@
+export DfpAdSlot from './container'

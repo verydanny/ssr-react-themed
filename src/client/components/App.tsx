@@ -2,11 +2,11 @@ import * as React from 'react'
 import { ThemeProvider } from 'react-themed-too'
 import { withRouter } from 'react-router-dom'
 import { connect } from 'react-redux'
-import styles from './Buttons/someThing.css'
+import Footer from 'ui/small/themes/Footer'
 import Button from './Buttons/Button'
 
 const App = () => (
-  <ThemeProvider theme={styles}>
+  <ThemeProvider theme={Footer}>
     <Button />
   </ThemeProvider>
 )

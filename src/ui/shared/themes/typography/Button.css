@@ -1,0 +1,15 @@
+@value ( RentBlue ) from 'ui/shared/themes/colors/colors.css';
+
+.Button-lg-bold {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: RentBlue;
+}
+
+.Button-lg-semibold {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: RentBlue;
+}

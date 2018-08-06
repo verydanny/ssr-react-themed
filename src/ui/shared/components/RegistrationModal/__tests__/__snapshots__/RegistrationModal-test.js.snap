@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegisterModal Modal is open Modal tests matches snapshot 1`] = `
+
+<div role="presentation"
+     class
+>
+  <div class
+       data-tid="register-modal"
+  >
+    <button tabindex="0"
+            class
+            data-tag_item="x"
+            data-tid="sign-in-close"
+    >
+    </button>
+    <div>
+      <div>
+        <div>
+          <div>
+            Welcome, Sign Up For Free
+          </div>
+          <div>
+            Creating an account allows you to acccess your saved and contacted properties on any device.
+          </div>
+        </div>
+        <div>
+          <a class
+             href="#"
+          >
+            <div style="height:50px"
+                 class="lazyload-placeholder"
+            >
+            </div>
+            <p>
+              Sign in with Facebook
+            </p>
+          </a>
+          <a class
+             href="#"
+          >
+            <div style="height:50px"
+                 class="lazyload-placeholder"
+            >
+            </div>
+            <p>
+              Sign in with Google
+            </p>
+          </a>
+        </div>
+        <hr>
+        <form action="#"
+              method="POST"
+              novalidate
+              class
+        >
+          <div class>
+            <div class>
+              <label data-tid="label"
+                     for="RegisterModalForm-0-firstName"
+                     class
+              >
+                First Name
+              </label>
+              <input type="text"
+                     id="RegisterModalForm-0-firstName"
+                     data-tid="user-register-form-firstName"
+                     name="firstName"
+                     modal="register"
+                     data-tag_item="firstName"
+                     autocomplete="given-name"
+                     class
+              >
+            </div>
+          </div>
+          <div class>
+            <div class>
+              <label data-tid="label"
+                     for="RegisterModalForm-1-lastName"
+                     class
+              >
+                Last Name
+              </label>
+              <input type="text"
+                     id="RegisterModalForm-1-lastName"
+                     data-tid="user-register-form-lastName"
+                     name="lastName"
+                     modal="register"
+                     data-tag_item="lastName"
+                     autocomplete="family-name"
+                     class
+              >
+            </div>
+          </div>
+          <div class>
+            <div class>
+              <label data-tid="label"
+                     for="RegisterModalForm-2-email"
+                     class
+              >
+                Email Address
+              </label>
+              <input type="text"
+                     id="RegisterModalForm-2-email"
+                     data-tid="user-register-form-email"
+                     name="email"
+                     modal="register"
+                     data-tag_item="emailAddress"
+                     autocomplete="email"
+                     class
+              >
+            </div>
+          </div>
+          <div class>
+            <div class>
+              <label data-tid="label"
+                     for="RegisterModalForm-3-password"
+                     class
+              >
+                Password
+              </label>
+              <input type="password"
+                     id="RegisterModalForm-3-password"
+                     data-tid="user-register-form-password"
+                     name="password"
+                     modal="register"
+                     data-tag_item="password"
+                     autocomplete="off"
+                     class
+              >
+            </div>
+          </div>
+          <div class>
+            <div class>
+              <label data-tid="label"
+                     for="RegisterModalForm-4-passwordConfirmation"
+                     class
+              >
+                Confirm Password
+              </label>
+              <input type="password"
+                     id="RegisterModalForm-4-passwordConfirmation"
+                     data-tid="user-register-form-passwordConfirmation"
+                     name="passwordConfirmation"
+                     modal="register"
+                     data-tag_item="passwordConfirmation"
+                     autocomplete="off"
+                     class
+              >
+            </div>
+          </div>
+          <button data-tid="user-register-form-submit"
+                  id="RegisterModalForm-5-submit"
+                  name="submit"
+                  modal="register"
+                  data-tag_item="signup_button"
+                  class
+          >
+            Sign Up
+          </button>
+          <div class>
+            <label data-tid="label"
+                   for="RegisterModalForm-6-rememberMe"
+                   class
+            >
+              Keep me signed in
+            </label>
+            <input type="checkbox"
+                   id="RegisterModalForm-6-rememberMe"
+                   data-tid="user-register-form-rememberMe"
+                   name="rememberMe"
+                   modal="register"
+                   data-tag_item="checkbox"
+                   checked
+                   class
+            >
+          </div>
+          <div class>
+            <label data-tid="label"
+                   for="RegisterModalForm-7-optInNewsletter"
+                   class
+            >
+              Simplify my search with helpful tips and rental recommendations.
+            </label>
+            <input type="checkbox"
+                   id="RegisterModalForm-7-optInNewsletter"
+                   data-tid="user-register-form-optInNewsletter"
+                   name="optInNewsletter"
+                   modal="register"
+                   data-tag_item="checkbox"
+                   class
+            >
+          </div>
+        </form>
+        <div>
+          <p>
+            Already have an Acount?
+          </p>
+          <button class>
+            Sign In
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+`;

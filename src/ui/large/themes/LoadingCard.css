@@ -1,0 +1,85 @@
+@value (
+  Gray3
+) from 'ui/shared/themes/colors/colors.css';
+
+.LoadingCard {
+  width: 475px;
+  height: 180px;
+  background-color: #fff;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 16px;
+  border-top: 0.5px solid transparent;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.LoadingCard_Gallery {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 237px;
+  background-color: Gray3;
+}
+
+.LoadingCard_Price, .LoadingCard_Property,
+.LoadingCard_BedBath, .LoadingCard_Units,
+.LoadingCard_Updated, .LoadingCard_Separator,
+.LoadingCard_ContactProperty, .LoadingCard_Phone  {
+  width: 214px;
+  height: 16px;
+  border-radius: 2px;
+  line-height: 1.07;
+  background-color: Gray3;
+  left: 250px;
+  position: relative;
+  margin-top: 6px;
+}
+
+.LoadingCard_Property {
+  width: 96px;
+  height: 16px;
+}
+
+.LoadingCard_BedBath {
+  width: 76px;
+  height: 16px;
+  top: 10px;
+}
+
+.LoadingCard_Units {
+  width: 193px;
+  height: 16px;
+  top: 10px;
+}
+
+.LoadingCard_Updated {
+  width: 134px;
+  height: 16px;
+  top: 10px;
+}
+
+.LoadingCard_Separator {
+  top: 13px;
+  width: 218px;
+  height: 2px;
+}
+
+.LoadingCard_ContactProperty {
+  top: 13px;
+  width: 114px;
+  height: 36px;
+  border-radius: 100px;
+}
+
+.LoadingCard_Phone {
+  width: 79px;
+  height: 10px;
+  left: 384px;
+  bottom: 16px;
+}

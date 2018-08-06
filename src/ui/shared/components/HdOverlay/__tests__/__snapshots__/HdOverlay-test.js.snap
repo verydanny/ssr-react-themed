@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports['HdOverlay renders 1'] = `
+
+<div data-tid="3dTour">
+  <span>
+    3D
+  </span>
+  Tour
+</div>
+
+`

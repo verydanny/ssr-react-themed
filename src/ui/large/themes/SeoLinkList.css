@@ -1,0 +1,57 @@
+@value ( Gray1 ) from 'ui/shared/themes/colors/colors.css';
+
+.SeoLinkList_Container {
+  overflow: hidden;
+}
+
+.SeoLinkList_Collapsible > button {
+  padding: 0 0 0 5px;
+  height: auto;
+}
+
+.SeoLinkList_CollapsibleToggle {
+  font-weight: 600;
+}
+
+.SeoLinkList_Content {
+  display: flex;
+}
+
+.SeoLinkList_Content_Left {
+  flex: 1;
+}
+
+.SeoLinkList_Content_Right {
+  flex: 0 0 265px;
+}
+
+.SeoLinkList_LinkGroup {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 0px;
+  width: 100%;
+  z-index: 0;
+}
+.SeoLinkList_LinkGroup li {
+  margin-bottom: 5px;
+}
+.SeoLinkList_LinkGroup a {
+  color: Gray1;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.SeoLinkList_Header {
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: UniversalGrey;
+}

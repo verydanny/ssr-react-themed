@@ -1,0 +1,91 @@
+@value ( FontFamily ) from 'ui/shared/themes/variables/variables.css';
+
+.react-datepicker {
+  position: absolute;
+  left: 0;
+  font-family: FontFamily;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #aeaeae;
+  border-radius: 0.3rem;
+  position: absolute;
+  left: 10%;
+  width: 230px;
+  bottom: 50px;
+}
+
+.react-datepicker::before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-top: 8px solid #666;
+  border-right: 8px solid transparent;
+  left: 45%;
+  bottom: -17px;
+}
+
+.react-datepicker-controls {
+  text-align: center;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #aeaeae;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  padding-top: 8px;
+  position: relative;
+  height: 25px;
+}
+
+.react-datepicker-previous {
+  position: absolute;
+  left: 5px;
+}
+
+.react-datepicker-next {
+  position: absolute;
+  right: 5px;
+  top: 25%;
+}
+
+.react-datepicker-date {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  color: #000;
+  display: inline-block;
+  width: 1.7rem;
+  line-height: 1.7rem;
+  text-align: center;
+  margin: 0.166rem;
+  cursor: pointer;
+  background: transparent;
+}
+
+.react-datepicker-date:hover {
+  border-radius: 0.3rem;
+  background-color: #f0f0f0;
+}
+
+.react-datepicker-date-active {
+  border-radius: 0.3rem;
+  background-color: #1d5d90;
+  color: #fff;
+}
+
+.react-datepicker-date-active:hover {
+  background-color: #1d5d90;
+}
+
+.react-datepicker-date-disabled {
+  cursor: default;
+  color: #ccc;
+}

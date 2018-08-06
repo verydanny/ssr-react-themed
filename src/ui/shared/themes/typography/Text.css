@@ -1,0 +1,36 @@
+@value ( UniversalGrey ) from 'ui/shared/themes/colors/colors.css';
+
+.Text-sm-light {
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 17px;
+  color: UniversalGrey;
+}
+
+.Text-md-light {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: UniversalGrey;
+}
+
+.Text-md-semilight {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: UniversalGrey;
+}
+
+.Text-md-semibold {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: UniversalGrey;
+}
+
+.Text-md-bold {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: UniversalGrey;
+}

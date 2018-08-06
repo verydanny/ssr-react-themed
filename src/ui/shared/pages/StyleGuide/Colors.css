@@ -1,0 +1,71 @@
+@value (
+  UniversalGrey,
+  Gray1,
+  Gray2,
+  Gray3
+) from 'ui/shared/themes/colors/colors.css';
+
+.Header {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.Group {
+  border-top: 1px solid Gray3;
+}
+
+.Group_detail:before,
+.Group_detail:after {
+  content: '';
+  display: table;
+}
+
+.Group_detail:after {
+  clear: both;
+}
+
+.Group_detail h2 {
+  color: UniversalGrey;
+  margin-bottom: 0;
+}
+
+.Group_detail p {
+  font-size: 12px;
+  margin-top: 5px;
+  padding-bottom: 10px;
+  color: Gray1;
+}
+
+.Color_box {
+  width: 120px;
+  height: 70px;
+  box-shadow: 0 1px 3px 0 Gray2;
+}
+
+.Color_detail {
+  padding-left: 4px;
+  font-size: 12px;
+  max-width: 120px;
+}
+
+.Color_name {
+  font-weight: 600;
+  color: UniversalGrey;
+  margin-bottom: 0;
+}
+
+.Color_value {
+  color: Gray1;
+  margin-top: 5px;
+}
+
+.Col {
+  height: 120px;
+  width: 120px;
+  padding: 10px;
+}
+
+.Row {
+  display: flex;
+  flex-wrap: wrap;
+}

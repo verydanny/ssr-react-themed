@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListingCard/CtaButton sets the provided nodeType 1`] = `
+<Themed(CtaButton)
+  contactType="email"
+  icon="email"
+  link="https://www.rent.com"
+  nodeType="a"
+  onClick={[Function]}
+  tags={
+    Object {
+      "data-tag_item": "testTag",
+    }
+  }
+  theme={
+    Object {
+      "CtaButton": "CtaButton",
+      "CtaButton-email-test-variation": "CtaButton-email-test-variation",
+    }
+  }
+  variation="test-variation"
+>
+  <CtaButton
+    contactType="email"
+    icon="email"
+    link="https://www.rent.com"
+    nodeType="a"
+    onClick={[Function]}
+    tags={
+      Object {
+        "data-tag_item": "testTag",
+      }
+    }
+    theme={
+      Object {
+        "CtaButton": "CtaButton",
+        "CtaButton-email-test-variation": "CtaButton-email-test-variation",
+      }
+    }
+    variation="test-variation"
+  >
+    <a
+      className="CtaButton CtaButton-email-test-variation"
+      data-tag_item="testTag"
+      href="https://www.rent.com"
+      icon="email"
+      onClick={[Function]}
+    />
+  </CtaButton>
+</Themed(CtaButton)>
+`;

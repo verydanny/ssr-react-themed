@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PDPDetailHeader/> renders a title without a subtitle 1`] = `
+<Themed(PDPDetailHeader)
+  theme={Object {}}
+  title="A Detail Header Title"
+>
+  <PDPDetailHeader
+    theme={Object {}}
+    title="A Detail Header Title"
+  >
+    <div
+      data-tid="pdpHeader"
+    >
+      <button
+        data-tid="pdpDetailHeader_Back"
+      >
+        <Themed(Icon)
+          name="arrowLeft"
+        >
+          <Icon
+            name="arrowLeft"
+            svgs={Object {}}
+            theme={Object {}}
+          />
+        </Themed(Icon)>
+      </button>
+      <div>
+        <h3>
+          A Detail Header Title
+        </h3>
+      </div>
+    </div>
+  </PDPDetailHeader>
+</Themed(PDPDetailHeader)>
+`;
+
+exports[`<PDPDetailHeader/> renders a title, subtitle, and back button 1`] = `
+<Themed(PDPDetailHeader)
+  onClick={[MockFunction]}
+  subtitle="Floorplan A4"
+  theme={Object {}}
+  title="$1,375+ Malino"
+>
+  <PDPDetailHeader
+    onClick={[MockFunction]}
+    subtitle="Floorplan A4"
+    theme={Object {}}
+    title="$1,375+ Malino"
+  >
+    <div
+      data-tid="pdpHeader"
+    >
+      <button
+        data-tid="pdpDetailHeader_Back"
+        onClick={[MockFunction]}
+      >
+        <Themed(Icon)
+          name="arrowLeft"
+        >
+          <Icon
+            name="arrowLeft"
+            svgs={Object {}}
+            theme={Object {}}
+          />
+        </Themed(Icon)>
+      </button>
+      <div>
+        <h3>
+          $1,375+ Malino
+        </h3>
+        <p>
+          Floorplan A4
+        </p>
+      </div>
+    </div>
+  </PDPDetailHeader>
+</Themed(PDPDetailHeader)>
+`;
+
+exports[`<PDPDetailHeader/> trims title and subtitle with max characters 1`] = `
+<Themed(PDPDetailHeader)
+  onClick={[MockFunction]}
+  subtitle="841 Southeast Memorial Day Drive SE, Atlanta, GA"
+  subtitleMax={35}
+  theme={Object {}}
+  title="This is a super long name of an address on the detail header"
+  titleMax={30}
+>
+  <PDPDetailHeader
+    onClick={[MockFunction]}
+    subtitle="841 Southeast Memorial Day Drive SE, Atlanta, GA"
+    subtitleMax={35}
+    theme={Object {}}
+    title="This is a super long name of an address on the detail header"
+    titleMax={30}
+  >
+    <div
+      data-tid="pdpHeader"
+    >
+      <button
+        data-tid="pdpDetailHeader_Back"
+        onClick={[MockFunction]}
+      >
+        <Themed(Icon)
+          name="arrowLeft"
+        >
+          <Icon
+            name="arrowLeft"
+            svgs={Object {}}
+            theme={Object {}}
+          />
+        </Themed(Icon)>
+      </button>
+      <div>
+        <h3>
+          This is a super long name of ...
+        </h3>
+        <p>
+          841 Southeast Memorial Day Drive SE ...
+        </p>
+      </div>
+    </div>
+  </PDPDetailHeader>
+</Themed(PDPDetailHeader)>
+`;

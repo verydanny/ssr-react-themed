@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToolTip /> renders 1`] = `
+<React.Fragment>
+  <div
+    className="ToolTip_Overlay"
+    role="button"
+    tabIndex={0}
+  />
+  <div>
+    <div
+      className="ToolTip_Body"
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="ToolTip_CloseButton"
+        role="button"
+        tabIndex={0}
+      >
+        <Themed(Icon)
+          svgs={
+            Object {
+              "close": "",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</React.Fragment>
+`;
+
+exports[`<ToolTip /> renders children 1`] = `
+<ToolTip
+  theme={
+    Object {
+      "ToolTip_Body": "ToolTip_Body",
+      "ToolTip_CloseButton": "ToolTip_CloseButton",
+      "ToolTip_Overlay": "ToolTip_Overlay",
+    }
+  }
+>
+  <div
+    className="ToolTip_Overlay"
+    role="button"
+    tabIndex={0}
+  />
+  <div>
+    <div
+      className="ToolTip_Body"
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="ToolTip_CloseButton"
+        role="button"
+        tabIndex={0}
+      >
+        <Themed(Icon)
+          svgs={
+            Object {
+              "close": "",
+            }
+          }
+        >
+          <Icon
+            svgs={
+              Object {
+                "close": "",
+              }
+            }
+            theme={Object {}}
+          />
+        </Themed(Icon)>
+      </div>
+      <div
+        className="Child"
+      />
+    </div>
+  </div>
+</ToolTip>
+`;

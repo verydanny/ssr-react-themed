@@ -1,0 +1,114 @@
+@value ( RentBlue, Gray1, UniversalGrey ) from 'ui/shared/themes/colors/colors.css';
+@value ( FontFamily ) from 'ui/shared/themes/variables/variables.css';
+
+.PinPopUp {
+  transform: translate(-50%, -82px);
+  font-family: FontFamily;
+  /* extra font-family declaration here to override google maps default font */
+}
+
+.PinPopUp-clicked {
+  transform: translate(-50%, -115px);
+}
+
+.PinPopUp_ClickedIconContainer {
+  transform: translate(-51%, -46px);
+}
+
+.PinPopUp_ClickedIcon {
+  width: 100%;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.PinPopUp_ClickedIcon-hidden {
+  display: none;
+}
+
+.PinPopUp_ClickedIcon img {
+  width: 30px;
+}
+
+.PopUpFrame {
+  width: 250px;
+  display: flex;
+  height: 62px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.PopUpFrame-withPhone {
+  width: 294px;
+}
+
+.PopUpImage {
+  min-width: 74px;
+  height: 62px;
+}
+.PopUpImage-missing {
+  background-color: UniversalGrey; /* Show background color when no photo */
+  background-size: contain;
+}
+
+.PopUpImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.PopUpListingInfo {
+  min-width: 160px;
+  padding: 7px;
+  letter-spacing: 0.1px;
+  line-height: 1.15;
+}
+
+.PopUpListingInfo_Header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.PopUpListingInfo_Price {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.PopUpListingInfo_PropertyName {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.PopUpListingInfo_ContactRow {
+  white-space: nowrap;
+}
+
+.PopUpListingInfo_Contact {
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 0;
+  color: RentBlue;
+}
+
+.PopUpCard_PropertyLabel-withoutPhone, .PopUpCard_PropertyLabel-withPhone {
+  padding-right: 7px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.PopUpListingInfo_Separator {
+  font-size: 10px;
+}
+
+.PopUpCard_SponsoredText {
+  font-size: 10px;
+  float: right;
+  color: Gray1;
+  font-weight: 700;
+}

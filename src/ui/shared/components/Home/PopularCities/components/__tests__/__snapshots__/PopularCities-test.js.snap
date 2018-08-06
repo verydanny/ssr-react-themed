@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/shared/components/Home/PopularCities parses correct apartments links 1`] = `
+
+<div class="section">
+  <h4>
+    Apartments
+  </h4>
+  <div class>
+    <div data-tid="home-popular-cities-apartments">
+      <div>
+        <a href="/georgia/atlanta-apartments"
+           data-tag_item="apartments_link"
+        >
+          Atlanta, GA
+        </a>
+        <a href="/north-carolina/charlotte-apartments"
+           data-tag_item="apartments_link"
+        >
+          Charlotte, NC
+        </a>
+        <a href="/illinois/chicago-apartments"
+           data-tag_item="apartments_link"
+        >
+          Chicago, IL
+        </a>
+        <a href="/california/los-angeles-apartments"
+           data-tag_item="apartments_link"
+        >
+          Los Angeles, CA
+        </a>
+      </div>
+      <div>
+        <a href="/new-york/new-york-apartments"
+           data-tag_item="apartments_link"
+        >
+          New York, NY
+        </a>
+        <a href="/michigan/detroit-apartments"
+           data-tag_item="apartments_link"
+        >
+          Detroit, MI
+        </a>
+        <a href="/california/san-diego-apartments"
+           data-tag_item="apartments_link"
+        >
+          San Diego, CA
+        </a>
+        <a href="/texas/dallas-apartments"
+           data-tag_item="apartments_link"
+        >
+          Dallas, TX
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`ui/shared/components/Home/PopularCities parses correct houses links 1`] = `
+
+<div class="section">
+  <h4>
+    Houses
+  </h4>
+  <div class>
+    <div data-tid="home-popular-cities-houses">
+      <div>
+        <a href="/georgia/atlanta-houses"
+           data-tag_item="houses_link"
+        >
+          Atlanta, GA
+        </a>
+        <a href="/north-carolina/charlotte-houses"
+           data-tag_item="houses_link"
+        >
+          Charlotte, NC
+        </a>
+        <a href="/illinois/chicago-houses"
+           data-tag_item="houses_link"
+        >
+          Chicago, IL
+        </a>
+        <a href="/california/los-angeles-houses"
+           data-tag_item="houses_link"
+        >
+          Los Angeles, CA
+        </a>
+      </div>
+      <div>
+        <a href="/new-york/new-york-houses"
+           data-tag_item="houses_link"
+        >
+          New York, NY
+        </a>
+        <a href="/michigan/detroit-houses"
+           data-tag_item="houses_link"
+        >
+          Detroit, MI
+        </a>
+        <a href="/california/san-diego-houses"
+           data-tag_item="houses_link"
+        >
+          San Diego, CA
+        </a>
+        <a href="/texas/dallas-houses"
+           data-tag_item="houses_link"
+        >
+          Dallas, TX
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`ui/shared/components/Home/PopularCities server renders apartments HTML 1`] = `
+
+<h4>
+  Apartments
+</h4>
+<div>
+  <ul>
+    <li>
+      <a href="/georgia/atlanta-apartments">
+        Atlanta, GA
+      </a>
+    </li>
+    <li>
+      <a href="/north-carolina/charlotte-apartments">
+        Charlotte, NC
+      </a>
+    </li>
+    <li>
+      <a href="/illinois/chicago-apartments">
+        Chicago, IL
+      </a>
+    </li>
+    <li>
+      <a href="/california/los-angeles-apartments">
+        Los Angeles, CA
+      </a>
+    </li>
+    <li>
+      <a href="/new-york/new-york-apartments">
+        New York, NY
+      </a>
+    </li>
+    <li>
+      <a href="/michigan/detroit-apartments">
+        Detroit, MI
+      </a>
+    </li>
+    <li>
+      <a href="/california/san-diego-apartments">
+        San Diego, CA
+      </a>
+    </li>
+    <li>
+      <a href="/texas/dallas-apartments">
+        Dallas, TX
+      </a>
+    </li>
+  </ul>
+</div>
+
+`;
+
+exports[`ui/shared/components/Home/PopularCities server renders houses HTML 1`] = `
+
+<h4>
+  Houses
+</h4>
+<div>
+  <ul>
+    <li>
+      <a href="/georgia/atlanta-houses">
+        Atlanta, GA
+      </a>
+    </li>
+    <li>
+      <a href="/north-carolina/charlotte-houses">
+        Charlotte, NC
+      </a>
+    </li>
+    <li>
+      <a href="/illinois/chicago-houses">
+        Chicago, IL
+      </a>
+    </li>
+    <li>
+      <a href="/california/los-angeles-houses">
+        Los Angeles, CA
+      </a>
+    </li>
+    <li>
+      <a href="/new-york/new-york-houses">
+        New York, NY
+      </a>
+    </li>
+    <li>
+      <a href="/michigan/detroit-houses">
+        Detroit, MI
+      </a>
+    </li>
+    <li>
+      <a href="/california/san-diego-houses">
+        San Diego, CA
+      </a>
+    </li>
+    <li>
+      <a href="/texas/dallas-houses">
+        Dallas, TX
+      </a>
+    </li>
+  </ul>
+</div>
+
+`;

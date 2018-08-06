@@ -1,0 +1,57 @@
+@value ( Gray3, UniversalGrey ) from 'ui/shared/themes/colors/colors.css';
+
+
+.ZoomControls_Container {
+  width: 29px;
+  height: 58px;
+  border-radius: 2px;
+  background-color: white;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.ZoomControls_Icon {
+  font-size: 20px;
+  font-weight: 800;
+  height: 25px;
+  background-color: #FFFFFF;
+  fill: UniversalGrey;
+  display: block;
+  padding-top: 3px;
+}
+
+.ZoomControls_Separator {
+  width: 19px;
+  border: solid 1px Gray3;
+  background-color: Gray3;
+  margin-left: 4px;
+  height: 1px;
+}
+
+.ZoomControls_Button {
+  width: 29px;
+  height: 27px;
+  background-color: white;
+  fill: UniversalGrey;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  outline: none;
+  padding: 0;
+}
+
+.ZoomControls_Button :hover {
+  background-color: Gray3;
+}
+
+.ZoomControls_Button svg {
+  position: relative;
+  right: 1px;
+}

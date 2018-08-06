@@ -1,0 +1,35 @@
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 10;
+
+  /* Center modal vertical and horizontal */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* If modal is wider than window make sure 1024 is aligned to left */
+  min-width: 1024px;
+}
+
+/* Fixes double Overlay bug in rent-js leadmodal */
+/* This should be removed with leadmodal restructure */
+.Overlay .Overlay {
+  position: auto;
+  top: auto;
+  left: auto;
+  bottom: auto;
+  right: auto;
+  background-color: auto;
+  z-index: auto;
+
+  /* Center modal vertical and horizontal */
+  display: auto;
+  align-items: auto;
+  justify-content: auto;
+  /* If modal is wider than window make sure 1024 is aligned to left */
+  min-width: auto;
+}

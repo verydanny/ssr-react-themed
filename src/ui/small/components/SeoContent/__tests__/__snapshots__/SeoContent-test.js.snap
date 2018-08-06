@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SeoContent displays nearby colleges if shouldDisplayNearbyColleges is true 1`] = `
+<div
+  data-tid="seo-content"
+>
+  <Connect(Themed(LinkList))
+    header=" Apartment Options"
+  />
+  <Connect(Themed(LinkList))
+    header="Search by Property Type"
+  />
+  <Connect(Themed(DfpAdSlot))
+    adKey="gpt_list_srp_mobile_seocontent"
+    tid="ad-dfp-listview"
+  />
+  <Themed(Nearby)
+    header="Find undefined in Nearby Cities"
+    linkTagItem="by_nearby_cities"
+    linkTagSection="local_info"
+  />
+  <Themed(Nearby)
+    header="Find undefined in Nearby Neighborhoods"
+    linkTagItem="by_nearby_neighborhoods"
+    linkTagSection="local_info"
+  />
+  <Themed(Nearby)
+    header="Find undefined Near Local Colleges"
+    linkTagItem="by_nearby_colleges"
+    linkTagSection="local_info"
+    maxLinks={10}
+  />
+  <Themed(Nearby)
+    header="Find undefined Near Local Military Bases"
+    linkTagItem="by_nearby_military"
+    linkTagSection="local_info"
+  />
+  <Connect(Themed(DfpAdSlot))
+    adKey="gpt_list_srp_mobile_footer"
+    key="gpt_list_srp_mobile_footer"
+    tid="ad-bottom-list"
+  />
+</div>
+`;
+
+exports[`SeoContent does not display nearby colleges if shouldDisplayNearbyColleges is false 1`] = `
+<div
+  data-tid="seo-content"
+>
+  <Connect(Themed(LinkList))
+    header=" Apartment Options"
+  />
+  <Connect(Themed(LinkList))
+    header="Search by Property Type"
+  />
+  <Connect(Themed(DfpAdSlot))
+    adKey="gpt_list_srp_mobile_seocontent"
+    tid="ad-dfp-listview"
+  />
+  <Themed(Nearby)
+    header="Find undefined in Nearby Cities"
+    linkTagItem="by_nearby_cities"
+    linkTagSection="local_info"
+  />
+  <Themed(Nearby)
+    header="Find undefined in Nearby Neighborhoods"
+    linkTagItem="by_nearby_neighborhoods"
+    linkTagSection="local_info"
+  />
+  <Themed(Nearby)
+    header="Find undefined Near Local Military Bases"
+    linkTagItem="by_nearby_military"
+    linkTagSection="local_info"
+  />
+  <Connect(Themed(DfpAdSlot))
+    adKey="gpt_list_srp_mobile_footer"
+    key="gpt_list_srp_mobile_footer"
+    tid="ad-bottom-list"
+  />
+</div>
+`;

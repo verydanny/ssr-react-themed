@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/shared/components/SeoContent/Nearby matches snapshot 1`] = `
+
+<div data-tid="nearby-links">
+  <h2 data-tag_item="header">
+    <button>
+      Nearby Header
+    </button>
+  </h2>
+  <div>
+    <div>
+      <div data-tag_section="tag_section">
+        <div class="leftColumn">
+          <a href="/georgia/atlanta-apartments/atkins-park-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Atkins Park
+          </a>
+          <a href="/georgia/atlanta-apartments/blandtown-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Blandtown
+          </a>
+          <a href="/georgia/brookhaven-apartments/brookhaven-fields-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Brookhaven Fields
+          </a>
+          <a href="/georgia/atlanta-apartments/buckhead-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Buckhead
+          </a>
+          <a href="/georgia/brookhaven-apartments/buford-highway-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Buford Highway
+          </a>
+          <a href="/georgia/atlanta-apartments/capitol-gateway-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Capitol Gateway
+          </a>
+          <a href="/georgia/atlanta-apartments/chastain-park-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Chastain Park
+          </a>
+          <a href="/georgia/atlanta-apartments/colonial-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Colonial
+          </a>
+          <a href="/georgia/atlanta-apartments/downtown-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Downtown
+          </a>
+          <a href="/georgia/atlanta-apartments/eastside-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Eastside
+          </a>
+          <a href="/georgia/atlanta-apartments/english-avenue-neighborhood"
+             data-tag_item="tag_item"
+          >
+            English Avenue
+          </a>
+          <a href="/georgia/atlanta-apartments/kirkwood-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Kirkwood
+          </a>
+          <a href="/georgia/atlanta-apartments/lake-claire-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Lake Claire
+          </a>
+          <a href="/georgia/atlanta-apartments/lenox-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Lenox
+          </a>
+          <a href="/georgia/atlanta-apartments/lindbergh-morosgo-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Lindbergh - Morosgo
+          </a>
+        </div>
+        <div class="rightColumn">
+          <a href="/georgia/atlanta-apartments/midtown-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Midtown
+          </a>
+          <a href="/georgia/atlanta-apartments/morningside-lenox-park-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Morningside - Lenox Park
+          </a>
+          <a href="/georgia/north-decatur-apartments/north-druid-woods-neighborhood"
+             data-tag_item="tag_item"
+          >
+            North Druid Woods
+          </a>
+          <a href="/georgia/atlanta-apartments/northeast-atlanta-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Northeast Atlanta
+          </a>
+          <a href="/georgia/atlanta-apartments/northyards-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Northyards
+          </a>
+          <a href="/georgia/atlanta-apartments/oakland-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Oakland
+          </a>
+          <a href="/georgia/atlanta-apartments/peachtree-battle-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Peachtree Battle
+          </a>
+          <a href="/georgia/atlanta-apartments/piedmont-heights-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Piedmont Heights
+          </a>
+          <a href="/georgia/atlanta-apartments/pine-hills-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Pine Hills
+          </a>
+          <a href="/georgia/atlanta-apartments/sherwood-forest-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Sherwood Forest
+          </a>
+          <a href="/georgia/atlanta-apartments/south-downtown-neighborhood"
+             data-tag_item="tag_item"
+          >
+            South Downtown
+          </a>
+          <a href="/georgia/atlanta-apartments/vine-city-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Vine City
+          </a>
+          <a href="/georgia/atlanta-apartments/virginia-highland-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Virginia Highland
+          </a>
+          <a href="/georgia/atlanta-apartments/west-paces-ferry-neighborhood"
+             data-tag_item="tag_item"
+          >
+            West Paces Ferry
+          </a>
+          <a href="/georgia/atlanta-apartments/westside-neighborhood"
+             data-tag_item="tag_item"
+          >
+            Westside
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+`;

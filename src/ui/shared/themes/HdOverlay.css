@@ -1,0 +1,17 @@
+.HdOverlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 13px;
+  line-height: 23px;
+  width: 57px;
+  height: 23px;
+  text-align: center;
+  white-space: nowrap;
+  right: 238px;
+  bottom: 0;
+}
+
+.HdOverlay span {
+  font-weight: bold;
+}

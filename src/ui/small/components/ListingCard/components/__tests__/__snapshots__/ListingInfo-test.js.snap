@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListingCard/ListingInfo spotlight when on list view renders correctly 1`] = `
+<div
+  role="presentation"
+>
+  <div
+    className=""
+    data-tid="listing-title"
+  >
+    <span
+      data-tid="listing-price"
+    />
+    <br />
+    <a
+      className="undefined"
+      data-tag_item={null}
+      data-tid="property-title"
+      href="/"
+      itemProp="url"
+    >
+      <span
+        itemProp="name"
+      />
+    </a>
+  </div>
+  <div
+    className=""
+  >
+    <a
+      data-tid="available-units"
+    >
+      5 thingies are here
+    </a>
+  </div>
+</div>
+`;
+
+exports[`ListingCard/ListingInfo spotlight when on map view renders correctly 1`] = `
+<div
+  role="presentation"
+>
+  <span
+    className="price"
+    data-tid="listing-title"
+  >
+    <span
+      data-tid="listing-price"
+    />
+    <a
+      className="price"
+      data-tag_item={null}
+      data-tid="property-title"
+      href="/"
+      itemProp="url"
+    >
+      <span
+        itemProp="name"
+      >
+        Test Property
+      </span>
+    </a>
+  </span>
+  <div
+    className=""
+  >
+    <div
+      className="beds"
+      data-tid="beds-baths"
+    >
+      studio 2 beds • 1 - 2 baths
+    </div>
+    <div>
+      <span>
+        <a
+          data-tid="available-units"
+        >
+          stuff and junk present
+        </a>
+      </span>
+    </div>
+  </div>
+</div>
+`;

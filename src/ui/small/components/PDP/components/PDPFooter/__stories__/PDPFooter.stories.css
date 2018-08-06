@@ -1,0 +1,18 @@
+body {
+  overflow: auto;
+  position: relative;
+  background: #c1d1d1;
+}
+
+.section {
+  margin: 0;
+  background: #c1d1d1;
+  padding-bottom: 155px;
+}
+
+.section h1 {
+  height: 240px;
+  line-height: 240px;
+  width: 100%;
+  text-align: center;
+}

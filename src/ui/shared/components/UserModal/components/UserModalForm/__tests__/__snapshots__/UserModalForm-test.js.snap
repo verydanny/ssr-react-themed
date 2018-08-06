@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserModalForm User modal form renders properly matches snapshot 1`] = `
+
+<form action="#"
+      method="POST"
+      novalidate
+      class
+>
+  <div class="RegisterModal_FirstName">
+    <input id="RegisterModal-0-firstName"
+           type="text"
+           data-tid="user-register-form-firstName"
+           name="firstName"
+           modal="register"
+           placeholder="First Name"
+           data-tag_item="firstName"
+           autocomplete="given-name"
+           class
+    >
+  </div>
+</form>
+
+`;

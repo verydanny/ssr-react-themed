@@ -1,0 +1,9 @@
+.LinkList a {
+  display: block;
+  padding: 4px;
+  text-decoration: none;
+}
+
+.LinkList a:hover {
+  cursor: hand;
+}

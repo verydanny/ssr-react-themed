@@ -1,0 +1,64 @@
+@value (
+  RentBlue,
+  Gray2,
+  Gray3
+) from 'ui/shared/themes/colors/colors.css';
+
+.MapControls_Container {
+  display: inline-block;
+  border: solid 1px #fff;
+}
+
+.MapControls,
+.MapControls_ZoomContainer,
+.MapControls_CurrentPositionContainer {
+  background-color: #fff;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.MapControls_ZoomContainer,
+.MapControls_CurrentPositionContainer {
+  border-radius: 2px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.MapControls_CurrentPositionContainer {
+  margin-top: 10px;
+}
+
+.MapControls {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.MapControls_ZoomLevel,
+.MapControls_CurrentPosition {
+  height: 17px;
+}
+
+.MapControls_Separator {
+  width: 70%;
+  height: 0.5px;
+  line-height: 0.5px;
+  border: solid 1px Gray3;
+  background-color: Gray3;
+  margin: 0 auto;
+}
+
+.MapControls-active,
+.MapControls:active {
+  fill: RentBlue;
+}
+
+.MapControls-disabled,
+.MapControls:disabled {
+  fill: Gray2;
+}

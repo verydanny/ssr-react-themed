@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handleOptionSelection method adds the selected classname to correct option 1`] = `
+Array [
+  <span
+    className=""
+    data-tag_selection="any"
+  >
+    Any
+  </span>,
+  <span
+    className="Filters_DropdownOption-selected"
+    data-tag_selection="0beds"
+  >
+    Studio
+  </span>,
+  <span
+    className=""
+    data-tag_selection="1bed"
+  >
+    1 Bed
+  </span>,
+  <span
+    className=""
+    data-tag_selection="2beds"
+  >
+    2 Beds
+  </span>,
+  <span
+    className=""
+    data-tag_selection="3beds"
+  >
+    3 Beds
+  </span>,
+  <span
+    className=""
+    data-tag_selection="4beds"
+  >
+    4+ Beds
+  </span>,
+]
+`;

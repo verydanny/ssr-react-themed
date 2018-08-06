@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageGallery ImageGallery photoRender renders images 1`] = `
+<Themed(Photo)
+  alt="bar"
+  sources={
+    Array [
+      Object {
+        "srcset": "webp/foo",
+        "type": "image/webp",
+      },
+      Object {
+        "srcset": "jpg/foo, jpgRetina/foo 2x",
+      },
+    ]
+  }
+  url="jpg/foo"
+/>
+`;
+
+exports[`ImageGallery renders the gallery 1`] = `
+<ImageGallery
+  disableSwipe={true}
+  formattedBaseUrl={
+    Object {
+      "jpg": "jpg/",
+      "jpgRetina": "jpgRetina/",
+      "webp": "webp/",
+    }
+  }
+  lazyload={true}
+  photos={
+    Array [
+      Object {
+        "caption": "bar",
+        "path": "imgr/foo/",
+      },
+      Object {
+        "caption": "baz",
+        "path": "imgr/bam/",
+      },
+    ]
+  }
+  startIndex={0}
+  theme={Object {}}
+  viewType="map"
+>
+  <div
+    data-tid="listing-photo-gallery"
+  >
+    <LazyLoad
+      height={158}
+      offset={
+        Array [
+          200,
+          -100,
+        ]
+      }
+      once={false}
+      overflow={true}
+      resize={true}
+      scroll={true}
+      unmountIfInvisible={false}
+      width={280}
+    >
+      <div
+        className="lazyload-placeholder"
+        style={
+          Object {
+            "height": 158,
+          }
+        }
+      />
+    </LazyLoad>
+  </div>
+</ImageGallery>
+`;
+
+exports[`ImageGallery renders the gallery without Lazyload 1`] = `
+<Themed(ImageGallery)
+  formattedBaseUrl={
+    Object {
+      "jpg": "jpg/",
+      "jpgRetina": "jpgRetina/",
+      "webp": "webp/",
+    }
+  }
+  lazyload={false}
+  photos={
+    Array [
+      Object {
+        "caption": "bar",
+        "path": "imgr/foo/",
+      },
+      Object {
+        "caption": "baz",
+        "path": "imgr/bam/",
+      },
+    ]
+  }
+>
+  <ImageGallery
+    disableSwipe={true}
+    formattedBaseUrl={
+      Object {
+        "jpg": "jpg/",
+        "jpgRetina": "jpgRetina/",
+        "webp": "webp/",
+      }
+    }
+    lazyload={false}
+    photos={
+      Array [
+        Object {
+          "caption": "bar",
+          "path": "imgr/foo/",
+        },
+        Object {
+          "caption": "baz",
+          "path": "imgr/bam/",
+        },
+      ]
+    }
+    startIndex={0}
+    theme={Object {}}
+    viewType="map"
+  >
+    <div
+      data-tid="listing-photo-gallery"
+    >
+      <ImageGallery
+        autoPlay={false}
+        disableArrowKeys={false}
+        disableSwipe={true}
+        disableThumbnailScroll={false}
+        flickThreshold={0.4}
+        indexSeparator=" / "
+        infinite={true}
+        items={
+          Array [
+            Object {
+              "caption": "bar",
+              "path": "imgr/foo/",
+            },
+            Object {
+              "caption": "baz",
+              "path": "imgr/bam/",
+            },
+          ]
+        }
+        lazyLoad={true}
+        onSlide={[Function]}
+        preventDefaultTouchmoveEvent={true}
+        renderFullscreenButton={[Function]}
+        renderItem={[Function]}
+        renderLeftNav={[Function]}
+        renderPlayPauseButton={[Function]}
+        renderRightNav={[Function]}
+        showBullets={false}
+        showFullscreenButton={false}
+        showIndex={false}
+        showNav={true}
+        showPlayButton={false}
+        showThumbnails={false}
+        slideDuration={450}
+        slideInterval={3000}
+        startIndex={0}
+        stopPropagation={false}
+        swipeThreshold={30}
+        swipingTransitionDuration={0}
+        thumbnailPosition="bottom"
+        useBrowserFullscreen={true}
+        useTranslate3D={true}
+      >
+        <div
+          aria-live="polite"
+          className="image-gallery "
+        >
+          <div
+            className="image-gallery-content"
+          >
+            <div
+              className="image-gallery-slide-wrapper bottom"
+            >
+              <span
+                key="navigation"
+              >
+                <Themed(GalleryNav)
+                  direction="prev"
+                  disabled={false}
+                  onClick={[Function]}
+                  viewType="map"
+                >
+                  <GalleryNav
+                    direction="prev"
+                    disabled={false}
+                    onClick={[Function]}
+                    theme={Object {}}
+                    viewType="map"
+                  >
+                    <div
+                      className=""
+                    >
+                      <span
+                        className=""
+                        data-nopdplink={true}
+                        data-tag_item="left_arrow"
+                        onClick={[Function]}
+                        role="button"
+                        tabIndex={0}
+                      >
+                        <Themed(Icon)
+                          data-nopdplink={true}
+                          name="chevronLeft"
+                          svgs={
+                            Object {
+                              "chevronLeft": "",
+                              "chevronRight": "",
+                            }
+                          }
+                        >
+                          <Icon
+                            data-nopdplink={true}
+                            name="chevronLeft"
+                            svgs={
+                              Object {
+                                "chevronLeft": "",
+                                "chevronRight": "",
+                              }
+                            }
+                            theme={Object {}}
+                          />
+                        </Themed(Icon)>
+                      </span>
+                    </div>
+                  </GalleryNav>
+                </Themed(GalleryNav)>
+                <Themed(GalleryNav)
+                  direction="next"
+                  disabled={false}
+                  onClick={[Function]}
+                  viewType="map"
+                >
+                  <GalleryNav
+                    direction="next"
+                    disabled={false}
+                    onClick={[Function]}
+                    theme={Object {}}
+                    viewType="map"
+                  >
+                    <div
+                      className=""
+                    >
+                      <span
+                        className=""
+                        data-nopdplink={true}
+                        data-tag_item="right_arrow"
+                        onClick={[Function]}
+                        role="button"
+                        tabIndex={0}
+                      >
+                        <Themed(Icon)
+                          data-nopdplink={true}
+                          name="chevronRight"
+                          svgs={
+                            Object {
+                              "chevronLeft": "",
+                              "chevronRight": "",
+                            }
+                          }
+                        >
+                          <Icon
+                            data-nopdplink={true}
+                            name="chevronRight"
+                            svgs={
+                              Object {
+                                "chevronLeft": "",
+                                "chevronRight": "",
+                              }
+                            }
+                            theme={Object {}}
+                          />
+                        </Themed(Icon)>
+                      </span>
+                    </div>
+                  </GalleryNav>
+                </Themed(GalleryNav)>
+              </span>
+              <Swipeable
+                className="image-gallery-swipe"
+                delta={0}
+                disabled={true}
+                flickThreshold={0.4}
+                key="swipeable"
+                nodeName="div"
+                onSwiped={[Function]}
+                onSwiping={[Function]}
+                preventDefaultTouchmoveEvent={true}
+                stopPropagation={false}
+              >
+                <div
+                  className="image-gallery-swipe"
+                >
+                  <div
+                    className="image-gallery-slides"
+                  >
+                    <div
+                      className="image-gallery-slide center"
+                      key="0"
+                      style={
+                        Object {
+                          "MozTransform": "translate3d(0%, 0, 0)",
+                          "OTransform": "translate3d(0%, 0, 0)",
+                          "WebkitTransform": "translate3d(0%, 0, 0)",
+                          "msTransform": "translate3d(0%, 0, 0)",
+                          "transform": "translate3d(0%, 0, 0)",
+                        }
+                      }
+                    >
+                      <Themed(Photo)
+                        alt="bar"
+                        sources={
+                          Array [
+                            Object {
+                              "srcset": "webp/foo",
+                              "type": "image/webp",
+                            },
+                            Object {
+                              "srcset": "jpg/foo, jpgRetina/foo 2x",
+                            },
+                          ]
+                        }
+                        url="jpg/foo"
+                      >
+                        <Photo
+                          alt="bar"
+                          sources={
+                            Array [
+                              Object {
+                                "srcset": "webp/foo",
+                                "type": "image/webp",
+                              },
+                              Object {
+                                "srcset": "jpg/foo, jpgRetina/foo 2x",
+                              },
+                            ]
+                          }
+                          theme={
+                            Object {
+                              "Photo": undefined,
+                            }
+                          }
+                          url="jpg/foo"
+                        >
+                          <picture>
+                            <source
+                              key="0webp/foo"
+                              srcSet="webp/foo"
+                              type="image/webp"
+                            />
+                            <source
+                              key="1jpg/foo, jpgRetina/foo 2x"
+                              srcSet="jpg/foo, jpgRetina/foo 2x"
+                            />
+                            <img
+                              alt="bar"
+                              className=""
+                              data-tid="photo"
+                              onError={[Function]}
+                              src="jpg/foo"
+                            />
+                          </picture>
+                        </Photo>
+                      </Themed(Photo)>
+                    </div>
+                    <div
+                      className="image-gallery-slide right"
+                      key="1"
+                      style={
+                        Object {
+                          "MozTransform": "translate3d(100%, 0, 0)",
+                          "OTransform": "translate3d(100%, 0, 0)",
+                          "WebkitTransform": "translate3d(100%, 0, 0)",
+                          "msTransform": "translate3d(100%, 0, 0)",
+                          "transform": "translate3d(100%, 0, 0)",
+                        }
+                      }
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </Swipeable>
+            </div>
+          </div>
+        </div>
+      </ImageGallery>
+    </div>
+  </ImageGallery>
+</Themed(ImageGallery)>
+`;

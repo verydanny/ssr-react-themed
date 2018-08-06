@@ -1,0 +1,16 @@
+.AggregateRating .RatingBar_Icons {
+  overflow: hidden;
+  height: 100%;
+  width: 0;
+  background: repeat-x url(data:image/svg+xml;charset=utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC45IiBoZWlnaHQ9IjEwLjkiIHZpZXdCb3g9IjAgMCA1MSA0OCI+PHBhdGggZmlsbD0iI0Y4RTcxQyIgZD0iTTI1IDFsNiAxN2gxOEwzNSAyOWw1IDE3LTE1LTEwLTE1IDEwIDUtMTdMMSAxOGgxOHoiLz48L3N2Zz4=);
+}
+
+.AggregateRating .RatingBar_Background {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100px;
+  height: 16px;
+  width: 54.5px;
+  overflow: hidden;
+  background: repeat-x url(data:image/svg+xml;charset=utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC45IiBoZWlnaHQ9IjEwLjkiIHZpZXdCb3g9IjAgMCA1MSA0OCI+PHBhdGggZmlsbD0iI0NFQ0VDRSIgZD0iTTI1IDFsNiAxN2gxOEwzNSAyOWw1IDE3LTE1LTEwLTE1IDEwIDUtMTdMMSAxOGgxOHoiLz48L3N2Zz4=);
+}

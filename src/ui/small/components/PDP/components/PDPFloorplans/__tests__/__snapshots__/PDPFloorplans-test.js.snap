@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PDPFloorplans /> render should match snapshot 1`] = `
+
+<section data-tid="pdpFloorplans">
+  <div role="Button"
+       tabindex="0"
+       data-tid="pdpFloorplans_Container"
+       class="undefined"
+  >
+    <div>
+      <h2 data-tid="pdpFloorplans_Header">
+        Floorplans
+      </h2>
+      <button data-tid="pdpFloorplans_Button"
+              class="undefined"
+      >
+      </button>
+    </div>
+    <div>
+      <span data-tid="pdpFloorplans_Description">
+        10 floorplans and 50 units available.
+      </span>
+    </div>
+  </div>
+  <div>
+    <div class="undefined"
+         data-tid="pdpFloorplansList"
+    >
+      <div>
+        Floorplans
+        <br>
+        <br>
+        Floorplans
+        <br>
+        <br>
+        Floorplans
+        <br>
+        <br>
+        Floorplans
+        <br>
+        <br>
+        Floorplans
+        <br>
+        <br>
+        Floorplans
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+</section>
+
+`;

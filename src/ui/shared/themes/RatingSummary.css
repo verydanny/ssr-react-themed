@@ -1,0 +1,51 @@
+@value ( RentBlue ) from 'ui/shared/themes/colors/colors.css';
+
+.RatingSummary {
+  width:100%;
+}
+
+.RatingSummary_Prefix {
+  min-width: fit-content;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.RatingSummary_Item {
+  display: flex;
+  height: 1em;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+.RatingSummary_Item .RatingBar_Icons {
+  overflow: hidden;
+  height: 100%;
+  width: 0;
+  border-radius: 2px;
+  background: none;
+  background-color: #09bb3b;
+}
+
+.RatingSummary_Item .RatingBar_Background {
+  height: 14px;
+  border-radius: 2px;
+  background: none;
+  background-color: #ebebeb;
+  flex-grow: 1;
+}
+
+.RatingSummary .RatingBar {
+  align-items: center;
+}
+
+.RatingSummary_Item .RatingBar .Label {
+  text-align: right;
+  margin-left: 8px;
+  min-width: 29px;
+}
+
+.RatingSummary_Star svg {
+  fill: RentBlue;
+  width: 1em;
+  height: 1em;
+}

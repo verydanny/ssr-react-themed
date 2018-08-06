@@ -1,0 +1,104 @@
+@value ( RentBlue, GoldYellow ) from 'ui/shared/themes/colors/colors.css';
+@value ( HeaderHeight ) from 'ui/large/themes/variables/variables.css';
+
+.Header, .HomeHeader {
+  height: HeaderHeight;
+  background-color: RentBlue;
+  position: relative;
+  /* Ensure the map popup goes behind the header */
+  z-index: 1;
+}
+
+.Header_Badge {
+  width: 19px;
+  height: 18px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.17;
+  margin-left: 5px;
+  letter-spacing: normal;
+  text-align: center;
+  color: RentBlue;
+  border-radius: 50%;
+  background-color: GoldYellow;
+}
+
+.Header_Menulinks {
+  width: 100vw;
+  min-width: 1024px;
+  height: 70px;
+  margin-left: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.HomeHeader_Content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: HeaderHeight;
+  margin: 0 auto;
+  width: 90%;
+  min-width: 690px;
+  max-width:1224px;
+}
+
+.Header_HeartIcon {
+  padding-right: 3px;
+}
+
+.Header_Menulink {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.13;
+  padding-right: 30px;
+  background-color: RentBlue;
+  position: relative;
+  top: 2px;
+}
+
+.Header_Menulink:last-child {
+  padding: 0;
+}
+
+/* TODO add button for login/acct setup
+.Button_Signin {
+  width: 88px;
+  height: 36px;
+  float: right;
+  margin-right: 42px;
+  margin-top: -55px;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  box-shadow: 0 0.5px 1px 0 #fff;
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.13;
+  background-color: RentBlue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+*/
+
+/* Make the clickable area of the link larger than just the logo */
+.Header_rentComLogoLink {
+  padding-top: 17px;
+  padding-bottom: 15px;
+}
+
+.Header_rentComLogo {
+  padding-right: 54px;
+}
+
+.Header_rentComLogo svg {
+  fill: #fff;
+  height: 24px;
+  width: 146px;
+}

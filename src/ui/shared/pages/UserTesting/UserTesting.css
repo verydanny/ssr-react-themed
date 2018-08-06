@@ -1,0 +1,40 @@
+@value ( RentBlue ) from 'ui/shared/themes/colors/colors.css';
+@value ( FontFamily ) from 'ui/shared/themes/variables/variables.css';
+
+.UserTesting {
+  font-family: FontFamily;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.UserTesting a {
+  display: block;
+  margin: 10px auto;
+}
+
+.UserTesting_GoToHome {
+  color: #fff;
+  background-color: RentBlue;
+  border-radius: 100px;
+  outline: none;
+  height: 36px;
+  width: 175px;
+  padding: 0 16px;
+  font-weight: 700;
+  font-size: 15px;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  text-align: center;
+  line-height: 36px;
+  text-decoration: none;
+}
+
+.UserTesting_Header {
+  font-size: 1.2rem;
+}
+
+.UserTesting_GoToHome,
+.UserTesting_Header {
+  display: block;
+  margin-bottom: 2rem;
+}

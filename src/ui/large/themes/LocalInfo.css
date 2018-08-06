@@ -1,0 +1,14 @@
+@value ( RentBlue ) from 'ui/shared/themes/colors/colors.css';
+
+.LocalInfo a {
+  color: RentBlue;
+  text-decoration: none;
+}
+
+.LocalInfo p {
+  margin: 0 43px 20px 0;
+}
+
+.LocalInfo p:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/small/components/View/Map/Markers sets correct marker data for active listings 1`] = `
+Object {
+  "icon": Object {
+    "anchor": Object {
+      "x": 8,
+      "y": 8,
+    },
+    "scaledSize": Object {
+      "height": 16,
+      "width": 16,
+    },
+    "url": "",
+  },
+  "isPaid": true,
+  "onClick": [Function],
+  "title": null,
+  "zIndex": 2,
+}
+`;
+
+exports[`ui/small/components/View/Map/Markers sets the correct marker data for inactive listings 1`] = `
+Object {
+  "icon": Object {
+    "anchor": Object {
+      "x": 5,
+      "y": 5,
+    },
+    "scaledSize": Object {
+      "height": 11,
+      "width": 11,
+    },
+    "url": "",
+  },
+  "isPaid": false,
+  "onClick": [Function],
+  "title": null,
+  "zIndex": 1,
+}
+`;

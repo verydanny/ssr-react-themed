@@ -1,0 +1,191 @@
+@value (
+  UniversalGrey, RentBlue, Gray1, Gray3, Gray5, Gray8
+) from 'ui/shared/themes/colors/colors.css';
+
+.Filters_TextLabel {
+  cursor: pointer;
+}
+
+.Filters_ChevronDown {
+  font-size: 12px;
+  position: absolute;
+  left: 62px;
+  bottom: 2px;
+}
+
+.Filters_ChevronDown-price {
+  left: 73px;
+}
+
+.Filters_ChevronDown-morefilters {
+  position: relative;
+  left: 82px;
+  bottom: 13px;
+
+}
+
+.Filters_ChevronDown svg {
+  fill: RentBlue;
+  width: 25px;
+  height: 26px;
+}
+
+.Filters_DropdownContainer {
+  width: 98px;
+  height: 36px;
+}
+
+.Filters_Dropdown {
+  background-color: white;
+  box-shadow: 0 8px 20px 2px rgba(0, 0, 0, 0.15);
+  border: solid 1px Gray5;
+  width: 98px;
+  border-radius: 4px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.Filters_Dropdown span{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 0 10px 8px;
+  color: Gray1;
+  display: block;
+}
+
+.Filters_Dropdown :hover {
+  background: Gray3;
+  cursor: pointer;
+  color: Gray1;
+}
+
+.Filters_Dropdown-beds {
+  margin-top: 8px;
+  width: 86px;
+  height: 216px;
+}
+
+.Filters_Dropdown-price {
+  margin-top: 8px;
+  overflow-y: scroll;
+  height: 360px;
+  min-height: 360px;
+}
+
+.Filters_Dropdown-price::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+.Filters_Dropdown-price::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: Gray8;
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+.Filters_Text {
+  color: UniversalGrey;
+  font-size: 15px;
+  font-weight: 600;
+  height: 36px;
+  border-radius: 4px;
+  box-shadow: 0 0.5px 1px 0 rgba(0, 0, 0, 0.08);
+  border: solid 1px Gray3;
+}
+
+.Filters_Text button {
+  width: 86px;
+  position: relative;
+  color: UniversalGrey;
+  border-radius: 4px;
+  text-align: left;
+  padding: 0 7px;
+}
+
+.Filters_Text-price button {
+  width: 98px
+}
+
+.Filters_DropdownContainer-beds {
+  width: 86px;
+}
+
+.Filters_Text-beds {
+  width: 86px;
+}
+
+.Filters_ModalContainer-morefilters {
+  width: 106px;
+}
+
+.Filters_Text-morefilters {
+  position: relative;
+  top: 9px;
+  padding-left: 7px;
+}
+
+body .Filters_DropdownOption-selected {
+  background-color: RentBlue;
+  color: #fff;
+}
+
+.Filters {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  width: 475px;
+  margin: 15px auto;
+}
+
+.Filters_FilterTokens {
+  width: 475px;
+  margin: 0 auto 15px;
+  flex-shrink: 0;
+  padding-left: 0;
+}
+
+.Filters_FilterTokens li {
+  display: inline-block;
+}
+
+.Filters_FilterToken {
+  background-color: gray;
+  color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-size: 12px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.Filters_FilterTokenRemove {
+  margin-left: 3px;
+  padding: 7px 7px 7px 4px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.Filters_FilterTokenClear {
+  padding: 7px;
+  font-size: 12px;
+  cursor: pointer;
+  color: RentBlue;
+  display: inline-block;
+  background: none;
+  border: none;
+}
+
+.Filters_FilterTokenViewMore {
+  padding: 7px;
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+  font-size: 12px;
+  border-radius: 3px;
+  display: inline-block;
+  border: none;
+}

@@ -1,0 +1,22 @@
+@value ( RentBlue ) from 'ui/shared/themes/colors/colors.css';
+
+.Collapsible_Items-visible {
+  display: block;
+}
+
+.Collapsible_Items-hidden {
+  display: none;
+}
+
+.Collapsible .Button {
+  background: none;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 28px;
+  color: RentBlue;
+  padding-left: 0px;
+}
+
+.Collapsible_Button-bottom {
+  vertical-align: bottom;
+}

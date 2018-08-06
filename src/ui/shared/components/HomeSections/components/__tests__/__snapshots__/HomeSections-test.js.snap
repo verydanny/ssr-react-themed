@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/shared/components/HomeSections matches the snapshot of sections rendered 1`] = `
+
+<div data-tid="home-sections-container">
+  <div class="section"
+       data-tid="home-section-0"
+  >
+    <h2>
+      Test Headline 1
+    </h2>
+    <p>
+      Test Body 1
+    </p>
+    <ul>
+      <li>
+        <a href="/georgia/atlanta-apartments/studio">
+          Find Studio Apartments in Atlanta, GA
+        </a>
+      </li>
+      <li>
+        <a href="/georgia/atlanta-apartments/1-bedroom">
+          Find 1 Bedroom Apartments in Atlanta, GA
+        </a>
+      </li>
+    </ul>
+    <div class="links">
+      Test Links 1
+    </div>
+  </div>
+  <div class="section"
+       data-tid="home-section-1"
+  >
+    <h2>
+      Test Headline 2
+    </h2>
+    <p>
+      Test Body 2
+    </p>
+    <div class="links">
+      Test Links 2
+    </div>
+  </div>
+  <div class="section"
+       data-tid="home-section-2"
+  >
+    <h2>
+      Test Headline 3
+    </h2>
+    <p>
+      Test Body 3
+    </p>
+    <ul>
+      <li>
+        <a href="/georgia/atlanta-apartments/pet-friendly">
+          Find Pet Friendly Apartments in Atlanta, GA
+        </a>
+      </li>
+    </ul>
+    <div class="links">
+      Test Links 3
+    </div>
+  </div>
+  <div class="section"
+       data-tid="home-section-3"
+  >
+    <h2>
+      Test Headline 4
+    </h2>
+    <p>
+      Test Body 4
+    </p>
+    <ul>
+      <li>
+        <a href="/georgia/atlanta-apartments/2-bedroom">
+          Find 2 Bedroom Apartments in Atlanta, GA
+        </a>
+      </li>
+      <li>
+        <a href="/georgia/atlanta-apartments/3-bedroom">
+          Find 3 Bedroom Apartments in Atlanta, GA
+        </a>
+      </li>
+    </ul>
+    <div class="links">
+      Test Links 4
+    </div>
+  </div>
+  <div class="section"
+       data-tid="home-section-4"
+  >
+    <h2>
+      Test Headline 5
+    </h2>
+    <p>
+      Test Body 5
+    </p>
+    <ul>
+      <li>
+        <a href="/georgia/atlanta-apartments/cheap">
+          Find Cheap Apartments in Atlanta, GA
+        </a>
+      </li>
+    </ul>
+    <div class="links">
+      Test Links 5
+    </div>
+  </div>
+  <div class="section"
+       data-tid="home-section-5"
+  >
+    <h2>
+      Test Headline 6
+    </h2>
+    <p>
+      Test Body 6
+    </p>
+    <div class="links">
+      Test Links 6
+    </div>
+  </div>
+</div>
+
+`;

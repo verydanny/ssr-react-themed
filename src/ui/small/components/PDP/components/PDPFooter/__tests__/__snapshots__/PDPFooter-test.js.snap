@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`small/PDPFooter complete footer contains price, rating, phone link, email button 1`] = `
+
+<footer data-tid="pdpFooter"
+        class="PDPFooter"
+>
+  <div class="PDPFooter_Info">
+    <span data-tid="pdpFooter_price"
+          class="PDPFooter_Price"
+    >
+      $1,350
+    </span>
+    <div class="RatingBar"
+         data-tid="pdpFooter_rating"
+    >
+      <div class="RatingBar_Background">
+        <div class="RatingBar_Icons"
+             style="width: 70%;"
+        >
+        </div>
+      </div>
+      <div class="Label">
+        (11)
+      </div>
+    </div>
+  </div>
+  <div class="PDPFooter_CTA">
+    <a data-tid="pdpFooter_phone"
+       href="tel://1404678770"
+    >
+      (404) 678-1234
+    </a>
+    <button data-tid="pdpFooter_contact">
+      Email Property
+    </button>
+  </div>
+</footer>
+
+`;
+
+exports[`small/PDPFooter missing phone does not contain phone link 1`] = `
+
+<footer data-tid="pdpFooter"
+        class="PDPFooter"
+>
+  <div class="PDPFooter_Info">
+    <span data-tid="pdpFooter_price"
+          class="PDPFooter_Price"
+    >
+      $1,350
+    </span>
+    <div class="RatingBar"
+         data-tid="pdpFooter_rating"
+    >
+      <div class="RatingBar_Background">
+        <div class="RatingBar_Icons"
+             style="width: 70%;"
+        >
+        </div>
+      </div>
+      <div class="Label">
+        (11)
+      </div>
+    </div>
+  </div>
+  <div class="PDPFooter_CTA">
+    <button data-tid="pdpFooter_contact">
+      Email Property
+    </button>
+  </div>
+</footer>
+
+`;
+
+exports[`small/PDPFooter missing price and rating contains "Contact for Price" and does not contain price or rating 1`] = `
+
+<footer data-tid="pdpFooter"
+        class="PDPFooter"
+>
+  <div class="PDPFooter_Info">
+    <div data-tid="pdpFooter_infoContact"
+         class="PDPFooter_InfoContact"
+    >
+      Contact for Price
+    </div>
+  </div>
+  <div class="PDPFooter_CTA">
+    <a data-tid="pdpFooter_phone"
+       href="tel://1404678770"
+    >
+      (404) 678-1234
+    </a>
+    <button data-tid="pdpFooter_contact">
+      Email Property
+    </button>
+  </div>
+</footer>
+
+`;
+
+exports[`small/PDPFooter missing price does not contain the price 1`] = `
+
+<footer data-tid="pdpFooter"
+        class="PDPFooter"
+>
+  <div class="PDPFooter_Info">
+    <div class="RatingBar"
+         data-tid="pdpFooter_rating"
+    >
+      <div class="RatingBar_Background">
+        <div class="RatingBar_Icons"
+             style="width: 70%;"
+        >
+        </div>
+      </div>
+      <div class="Label">
+        (11)
+      </div>
+    </div>
+  </div>
+  <div class="PDPFooter_CTA">
+    <a data-tid="pdpFooter_phone"
+       href="tel://1404678770"
+    >
+      (404) 678-1234
+    </a>
+    <button data-tid="pdpFooter_contact">
+      Email Property
+    </button>
+  </div>
+</footer>
+
+`;
+
+exports[`small/PDPFooter missing rating does not contain a rating 1`] = `
+
+<footer data-tid="pdpFooter"
+        class="PDPFooter"
+>
+  <div class="PDPFooter_Info">
+    <span data-tid="pdpFooter_price"
+          class="PDPFooter_Price"
+    >
+      $1,350
+    </span>
+  </div>
+  <div class="PDPFooter_CTA">
+    <a data-tid="pdpFooter_phone"
+       href="tel://1404678770"
+    >
+      (404) 678-1234
+    </a>
+    <button data-tid="pdpFooter_contact">
+      Email Property
+    </button>
+  </div>
+</footer>
+
+`;

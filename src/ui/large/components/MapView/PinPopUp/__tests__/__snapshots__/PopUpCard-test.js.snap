@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopUpCard apartment snapshot renders 1`] = `
+
+<div class
+     data-tag_item="padding_box"
+     data-tag_section="map_listing"
+     data-tag_listing_id="102"
+     data-tid="popup_card"
+     role="presentation"
+>
+  <div class="undefined"
+       data-tag_item="image"
+  >
+  </div>
+  <div>
+    <div>
+      <div data-tid="popup-property-price">
+      </div>
+      <div class>
+        SPONSORED
+      </div>
+    </div>
+    <div data-tid="popup-property-name">
+      Foo Bar 123
+    </div>
+    <div data-nopdplink="true"
+         data-tid="popup-contact-row"
+    >
+      <span data-tag_item="check_availability_button">
+        Contact Property
+      </span>
+      <span>
+        <span>
+          &nbsp;•&nbsp;
+        </span>
+        <span data-tag_item="check_availability_phone">
+          (123) 123-1234
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`PopUpCard house snapshot renders 1`] = `
+
+<div class
+     data-tag_item="padding_box"
+     data-tag_section="map_listing"
+     data-tag_listing_id="101"
+     data-tid="popup_card"
+     role="presentation"
+>
+  <div class
+       data-tag_item="image"
+  >
+    <img alt
+         src="https://image.rent.com/foobar74-62"
+    >
+  </div>
+  <div>
+    <div>
+      <div data-tid="popup-property-price">
+        $1,800
+      </div>
+      <div class>
+        HOME FOR RENT
+      </div>
+    </div>
+    <div data-tid="popup-property-name">
+      Foo Bar 123
+    </div>
+    <div data-nopdplink="true"
+         data-tid="popup-contact-row"
+    >
+      <span data-tag_item="check_availability_button">
+        Contact Property
+      </span>
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`PopUpCard inactive snapshot renders 1`] = `
+
+<div class
+     data-tag_item="padding_box"
+     data-tag_section="map_listing"
+     data-tag_listing_id="104"
+     data-tid="popup_card"
+     role="presentation"
+>
+  <div class="undefined"
+       data-tag_item="image"
+  >
+  </div>
+  <div>
+    <div>
+      <div data-tid="popup-property-price">
+        Price Unavailable
+      </div>
+    </div>
+    <div data-tid="popup-property-name">
+    </div>
+  </div>
+</div>
+
+`;

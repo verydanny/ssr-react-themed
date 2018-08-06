@@ -1,0 +1,72 @@
+@value ( RentBlue, RentBlueDark, UniversalGrey ) from 'ui/shared/themes/colors/colors.css';
+
+.HomePopularCities,
+.HomePopularLinks {
+  max-width: 1023px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.HomePopularCities h2,
+.HomePopularLinks h2 {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 900;
+  color: RentBlueDark;
+  margin: 104px auto 0;
+  text-align: center;
+}
+
+.HomePopularCities h3,
+.HomePopularLinks h3 {
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 400;
+  color: UniversalGrey;
+  max-width: 763px;
+  margin: 23px auto 0;
+  text-align: center;
+}
+
+.HomePopularCities h4,
+.HomePopularLinks h4 {
+  font-size: 32px;
+  font-weight: 900;
+  color: RentBlueDark;
+  margin: 0 21px 23px;
+  padding: 64px 0 12px 0;
+}
+
+.HomePopularCities_Section,
+.HomePopularLinks_Section {
+  width: 470px;
+}
+
+.HomePopularLinks_Button,
+.HomePopularLinks a {
+  margin: 0 21px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  color: RentBlue;
+  text-decoration: none;
+}
+
+.HomePopularLinks_Button {
+  font-weight: 900;
+  line-height: 1;
+  display: block;
+}
+
+.HomePopularLinks_Links {
+  display: flex;
+  flex-direction: row;
+}
+
+.HomePopularLinks_LinksColumn {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}

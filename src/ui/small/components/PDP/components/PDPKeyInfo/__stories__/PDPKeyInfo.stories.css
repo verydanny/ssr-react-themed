@@ -1,0 +1,10 @@
+
+.KeyInfo {
+  width: 375px;
+  position: relative;
+}
+
+.KeyInfo .Favorite {
+  right: auto;
+  /* left: 350px !important; */
+}

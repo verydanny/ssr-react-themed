@@ -1,0 +1,20 @@
+@value (
+  UniversalGrey, RentBlue
+) from 'ui/shared/themes/colors/colors.css';
+
+.Container {
+  padding: 0 16px;
+}
+
+.Header {
+  text-align: left;
+  color: RentBlue;
+}
+
+.WrapPagination {
+  width: 500px;
+  padding: 4px 10px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px #bbb;
+}

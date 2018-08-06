@@ -1,0 +1,177 @@
+@value ( Red, RentBlue, RentBlueDark, UniversalGrey, Gray1, Gray3 ) from 'ui/shared/themes/colors/colors.css';
+
+.LeadModal .Form {
+  padding: 0;
+  overflow: hidden;
+}
+
+.LeadModal .Field {
+  padding: 8px 0;
+  max-width: 600px;
+}
+
+.LeadModal .Field-textarea {
+  padding: 4px 0;
+  position: relative;
+}
+
+/* TODO: This should be a style from the styleguide */
+.LeadModal .Input,
+.LeadModal .Select,
+.LeadModal .Textarea {
+  padding: 6px 13px;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: UniversalGrey;
+  border: 1px solid Gray3;
+  border-radius: 4px;
+  box-shadow: 0 0.5px 1px 0 rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  appearance: none;
+}
+
+.LeadModal .Input:focus,
+.LeadModal .Select:focus,
+.LeadModal .Textarea:focus {
+  border-color: RentBlue;
+}
+
+.LeadModal .Button {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.LeadModal .Button:hover {
+  background-color: RentBlueDark;
+}
+
+.LeadModal .Label_Textarea {
+  font-size: 13px;
+  font-weight: 400;
+  color: UniversalGrey;
+  padding: 10px 0 0 13px;
+  position: absolute;
+  z-index: 10;
+}
+
+.LeadModal .Textarea {
+  padding-top: 30px;
+  resize: none;
+  height: 97px;
+}
+
+.LeadModal .Input::placeholder,
+.LeadModal .RequiredField_Label {
+  font-size: 13px;
+  font-weight: 400;
+  color: UniversalGrey;
+}
+
+.LeadModal .TermsOfService,
+.LeadModal .Field-checkbox .Label {
+  font-size: 10px;
+  font-weight: 600;
+  color: Gray1;
+}
+
+.LeadModal .Field-checkbox .Label {
+  padding-left: 5px;
+  width: 100%;
+}
+
+.LeadModal .TermsOfService a {
+  font-size: 10px;
+  text-decoration: none;
+  line-height: inherit;
+}
+
+.LeadModal .Field.Field-checkbox {
+  display: inline-flex;
+  flex-direction: row-reverse;
+}
+.LeadModal .LeadForm_Checkbox {
+  margin: 5px;
+}
+
+.LeadModal .TermsOfService {
+  margin: 5px 0 15px 5px;
+}
+
+.LeadModal .Field-checkbox .Input {
+  width: auto;
+  height: auto;
+  appearance: checkbox;
+}
+
+.LeadModal .RequiredField {
+  line-height: 0;
+}
+
+.LeadModal .RequiredField_Label {
+  position: relative;
+  top: 24px;
+  left: 13px;
+}
+
+.LeadModal .RequiredField_Label::after {
+  content: ' *';
+  color: Red;
+}
+
+.LeadModal .Spinner {
+  font-size: 25px;
+  color: #fff;
+  background: RentBlue;
+}
+
+.LeadModal .Spinner::before {
+  background: RentBlue;
+}
+
+.LeadModal .Spinner::after {
+  background: RentBlue;
+}
+
+.LeadModal .Button:hover .Spinner {
+  background: RentBlueDark;
+}
+
+.LeadModal .Button:hover .Spinner::before {
+  background: RentBlueDark;
+}
+
+.LeadModal .Button:hover .Spinner::after {
+  background: RentBlueDark;
+}
+
+.LeadModal .Input-invalid {
+  border: 1px solid Red;
+  background: rgba(234, 81, 23, 0.1);
+}
+
+.LeadModal .ValidatedField {
+  position: relative;
+}
+
+.LeadModal .ValidatedField_CheckMarkIcon {
+  line-height: 0;
+  position: absolute;
+  top: 22px;
+  right: 12px;
+}
+
+.LeadModal .ValidatedField_Message {
+  line-height: 0;
+  margin-left: 13px;
+  font-size: 10px;
+  color: Red;
+}
+
+.LeadModal .ValidatedField_CheckMarkIcon svg {
+  width: 25px;
+  height: 25px;
+}

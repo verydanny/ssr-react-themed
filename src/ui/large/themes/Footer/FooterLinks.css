@@ -1,0 +1,43 @@
+@value ( RentBlue, Gray10 ) from 'ui/shared/themes/colors/colors.css';
+
+.FooterLinks {
+  display: flex;
+  justify-content: space-between;
+  max-width: 763px;
+  margin: 37px auto;
+}
+
+.FooterLinksSection {
+  width: 33%;
+  text-align: center;
+}
+
+.FooterLinksSection_Header {
+  margin: 0;
+  padding: 0;
+}
+
+.FooterLinksSection_Header button {
+  border: none;
+  color: Gray10;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: #fff;
+}
+
+.FooterLinksSection_Links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.FooterLinksSection_Links li {
+  margin: 10px 0;
+}
+
+.FooterLinksSection_Links a {
+  text-decoration: none;
+  font-size: 14px;
+  color: RentBlue;
+}

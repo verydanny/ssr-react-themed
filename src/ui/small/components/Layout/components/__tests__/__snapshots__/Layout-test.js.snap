@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`small/HomeHeader renders 1`] = `
+
+<div data-tag_section="header">
+  <div class="undefined undefined"
+       data-tid="mobile-menu"
+       role="presentation"
+  >
+    <div>
+      <a href="/"
+         data-tid="home-link"
+         data-tag_item="home"
+      >
+        Home
+      </a>
+      <a href="/account/myrent/"
+         data-tag_item="my_rent"
+      >
+        My Rent
+      </a>
+      <a href="/moving-center/"
+         data-tag_item="moving_center"
+      >
+        Moving Center
+      </a>
+      <a href="/manage"
+         data-tag_item="list_a_property"
+      >
+        List a property
+      </a>
+      <a href="/blog/"
+         data-tag_item="blog"
+      >
+        Blog
+      </a>
+    </div>
+  </div>
+</div>
+
+`;

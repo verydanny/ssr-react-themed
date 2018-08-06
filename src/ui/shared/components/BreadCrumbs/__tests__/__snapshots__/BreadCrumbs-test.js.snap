@@ -1,0 +1,430 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BreadCrumbs hood search renders collapsed 1`] = `
+
+<div id="results"
+     data-tid="breadcrumbs"
+>
+  <ol itemprop="breadcrumb"
+      itemscope
+      itemtype="https://schema.org/BreadcrumbList"
+      data-tid="expandedBreadCrumbsText"
+  >
+    <li itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <span itemprop="name">
+        Home
+      </span>
+      <meta itemprop="position"
+            content="1"
+      >
+    </li>
+    <li>
+      <a role="presentation"
+         data-tid="expand-crumbs"
+      >
+        …
+      </a>
+    </li>
+    <li class="undefined"
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <meta itemprop="position"
+            content="2"
+      >
+      <a href="/new-york"
+         itemprop="url"
+      >
+        <span itemprop="name">
+          New York
+        </span>
+      </a>
+    </li>
+    <li class="undefined"
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <meta itemprop="position"
+            content="3"
+      >
+      <a href="/new-york"
+         itemprop="url"
+      >
+        <span itemprop="name">
+          New York
+        </span>
+      </a>
+    </li>
+    <li class="undefined"
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <meta itemprop="position"
+            content="4"
+      >
+      <span itemprop="name">
+        Greenwich Village
+      </span>
+    </li>
+  </ol>
+  <h1>
+    Aliens have arrived
+  </h1>
+</div>
+
+`;
+
+exports[`BreadCrumbs hood search renders exapanded 1`] = `
+
+<div id="results"
+     data-tid="breadcrumbs"
+>
+  <ol itemprop="breadcrumb"
+      itemscope
+      itemtype="https://schema.org/BreadcrumbList"
+      data-tid="expandedBreadCrumbsText"
+  >
+    <li itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <span itemprop="name">
+        Home
+      </span>
+      <meta itemprop="position"
+            content="1"
+      >
+    </li>
+    <li class
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <meta itemprop="position"
+            content="2"
+      >
+      <a href="/new-york"
+         itemprop="url"
+      >
+        <span itemprop="name">
+          New York
+        </span>
+      </a>
+    </li>
+    <li class
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <meta itemprop="position"
+            content="3"
+      >
+      <a href="/new-york"
+         itemprop="url"
+      >
+        <span itemprop="name">
+          New York
+        </span>
+      </a>
+    </li>
+    <li class
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <meta itemprop="position"
+            content="4"
+      >
+      <span itemprop="name">
+        Greenwich Village
+      </span>
+    </li>
+  </ol>
+  <h1>
+    Aliens have arrived
+  </h1>
+</div>
+
+`;
+
+exports[`BreadCrumbs requires propertyType to render 1`] = `null`;
+
+exports[`BreadCrumbs state+city, college, or military search renders collapsed 1`] = `
+
+<div id="results"
+     data-tid="breadcrumbs"
+>
+  <ol itemprop="breadcrumb"
+      itemscope
+      itemtype="https://schema.org/BreadcrumbList"
+      data-tid="expandedBreadCrumbsText"
+  >
+    <li itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <span itemprop="name">
+        Home
+      </span>
+      <meta itemprop="position"
+            content="1"
+      >
+    </li>
+    <li>
+      <a role="presentation"
+         data-tid="expand-crumbs"
+      >
+        …
+      </a>
+    </li>
+    <li class="undefined"
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <meta itemprop="position"
+            content="2"
+      >
+      <a href="/new-york"
+         itemprop="url"
+      >
+        <span itemprop="name">
+          New York
+        </span>
+      </a>
+    </li>
+    <li class="undefined"
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <meta itemprop="position"
+            content="3"
+      >
+      <span itemprop="name">
+        New York
+      </span>
+    </li>
+  </ol>
+  <h1>
+    Aliens have arrived
+  </h1>
+</div>
+
+`;
+
+exports[`BreadCrumbs state+city, college, or military search renders exapanded 1`] = `
+
+<div id="results"
+     data-tid="breadcrumbs"
+>
+  <ol itemprop="breadcrumb"
+      itemscope
+      itemtype="https://schema.org/BreadcrumbList"
+      data-tid="expandedBreadCrumbsText"
+  >
+    <li itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <span itemprop="name">
+        Home
+      </span>
+      <meta itemprop="position"
+            content="1"
+      >
+    </li>
+    <li class
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <meta itemprop="position"
+            content="2"
+      >
+      <a href="/new-york"
+         itemprop="url"
+      >
+        <span itemprop="name">
+          New York
+        </span>
+      </a>
+    </li>
+    <li class
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <meta itemprop="position"
+            content="3"
+      >
+      <span itemprop="name">
+        New York
+      </span>
+    </li>
+  </ol>
+  <h1>
+    Aliens have arrived
+  </h1>
+</div>
+
+`;
+
+exports[`BreadCrumbs zip search renders collapsed 1`] = `
+
+<div id="results"
+     data-tid="breadcrumbs"
+>
+  <ol itemprop="breadcrumb"
+      itemscope
+      itemtype="https://schema.org/BreadcrumbList"
+      data-tid="expandedBreadCrumbsText"
+  >
+    <li itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <span itemprop="name">
+        Home
+      </span>
+      <meta itemprop="position"
+            content="1"
+      >
+    </li>
+    <li>
+      <a role="presentation"
+         data-tid="expand-crumbs"
+      >
+        …
+      </a>
+    </li>
+    <li class="undefined"
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <meta itemprop="position"
+            content="2"
+      >
+      <a href="/new-york"
+         itemprop="url"
+      >
+        <span itemprop="name">
+          New York
+        </span>
+      </a>
+    </li>
+    <li class="undefined"
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <meta itemprop="position"
+            content="3"
+      >
+      <a href="/new-york"
+         itemprop="url"
+      >
+        <span itemprop="name">
+          New York
+        </span>
+      </a>
+    </li>
+    <li class="undefined"
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <meta itemprop="position"
+            content="4"
+      >
+      <span itemprop="name">
+        12345
+      </span>
+    </li>
+  </ol>
+  <h1>
+    Aliens have arrived
+  </h1>
+</div>
+
+`;
+
+exports[`BreadCrumbs zip search renders exapanded 1`] = `
+
+<div id="results"
+     data-tid="breadcrumbs"
+>
+  <ol itemprop="breadcrumb"
+      itemscope
+      itemtype="https://schema.org/BreadcrumbList"
+      data-tid="expandedBreadCrumbsText"
+  >
+    <li itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <span itemprop="name">
+        Home
+      </span>
+      <meta itemprop="position"
+            content="1"
+      >
+    </li>
+    <li class
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <meta itemprop="position"
+            content="2"
+      >
+      <a href="/new-york"
+         itemprop="url"
+      >
+        <span itemprop="name">
+          New York
+        </span>
+      </a>
+    </li>
+    <li class
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <meta itemprop="position"
+            content="3"
+      >
+      <a href="/new-york"
+         itemprop="url"
+      >
+        <span itemprop="name">
+          New York
+        </span>
+      </a>
+    </li>
+    <li class
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+    >
+      <meta itemprop="position"
+            content="4"
+      >
+      <span itemprop="name">
+        12345
+      </span>
+    </li>
+  </ol>
+  <h1>
+    Aliens have arrived
+  </h1>
+</div>
+
+`;

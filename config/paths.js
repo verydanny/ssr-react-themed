@@ -11,6 +11,7 @@ const paths = {
   src: resolveApp('src'),
   srcClient: resolveApp('src/client'),
   srcServer: resolveApp('src/server'),
+  srcUi: resolveApp('src/ui'),
   publicPath: '/static/'
 }
 

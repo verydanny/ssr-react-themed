@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SeoContent apartmentLinks or propertyTypeLinks does not render if there are none 1`] = `
+<div>
+  <div
+    data-tid="seo-content"
+  >
+    <div />
+    <Connect(Themed(DfpAdSlot))
+      adKey="gpt_list_srp_desktop_bottom"
+      tid="srp-bottom-ad"
+    />
+    <Themed(LocalInfo)
+      body="localInfoBody"
+    />
+    <Themed(Nearby)
+      data={Array []}
+      header="Find propertyType in Nearby Cities"
+      linkTagItem="by_nearby_cities"
+      linkTagSection="local_info"
+      maxLinks={5}
+    />
+    <Themed(Nearby)
+      data={Array []}
+      header="Find propertyType in Nearby Neighborhoods"
+      linkTagItem="by_nearby_neighborhoods"
+      linkTagSection="local_info"
+    />
+    <Themed(Nearby)
+      data={Array []}
+      header="Find propertyType Near Local Military Bases"
+      linkTagItem="by_nearby_military"
+      linkTagSection="local_info"
+    />
+  </div>
+  <Connect(Themed(DfpAdSlot))
+    adKey="gpt_list_srp_desktop_bottom_ad2"
+    tid="srp-bottom-ad2"
+  />
+</div>
+`;
+
+exports[`SeoContent localInfoBody when shouldDisplayLocalInfo is false does not render 1`] = `
+<div>
+  <div
+    data-tid="seo-content"
+  >
+    <div />
+    <Connect(Themed(DfpAdSlot))
+      adKey="gpt_list_srp_desktop_bottom"
+      tid="srp-bottom-ad"
+    />
+    <Themed(Nearby)
+      data={Array []}
+      header="Find propertyType in Nearby Cities"
+      linkTagItem="by_nearby_cities"
+      linkTagSection="local_info"
+      maxLinks={5}
+    />
+    <Themed(Nearby)
+      data={Array []}
+      header="Find propertyType in Nearby Neighborhoods"
+      linkTagItem="by_nearby_neighborhoods"
+      linkTagSection="local_info"
+    />
+    <Themed(Nearby)
+      data={Array []}
+      header="Find propertyType Near Local Military Bases"
+      linkTagItem="by_nearby_military"
+      linkTagSection="local_info"
+    />
+  </div>
+  <Connect(Themed(DfpAdSlot))
+    adKey="gpt_list_srp_desktop_bottom_ad2"
+    tid="srp-bottom-ad2"
+  />
+</div>
+`;
+
+exports[`SeoContent localInfoBody when shouldDisplayLocalInfo is true renders 1`] = `
+<div>
+  <div
+    data-tid="seo-content"
+  >
+    <div />
+    <Connect(Themed(DfpAdSlot))
+      adKey="gpt_list_srp_desktop_bottom"
+      tid="srp-bottom-ad"
+    />
+    <Themed(LocalInfo)
+      body="localInfoBody"
+    />
+    <Themed(Nearby)
+      data={Array []}
+      header="Find propertyType in Nearby Cities"
+      linkTagItem="by_nearby_cities"
+      linkTagSection="local_info"
+      maxLinks={5}
+    />
+    <Themed(Nearby)
+      data={Array []}
+      header="Find propertyType in Nearby Neighborhoods"
+      linkTagItem="by_nearby_neighborhoods"
+      linkTagSection="local_info"
+    />
+    <Themed(Nearby)
+      data={Array []}
+      header="Find propertyType Near Local Military Bases"
+      linkTagItem="by_nearby_military"
+      linkTagSection="local_info"
+    />
+  </div>
+  <Connect(Themed(DfpAdSlot))
+    adKey="gpt_list_srp_desktop_bottom_ad2"
+    tid="srp-bottom-ad2"
+  />
+</div>
+`;
+
+exports[`SeoContent nearby colleges displays nearby colleges if shouldDisplayNearbyColleges is true 1`] = `
+<div>
+  <div
+    data-tid="seo-content"
+  >
+    <div />
+    <Connect(Themed(DfpAdSlot))
+      adKey="gpt_list_srp_desktop_bottom"
+      tid="srp-bottom-ad"
+    />
+    <Themed(LocalInfo)
+      body="localInfoBody"
+    />
+    <Themed(Nearby)
+      data={Array []}
+      header="Find propertyType in Nearby Cities"
+      linkTagItem="by_nearby_cities"
+      linkTagSection="local_info"
+      maxLinks={5}
+    />
+    <Themed(Nearby)
+      data={Array []}
+      header="Find propertyType in Nearby Neighborhoods"
+      linkTagItem="by_nearby_neighborhoods"
+      linkTagSection="local_info"
+    />
+    <Themed(Nearby)
+      data={Array []}
+      header="Find propertyType Near Local Colleges"
+      linkTagItem="by_nearby_colleges"
+      linkTagSection="local_info"
+      maxLinks={10}
+    />
+    <Themed(Nearby)
+      data={Array []}
+      header="Find propertyType Near Local Military Bases"
+      linkTagItem="by_nearby_military"
+      linkTagSection="local_info"
+    />
+  </div>
+  <Connect(Themed(DfpAdSlot))
+    adKey="gpt_list_srp_desktop_bottom_ad2"
+    tid="srp-bottom-ad2"
+  />
+</div>
+`;
+
+exports[`SeoContent nearby colleges does not display nearby colleges if shouldDisplayNearbyColleges is false 1`] = `
+<div>
+  <div
+    data-tid="seo-content"
+  >
+    <div />
+    <Connect(Themed(DfpAdSlot))
+      adKey="gpt_list_srp_desktop_bottom"
+      tid="srp-bottom-ad"
+    />
+    <Themed(LocalInfo)
+      body="localInfoBody"
+    />
+    <Themed(Nearby)
+      data={Array []}
+      header="Find propertyType in Nearby Cities"
+      linkTagItem="by_nearby_cities"
+      linkTagSection="local_info"
+      maxLinks={5}
+    />
+    <Themed(Nearby)
+      data={Array []}
+      header="Find propertyType in Nearby Neighborhoods"
+      linkTagItem="by_nearby_neighborhoods"
+      linkTagSection="local_info"
+    />
+    <Themed(Nearby)
+      data={Array []}
+      header="Find propertyType Near Local Military Bases"
+      linkTagItem="by_nearby_military"
+      linkTagSection="local_info"
+    />
+  </div>
+  <Connect(Themed(DfpAdSlot))
+    adKey="gpt_list_srp_desktop_bottom_ad2"
+    tid="srp-bottom-ad2"
+  />
+</div>
+`;

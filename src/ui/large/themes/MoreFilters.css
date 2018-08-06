@@ -1,0 +1,278 @@
+@value ( RentBlue, RentBlueDark, RentBlue33, UniversalGrey, Gray3, Gray8 ) from 'ui/shared/themes/colors/colors.css';
+@value ( HeaderHeight ) from 'ui/large/themes/variables/variables.css';
+/* Subtracting 10px because iOS 100vh includes extra space for the browser bar */
+@value MoreFiltersModalHeight calc(100vh - HeaderHeight - 10px);
+@value MoreFiltersWidth 1024px;
+
+.MoreFiltersModalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display:flex;
+  justify-content: center;
+}
+
+.MoreFiltersModal {
+  align-self: flex-start;
+  z-index: 1;
+  /* Push down below the header */
+  margin-top: HeaderHeight;
+}
+
+.MoreFiltersModal .Modal {
+  width: MoreFiltersWidth;
+  /* Override position absolute which is being set elsewhere */
+  position: static;
+  /* In case the modal is taller than window size */
+  overflow-y: auto;
+}
+
+.MoreFiltersModal .ModalBody {
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+}
+
+.MoreFiltersModal .ModalBody>div {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  max-height: MoreFiltersModalHeight;
+  min-height: 300px;
+}
+
+.MoreFiltersModal .ModalBody>div {
+  display: flex;
+  flex-direction: column;
+  /*this overflow property is added to rectify a bug in FF browsers*/
+  overflow: hidden;
+}
+
+.MoreFiltersModal .Modal-open {
+  display: block;
+}
+
+.MoreFiltersModal .Modal-close {
+  display: none;
+}
+
+.MoreFiltersModal_CloseButton {
+  float: right;
+  cursor: pointer;
+  font-size: 18px;
+  color: RentBlue;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-right: 38px;
+}
+
+.MoreFiltersModal_Header {
+  flex-shrink: 0;
+  flex-grow: 0;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.MoreFiltersModal_Content {
+  flex-grow: 1;
+  overflow-y: auto;
+  /* Prevent scrollbar from affecting the width */
+  overflow-y: overlay;
+  /* Prevent horizontal scrollbar when price slider floats right */
+  overflow-x: hidden;
+  padding: 0 40px;
+}
+
+.MoreFiltersModal_Content::-webkit-scrollbar {
+  width: 7px;
+  background: transparent;
+}
+
+.MoreFiltersModal_Content:hover::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background-color: Gray8;
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+.MoreFiltersModal_PropertyCount {
+  font-size: 18px;
+  color: UniversalGrey;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-left: 38px;
+  line-height: 1;
+}
+
+.MoreFiltersModal_Row {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 3px;
+}
+
+.MoreFiltersModal_Row-price {
+  margin-bottom: 20px;
+}
+
+.MoreFiltersModal_Row-restrictions,
+.MoreFiltersModal_Row-propertyTypes,
+.MoreFiltersModal_Row-amenities,
+.MoreFiltersModal_Row-beds {
+  border-top: 1px solid Gray3;
+  padding-top: 20px;
+}
+
+.MoreFiltersModal_RowLabel {
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 120px;
+  vertical-align: middle;
+  margin: 0;
+  margin-top: 9px;
+  font-size: 15px;
+  font-weight: 600;
+  color: UniversalGrey;
+  line-height: 1;
+}
+
+.MoreFiltersModal_Row-price .MoreFiltersModal_RowLabel {
+  margin-top: 32px;
+}
+
+.MoreFiltersModal_RowContent {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.MoreFiltersModal_RowButtons {
+  display: block;
+  width: 110%;
+}
+
+.MoreFiltersModal_Footer {
+  margin: 0 40px 30px;
+  border-top: 1px solid Gray3;
+  padding-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.MoreFiltersModal_ResetAll {
+  font-size: 18px;
+  color: RentBlue;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 11px;
+  background: none;
+  border: none;
+}
+
+.MoreFiltersModal_Cancel {
+  width: 200px;
+  height: 36px;
+  background: none;
+  padding: 0;
+  border-radius: 4px;
+  border: 1px solid RentBlue;
+  color: RentBlue;
+  display: inline-block;
+  text-align: center;
+  line-height: 34px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 32px;
+}
+
+.MoreFiltersModal_ShowProps {
+  width: 200px;
+  height: 36px;
+  border-radius: 4px;
+  background-color: RentBlue;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  line-height: 34px;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.MoreFiltersModal_ShowProps:hover {
+  background-color: RentBlueDark;
+}
+
+.MoreFiltersModal_RowButtons .ToggleButton,
+.MoreFiltersModal .RadioButton {
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: solid 1px Gray3;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  margin-right: 38px;
+  margin-bottom: 15px;
+  background-color: transparent;
+}
+
+.MoreFiltersModal_RowButtons .ToggleButton:hover,
+.MoreFiltersModal .RadioButton:hover {
+  border-color: RentBlue;
+}
+
+.MoreFiltersModal_RowButtons .ToggleButton:nth-child(4n),
+.MoreFiltersModal .RadioButton:nth-child(4n) {
+  margin-right: 0;
+}
+
+.MoreFiltersModal_RowButtons .ToggleButton,
+.MoreFiltersModal .RadioButton label {
+  display: inline-block;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.MoreFiltersModal_RowButtons .ToggleButton {
+  width: 178px;
+}
+
+.MoreFiltersModal .RadioButton label {
+  width: 176px;
+}
+
+.MoreFiltersModal .RadioButton .Label {
+  cursor: pointer;
+}
+
+.MoreFiltersModal_RowButtons .ToggleButton-on,
+.MoreFiltersModal .RadioButton-checked {
+  background-color: RentBlue;
+  border-color: RentBlue;
+  color: white;
+}
+
+.MoreFiltersModal_RowButtons .ToggleButton-on:hover,
+.MoreFiltersModal .RadioButton-checked:hover {
+  background-color: RentBlueDark;
+  border-color: RentBlueDark;
+}
+
+.MoreFiltersModal .RadioButton .Input {
+  margin-left: 10px;
+  border: 0;
+  box-shadow: none;
+}
+
+.MoreFiltersModal .RadioButton .Input:after {
+  padding: 10px 5px;
+}
+
+.MoreFiltersModal .RadioButton-hidden .Input {
+  display: none;
+}

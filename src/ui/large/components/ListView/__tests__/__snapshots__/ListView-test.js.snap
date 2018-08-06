@@ -1,0 +1,656 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListView renders listings 1`] = `
+
+<div>
+  <div>
+    <div class>
+      <form action="?"
+            data-tag_section="search_input"
+      >
+        <input data-tid="search-location"
+               type="search"
+               name="searchInput"
+               aria-label="Search"
+               class
+               placeholder="City, State or Zip"
+               data-tag_item="search_bar"
+               autocomplete="off"
+               autocorrect="off"
+               value
+        >
+      </form>
+    </div>
+    <div data-tag_item="filters_max_price"
+         data-tag_section="quick_filters"
+    >
+      <div class>
+        <button data-tid="dropdown-anchor"
+                themed="[object Object]"
+                class
+        >
+          <span>
+          </span>
+          <span>
+            Max Price
+          </span>
+        </button>
+      </div>
+    </div>
+    <div data-tag_item="filters_bedrooms"
+         data-tag_section="quick_filters"
+    >
+      <div class>
+        <button data-tid="dropdown-anchor"
+                themed="[object Object]"
+                class
+        >
+          <span>
+          </span>
+          <span>
+            Beds
+          </span>
+        </button>
+      </div>
+    </div>
+    <div class
+         data-tag_item="filters"
+         data-tag_section="more_filters"
+         role="presentation"
+         data-tid="more-filters"
+    >
+      <div>
+        More filters
+      </div>
+    </div>
+  </div>
+  <ul data-tag_section="filter_tokens"
+      data-tag_item="filter_tokens"
+      data-tid="filter-tokens"
+  >
+  </ul>
+  <div data-tid="list-view">
+    <div>
+      <div>
+        <div data-tid="property-count"
+             class
+        >
+          10 Properties
+        </div>
+        <div class
+             data-tid="sort-filter"
+             data-tag_item="sort_dropdown"
+        >
+          <button data-tid="dropdown-anchor"
+                  themed="[object Object]"
+                  class
+          >
+            <span>
+              Sort by:
+            </span>
+            <span>
+              Best Match
+            </span>
+          </button>
+        </div>
+      </div>
+      <div data-tag_section="property_listings">
+      </div>
+      <div>
+        <div data-tid="seo-content">
+          <div>
+          </div>
+          <div class
+               data-tid="srp-bottom-ad"
+               id="gpt_list_srp_desktop_bottom"
+          >
+            <div class="adunitContainer">
+              <div id="adSlot-5"
+                   class="adBox"
+              >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class
+             data-tid="srp-bottom-ad2"
+             id="gpt_list_srp_desktop_bottom_ad2"
+        >
+          <div class="adunitContainer">
+            <div id="adSlot-6"
+                 class="adBox"
+            >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <footer data-tag_section="footer">
+        <div>
+          <div data-tid="rent-logo-footer">
+            <a href="/">
+            </a>
+          </div>
+          <div>
+            <div data-tid="our-company"
+                 class
+            >
+              <h4>
+                <button>
+                  Our Company
+                </button>
+              </h4>
+              <ul>
+                <li>
+                  <a href="/company/company-overview/"
+                     data-tag_item="about_us"
+                  >
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="/company/press/contacts/"
+                     data-tag_item="media_contact"
+                  >
+                    Press &amp; Media
+                  </a>
+                </li>
+                <li>
+                  <a href="/careers/jobs/"
+                     data-tag_item="careers"
+                  >
+                    Careers
+                  </a>
+                </li>
+                <li>
+                  <a href="/company/privacy-full/"
+                     data-tag_item="privacy_policy"
+                  >
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a href="/company/legal/termsofservice/"
+                     data-tag_item="terms_of_service"
+                  >
+                    Terms of Service
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div data-tid="popular-searches"
+                 class
+            >
+              <h4>
+                <button>
+                  Popular Searches
+                </button>
+              </h4>
+              <ul>
+                <li>
+                  <a href="/apartments-by-city"
+                     data-tag_item="popular_city"
+                  >
+                    Popular Cities
+                  </a>
+                </li>
+                <li>
+                  <a href="/search-by-state"
+                     data-tag_item="us_state"
+                  >
+                    Search by State
+                  </a>
+                </li>
+                <li>
+                  <a href="/rentals-by-type"
+                     data-tag_item="rental_type"
+                  >
+                    Rental Type
+                  </a>
+                </li>
+                <li>
+                  <a href="/off-campus-housing"
+                     data-tag_item="college_university"
+                  >
+                    College &amp; University
+                  </a>
+                </li>
+                <li>
+                  <a href="/housing-near-military-base"
+                     data-tag_item="military"
+                  >
+                    Military Base
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div data-tid="let-us-help"
+                 class
+            >
+              <h4>
+                <button>
+                  Let Us Help
+                </button>
+              </h4>
+              <ul>
+                <li>
+                  <a href="/company/renter-help/"
+                     data-tag_item="renter_help"
+                  >
+                    Help for Renters
+                  </a>
+                </li>
+                <li>
+                  <a href="/company/security/"
+                     data-tag_item="rental_safety"
+                  >
+                    Avoid Scams
+                  </a>
+                </li>
+                <li>
+                  <a href="/manage"
+                     data-tag_item="list_a_property"
+                  >
+                    List a Property
+                  </a>
+                </li>
+                <li>
+                  <a href="/company/renter-help/"
+                     data-tag_item="contact_support"
+                  >
+                    Contact Support
+                  </a>
+                </li>
+                <li>
+                  <a href="/sitemap"
+                     data-tag_item="sitemap"
+                  >
+                    Site Map
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div style="height: 30px;"
+                 class="lazyload-placeholder"
+            >
+            </div>
+          </div>
+          <div data-tid="footer-app-links">
+            Download the Rent.com app for
+            <a href="https://play.google.com/store/apps/details?id=com.rent&amp;referrer=ts%3D96e725f6-e305-11e4-9781-00163cabc4e4"
+               target="_blank"
+               rel="external noopener noreferrer"
+               data-tag_item="android_download_button"
+            >
+              Android
+            </a>
+            and
+            <a href="https://itunes.apple.com/us/app/rent.com-apartments-home-rentals/id388038507?mt=8"
+               target="_blank"
+               rel="external noopener noreferrer"
+               data-tag_item="ios_download_button"
+            >
+              iOS
+            </a>
+            .
+          </div>
+        </div>
+        <div>
+          <div>
+            <div data-tid="rentpath-copyright-text">
+              © 2018 RentPath, LLC.  All rights reserved.
+              <a href="/company/legal/termsofservice/"
+                 data-tag_item="terms_of_service_bottom"
+              >
+                Terms of Service
+              </a>
+              and
+              <a href="/company/privacy-full/"
+                 data-tag_item="privacy_policy_bottom"
+              >
+                Privacy Policy
+              </a>
+              .
+            </div>
+            <a href="/company/legal/equal/"
+               data-tag_item="equal_housing"
+               title="Equal Housing Opportunity"
+            >
+            </a>
+          </div>
+        </div>
+      </footer>
+      <div class
+           data-tid="srp-footer-ad"
+           id="gpt_list_srp_footer_ad"
+      >
+        <div class="adunitContainer">
+          <div id="adSlot-7"
+               class="adBox"
+          >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`ListView renders zero result card 1`] = `
+
+<div>
+  <div>
+    <div class>
+      <form action="?"
+            data-tag_section="search_input"
+      >
+        <input data-tid="search-location"
+               type="search"
+               name="searchInput"
+               aria-label="Search"
+               class
+               placeholder="City, State or Zip"
+               data-tag_item="search_bar"
+               autocomplete="off"
+               autocorrect="off"
+               value
+        >
+      </form>
+    </div>
+    <div data-tag_item="filters_max_price"
+         data-tag_section="quick_filters"
+    >
+      <div class>
+        <button data-tid="dropdown-anchor"
+                themed="[object Object]"
+                class
+        >
+          <span>
+          </span>
+          <span>
+            Max Price
+          </span>
+        </button>
+      </div>
+    </div>
+    <div data-tag_item="filters_bedrooms"
+         data-tag_section="quick_filters"
+    >
+      <div class>
+        <button data-tid="dropdown-anchor"
+                themed="[object Object]"
+                class
+        >
+          <span>
+          </span>
+          <span>
+            Beds
+          </span>
+        </button>
+      </div>
+    </div>
+    <div class
+         data-tag_item="filters"
+         data-tag_section="more_filters"
+         role="presentation"
+         data-tid="more-filters"
+    >
+      <div>
+        More filters
+      </div>
+    </div>
+  </div>
+  <ul data-tag_section="filter_tokens"
+      data-tag_item="filter_tokens"
+      data-tid="filter-tokens"
+  >
+  </ul>
+  <div data-tid="list-view">
+    <div class
+         data-tid="zeroResultsCard"
+    >
+      <div>
+        <div data-tid="zero_properties">
+          0 Properties Found
+        </div>
+        <div data-tid="suggest_text">
+          Try adjusting the filters above or zoom out on the map
+        </div>
+      </div>
+      <div>
+        <div data-tid="next_steps">
+          Next Steps :
+        </div>
+        <button class
+                data-tid="adjust_filters"
+        >
+          Adjust Filters
+        </button>
+      </div>
+      <div>
+        <span>
+          or
+        </span>
+        <button data-tid="zoom_out">
+          Zoom Out
+        </button>
+      </div>
+    </div>
+    <div>
+      <footer data-tag_section="footer">
+        <div>
+          <div data-tid="rent-logo-footer">
+            <a href="/">
+            </a>
+          </div>
+          <div>
+            <div data-tid="our-company"
+                 class
+            >
+              <h4>
+                <button>
+                  Our Company
+                </button>
+              </h4>
+              <ul>
+                <li>
+                  <a href="/company/company-overview/"
+                     data-tag_item="about_us"
+                  >
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="/company/press/contacts/"
+                     data-tag_item="media_contact"
+                  >
+                    Press &amp; Media
+                  </a>
+                </li>
+                <li>
+                  <a href="/careers/jobs/"
+                     data-tag_item="careers"
+                  >
+                    Careers
+                  </a>
+                </li>
+                <li>
+                  <a href="/company/privacy-full/"
+                     data-tag_item="privacy_policy"
+                  >
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a href="/company/legal/termsofservice/"
+                     data-tag_item="terms_of_service"
+                  >
+                    Terms of Service
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div data-tid="popular-searches"
+                 class
+            >
+              <h4>
+                <button>
+                  Popular Searches
+                </button>
+              </h4>
+              <ul>
+                <li>
+                  <a href="/apartments-by-city"
+                     data-tag_item="popular_city"
+                  >
+                    Popular Cities
+                  </a>
+                </li>
+                <li>
+                  <a href="/search-by-state"
+                     data-tag_item="us_state"
+                  >
+                    Search by State
+                  </a>
+                </li>
+                <li>
+                  <a href="/rentals-by-type"
+                     data-tag_item="rental_type"
+                  >
+                    Rental Type
+                  </a>
+                </li>
+                <li>
+                  <a href="/off-campus-housing"
+                     data-tag_item="college_university"
+                  >
+                    College &amp; University
+                  </a>
+                </li>
+                <li>
+                  <a href="/housing-near-military-base"
+                     data-tag_item="military"
+                  >
+                    Military Base
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div data-tid="let-us-help"
+                 class
+            >
+              <h4>
+                <button>
+                  Let Us Help
+                </button>
+              </h4>
+              <ul>
+                <li>
+                  <a href="/company/renter-help/"
+                     data-tag_item="renter_help"
+                  >
+                    Help for Renters
+                  </a>
+                </li>
+                <li>
+                  <a href="/company/security/"
+                     data-tag_item="rental_safety"
+                  >
+                    Avoid Scams
+                  </a>
+                </li>
+                <li>
+                  <a href="/manage"
+                     data-tag_item="list_a_property"
+                  >
+                    List a Property
+                  </a>
+                </li>
+                <li>
+                  <a href="/company/renter-help/"
+                     data-tag_item="contact_support"
+                  >
+                    Contact Support
+                  </a>
+                </li>
+                <li>
+                  <a href="/sitemap"
+                     data-tag_item="sitemap"
+                  >
+                    Site Map
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div style="height: 30px;"
+                 class="lazyload-placeholder"
+            >
+            </div>
+          </div>
+          <div data-tid="footer-app-links">
+            Download the Rent.com app for
+            <a href="https://play.google.com/store/apps/details?id=com.rent&amp;referrer=ts%3D96e725f6-e305-11e4-9781-00163cabc4e4"
+               target="_blank"
+               rel="external noopener noreferrer"
+               data-tag_item="android_download_button"
+            >
+              Android
+            </a>
+            and
+            <a href="https://itunes.apple.com/us/app/rent.com-apartments-home-rentals/id388038507?mt=8"
+               target="_blank"
+               rel="external noopener noreferrer"
+               data-tag_item="ios_download_button"
+            >
+              iOS
+            </a>
+            .
+          </div>
+        </div>
+        <div>
+          <div>
+            <div data-tid="rentpath-copyright-text">
+              © 2018 RentPath, LLC.  All rights reserved.
+              <a href="/company/legal/termsofservice/"
+                 data-tag_item="terms_of_service_bottom"
+              >
+                Terms of Service
+              </a>
+              and
+              <a href="/company/privacy-full/"
+                 data-tag_item="privacy_policy_bottom"
+              >
+                Privacy Policy
+              </a>
+              .
+            </div>
+            <a href="/company/legal/equal/"
+               data-tag_item="equal_housing"
+               title="Equal Housing Opportunity"
+            >
+            </a>
+          </div>
+        </div>
+      </footer>
+      <div class
+           data-tid="srp-footer-ad"
+           id="gpt_list_srp_footer_ad"
+      >
+        <div class="adunitContainer">
+          <div id="adSlot-3"
+               class="adBox"
+          >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+`;

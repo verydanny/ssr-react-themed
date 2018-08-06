@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LeadModal tagging tags close button 1`] = `1`;
+
+exports[`LeadModal tagging tags lead_submission_form section 1`] = `1`;
+
+exports[`LeadModal tagging tags name input 1`] = `1`;
+
+exports[`LeadModal tagging tags phone number link 1`] = `1`;
+
+exports[`LeadModal tagging tags phone_number input 1`] = `1`;
+
+exports[`LeadModal tagging tags text input 1`] = `1`;

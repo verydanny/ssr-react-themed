@@ -1,0 +1,11 @@
+.Dfp {
+  display: none;
+}
+
+.Dfp-ready {
+  display: block;
+}
+
+.Dfp-centered {
+  text-align: center;
+}

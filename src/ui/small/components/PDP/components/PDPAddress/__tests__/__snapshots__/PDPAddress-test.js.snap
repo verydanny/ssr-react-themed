@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PDPAddress /> should render streetAddress 1`] = `
+
+<div class="PDPAddress"
+     data-tid="pdpAddress"
+     itemscope
+     itemtype="https://schema.org/PostalAddress"
+     itemprop="address"
+>
+  <div class="PDPAddress_StreetAddress"
+       data-tid="addressStreetAddress"
+       itemprop="streetAddress"
+  >
+    841 Memorial Dr SE
+  </div>
+  <div data-tid="addressCityStateZip">
+    <span itemprop="addressLocality">
+      Atlanta
+    </span>
+    ,
+    <span itemprop="addressRegion">
+      GA
+    </span>
+    <span itemprop="postalCode">
+      30318
+    </span>
+  </div>
+  <div data-tid="addressNeighborhood">
+    Reynoldstown
+  </div>
+</div>
+
+`;

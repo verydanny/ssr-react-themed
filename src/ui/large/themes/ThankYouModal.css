@@ -1,0 +1,77 @@
+@value ( UniversalGrey, RentBlue, Gray3 ) from 'ui/shared/themes/colors/colors.css';
+
+.ThankYouModal {
+}
+
+.ThankYouModal .Modal {
+  width: 515px;
+  height: 704px;
+  /* Prevent modal from going off-screen at the top for small window height */
+  max-height: 100vh;
+  /* Override position absolute which is being set elsewhere */
+  position: relative;
+  /* In case modal is taller than window */
+  overflow-y: auto;
+}
+
+.ThankYouModal .Modal::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+
+.ThankYouModal .ModalBody {
+  padding: 16px;
+  height: 672px;
+  background: #FFF;
+  border-radius: 5px;
+}
+
+.ThankYouModal .Modal-open {
+  display: block;
+}
+
+.ThankYouModal .Modal-close {
+  display: none;
+}
+
+.ThankYouModal_Content {
+  display: flex;
+  flex-direction: column;
+  height: 672px;
+}
+
+.ThankYouModal_CloseButton {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 20px;
+  z-index: 10010;
+  cursor: pointer;
+}
+
+.ThankYouModal_CloseButton svg {
+  height: 1em;
+  width: 1em;
+}
+
+.ThankYouModal_Header {
+  color: UniversalGrey;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.ThankYouModal_CheckMarkIcon > svg {
+  width: 25px;
+  height: 25px;
+}
+
+.ThankYouModal_Message {
+  padding-left: 8px;
+}
+
+.ThankYouModal_BackToSearch {
+  display: none;
+}

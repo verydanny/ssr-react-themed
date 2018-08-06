@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/shared/components/SeoContent/LocalInfo renders the correct output for 7 items 1`] = `
+<div
+  data-tag_section="local_info"
+  data-tid="link-list"
+>
+  <div
+    data-tid="collapsible-section"
+  >
+    <h2
+      data-tag_item="header"
+    >
+      <button>
+        Foo City Apartment Options
+      </button>
+    </h2>
+    <div>
+      <div
+        class=""
+      >
+        <ul
+          class=""
+        >
+          <li
+            class=""
+            data-tid="list-item-0"
+            index="0"
+          >
+            <a
+              data-tag_item="studio"
+              href="/california/santa-monica-apartments/studio"
+            >
+              Studio Apartments
+            </a>
+          </li>
+          <li
+            class=""
+            data-tid="list-item-1"
+            index="1"
+          >
+            <a
+              data-tag_item="1_bedroom"
+              href="/california/santa-monica-apartments/1-bedroom"
+            >
+              1 Bedroom Apartments
+            </a>
+          </li>
+          <li
+            class=""
+            data-tid="list-item-2"
+            index="2"
+          >
+            <a
+              data-tag_item="2_bedroom"
+              href="/california/santa-monica-apartments/2-bedroom"
+            >
+              2 Bedroom Apartments
+            </a>
+          </li>
+          <li
+            class=""
+            data-tid="list-item-3"
+            index="3"
+          >
+            <a
+              data-tag_item="3_bedroom"
+              href="/california/santa-monica-apartments/3-bedroom"
+            >
+              3 Bedroom Apartments
+            </a>
+          </li>
+          <li
+            class=""
+            data-tid="list-item-4"
+            index="4"
+          >
+            <a
+              data-tag_item="pet_friendly"
+              href="/california/santa-monica-apartments/pet-friendly"
+            >
+              Pet Friendly Apartments
+            </a>
+          </li>
+        </ul>
+        <div
+          class=""
+        >
+          <ul
+            class=""
+          >
+            <li
+              class=""
+              data-tid="list-item-0"
+              index="0"
+            >
+              <a
+                data-tag_item="furnished"
+                href="/california/santa-monica-apartments/furnished"
+              >
+                Furnished Apartments
+              </a>
+            </li>
+            <li
+              class=""
+              data-tid="list-item-1"
+              index="1"
+            >
+              <a
+                data-tag_item="cheap"
+                href="/california/santa-monica-apartments/cheap"
+              >
+                Cheap Apartments
+              </a>
+            </li>
+          </ul>
+        </div>
+        <button
+          class=""
+          data-tid="button"
+        >
+          <span>
+            More
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ui/shared/components/SeoContent/LocalInfo renders the correct output for 7 items, with only one item being hidden (does not collapse) 1`] = `
+<div
+  data-tag_section="local_info"
+  data-tid="link-list"
+>
+  <div
+    data-tid="collapsible-section"
+  >
+    <h2
+      data-tag_item="header"
+    >
+      <button>
+        Foo City Apartment Options
+      </button>
+    </h2>
+    <div>
+      <div
+        class=""
+      >
+        <ul
+          class=""
+        >
+          <li
+            class=""
+            data-tid="list-item-0"
+            index="0"
+          >
+            <a
+              data-tag_item="studio"
+              href="/california/santa-monica-apartments/studio"
+            >
+              Studio Apartments
+            </a>
+          </li>
+          <li
+            class=""
+            data-tid="list-item-1"
+            index="1"
+          >
+            <a
+              data-tag_item="1_bedroom"
+              href="/california/santa-monica-apartments/1-bedroom"
+            >
+              1 Bedroom Apartments
+            </a>
+          </li>
+          <li
+            class=""
+            data-tid="list-item-2"
+            index="2"
+          >
+            <a
+              data-tag_item="2_bedroom"
+              href="/california/santa-monica-apartments/2-bedroom"
+            >
+              2 Bedroom Apartments
+            </a>
+          </li>
+          <li
+            class=""
+            data-tid="list-item-3"
+            index="3"
+          >
+            <a
+              data-tag_item="3_bedroom"
+              href="/california/santa-monica-apartments/3-bedroom"
+            >
+              3 Bedroom Apartments
+            </a>
+          </li>
+          <li
+            class=""
+            data-tid="list-item-4"
+            index="4"
+          >
+            <a
+              data-tag_item="pet_friendly"
+              href="/california/santa-monica-apartments/pet-friendly"
+            >
+              Pet Friendly Apartments
+            </a>
+          </li>
+          <li
+            class=""
+            data-tid="list-item-5"
+            index="5"
+          >
+            <a
+              data-tag_item="furnished"
+              href="/california/santa-monica-apartments/furnished"
+            >
+              Furnished Apartments
+            </a>
+          </li>
+          <li
+            class=""
+            data-tid="list-item-6"
+            index="6"
+          >
+            <a
+              data-tag_item="cheap"
+              href="/california/santa-monica-apartments/cheap"
+            >
+              Cheap Apartments
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

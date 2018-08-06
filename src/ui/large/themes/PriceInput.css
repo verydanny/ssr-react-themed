@@ -1,0 +1,146 @@
+@value (
+  RentBlue,
+  Gray3,
+  UniversalGrey
+) from 'ui/shared/themes/colors/colors.css';
+
+.PriceInput {
+  height: 4em;
+  /* Add space to the top for the labels to be positioned */
+  padding-top: 1.5em;
+}
+
+.PriceInput .slider {
+  appearance: none;
+  background: RentBlue;
+  border-radius: 100%;
+  cursor: pointer;
+  display: block;
+  height: 16px;
+  outline: none;
+  position: absolute;
+  top: -10px;
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+  width: 16px;
+}
+
+.PriceInput .slider:active {
+  transform: scale(1.3);
+}
+
+.PriceInput .slider:focus {
+  box-shadow: 0 0 0 5px rgba(63, 81, 181, 0.2);
+}
+
+.PriceInput .sliderContainer {
+  transition: left 0.3s ease-out;
+}
+
+.PriceInput .labelContainer {
+  font-size: 12px;
+  position: relative;
+  display: block;
+  width: 4rem;
+  white-space: nowrap;
+  text-align: center;
+  top: -38px;
+  left: calc(-2rem + 5px);
+  color: UniversalGrey;
+  height: 1em;
+}
+
+.PriceInput .labelContainer:after {
+  content: " ";
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 4px solid UniversalGrey;
+}
+
+.PriceInput_MinLabel,
+.PriceInput_MaxLabel {
+  transition: all 200ms ease;
+}
+
+.PriceInput-spreadLabels .PriceInput_MinLabel,
+.PriceInput-spreadLabels .PriceInput_MaxLabel {
+  transition: all 300ms ease;
+}
+
+.PriceInput-spreadLabels .PriceInput_MinLabel {
+  margin-right: 1px;
+  padding-right: 1.5rem;
+  text-align: right;
+  float: right;
+}
+
+.PriceInput-spreadLabels .PriceInput_MaxLabel {
+  margin-left: 1px;
+  padding-left: 2rem;
+  text-align: left;
+  float: left;
+}
+
+.PriceInput .minLabel,
+.PriceInput .maxLabel {
+  display: none;
+}
+
+.PriceInput .track {
+  background: Gray3;
+  border-radius: 20px;
+  cursor: pointer;
+  display: block;
+  height: 5px;
+  margin-top: 13px;
+  margin-bottom: 12px;
+  margin-left: 5px;
+  width: 100%;
+  transition: left 0.3s ease-out, width 0.3s ease-out;
+}
+
+.PriceInput .activeTrack {
+  background: RentBlue;
+  height: 5px;
+  position: relative;
+  transition: left 0.3s ease-out, width 0.3s ease-out;
+}
+
+.PriceInput .inputRange {
+  height: 1rem;
+  margin-right: 24px;
+  position: relative;
+}
+
+.PriceInput_Grid {
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 12px;
+  margin-left: 5px;
+  margin-right: 20px;
+  height: 20px;
+  color: UniversalGrey;
+}
+
+.PriceInput_GridItem {
+  position: absolute;
+  width: 50px;
+  text-align: center;
+  margin-left: -23px;
+}
+
+.PriceInput_GridItem:before {
+  content: "";
+  width: 1px;
+  height: 10px;
+  background-color: Gray3;
+  position: absolute;
+  top: -14px;
+  left: 25px;
+  display: block;
+}

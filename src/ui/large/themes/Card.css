@@ -1,0 +1,240 @@
+@value ( BasicShadow ) from 'ui/shared/themes/variables/variables.css';
+@value ( CardMarginBottom ) from 'ui/large/themes/variables/variables.css';
+@value ( RentBlueDark, RentBlue, RentBlue66, Gray1, Gray3, Gray9, UniversalGrey ) from 'ui/shared/themes/colors/colors.css';
+@value CardHeight 180px;
+
+.ListingCard {
+  width: 475px;
+  height: CardHeight;
+  background-color: #fff;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: BasicShadow;
+  margin-bottom: CardMarginBottom;
+  border-top: 0.5px solid transparent;
+  /* Force hardware acceleration */
+  /* Improve scrolling performance */
+  transform: translate3d(0, 0, 0);
+}
+
+.ListingCard-active,
+.ListingCard:hover {
+  box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
+  border-top: 0.5px solid Gray3;
+  cursor: pointer;
+}
+
+.ListingCard_Gallery {
+  position: absolute;
+  top:0;
+  left:0;
+  bottom: 0;
+  width: 237px;
+  background-color: UniversalGrey;
+}
+
+.ListingCard_Gallery :global(.image-gallery-slide) img {
+  height: CardHeight;
+  width: 100%;
+  object-fit: cover;
+  background-color: UniversalGrey; /* Show background color when no photo */
+}
+
+.ListingInfo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 232px;
+  border-right: 6px solid transparent;
+}
+
+.ListingCard-active .ListingInfo {
+  border-right: 6px solid RentBlue;
+}
+
+.ListingInfo_Content {
+  position: absolute;
+  padding-left: 8px;
+  padding-right: 13px;
+  padding-top: 4px;
+  padding-bottom: 9px;
+}
+
+.Property_Price {
+  width: 115px;
+  height: 18px;
+  white-space: nowrap;
+}
+
+.Property_Address {
+  width: 100%;
+  min-height: 18px;
+}
+
+.Property_Name {
+  float: left;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.07;
+  color: UniversalGrey;
+  text-decoration: none;
+}
+
+.Property_Rating {
+  float: right;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: right;
+  color: Gray1;
+  margin-right: -6px; /* Adjust for card right border */
+}
+
+.Property_BedBath {
+  height: 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: UniversalGrey;
+}
+
+.Property_Info {
+  float: left;
+  padding-top: 21px;
+}
+
+.Property_UnitsSpecials {
+  font-size: 13px;
+  line-height: 1.38;
+  color: RentBlue;
+}
+
+.Property_NeighborhoodInfo {
+  height: 19px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: Gray1;
+}
+
+.Property_RecentChange {
+  font-size: 13px;
+  line-height: 1.46;
+  letter-spacing: 0.1px;
+  color: Gray1;
+}
+
+.Property_Contact {
+  float: left;
+  width: 117px;
+  height: 36px;
+  background-color: RentBlue;
+  text-align: center;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.46;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+  /* border and border-color properties below are browser specific
+  styles and are added for a bug fix in FF and safari browser */
+  border: none;
+  border-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  cursor: pointer;
+  padding-top: 3px;
+  padding-right: 6px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+}
+
+.Property_Contact:hover {
+  background-color: RentBlueDark;
+}
+
+.Property_ContactNumber {
+  margin-top: 17px;
+  float: right;
+  color: RentBlue;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.46;
+  letter-spacing: 0.1px;
+  cursor: auto;
+  margin-right: -6px;  /* adjust for card right border */
+}
+
+.Property_BlankLine {
+  border-bottom: 1px solid rgba(206, 206, 206, 0.59);
+  margin-top: 125px;
+  height: 0;
+}
+
+.ListingInfo_contactProperty_Text {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.46;
+  cursor: pointer;
+}
+
+.Property_AvailNow {
+  margin-top: 17px;
+  float: right;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.38;
+  text-align: right;
+  color: UniversalGrey;
+  margin-right: -6px;  /* adjust for card right border */
+}
+
+.RatingBar {
+  float: right;
+  margin-right: -6px; /* adjust for card right border */
+}
+
+.RatingBar .Label {
+  font-size: 15px;
+  line-height: 1.27;
+  letter-spacing: 0.1px;
+  display: inline-block;
+  margin-left: 6px;
+  color: Gray1;
+}
+
+.CardInfo_Sponsored {
+  position: absolute;
+  z-index: 10;
+  display: block;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0) 100%);
+  width: 238px;
+  height: 39px;
+}
+
+.CardInfo_Sponsored_Text {
+  padding-top: 15px;
+  padding-left: 9px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.SliderImage-listlarge {
+  width: 50%;
+  height: CardHeight;
+  background-size: contain;
+}
+
+.ListingCard .Favorite {
+  top: 5px;
+  left: 200px;
+}

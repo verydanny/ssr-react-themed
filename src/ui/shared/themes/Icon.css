@@ -1,0 +1,21 @@
+@value ( RentBlue) from 'ui/shared/themes/colors/colors.css';
+
+.Icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Icon:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*
+NOTE: avoid adding svg dimensions here,
+its preferred that they are added via page or device level
+themes due to problems with css specificity and the
+fact that this file is shared for both large and small icons.
+if you need to add share icon dimensions at the device level,
+please use a large/Icon.css or small/Icon.css theme
+*/

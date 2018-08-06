@@ -1,0 +1,4 @@
+body {
+  /* Override the fixed body since PDP needs to scroll */
+  overflow: auto;
+}

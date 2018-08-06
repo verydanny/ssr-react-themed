@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/shared/Icon renders named svgs with passed svgs object, multiple items 1`] = `
+
+<span class="logo"
+      title="bar"
+>
+  <list title="bar">
+  </list>
+</span>
+
+`;
+
+exports[`ui/shared/Icon renders with passed svgs object, single item, and mismatched name 1`] = `
+
+<span class="logo"
+      title="bar"
+>
+  <map title="bar">
+  </map>
+</span>
+
+`;
+
+exports[`ui/shared/Icon renders with passed svgs object, single item, and no name 1`] = `
+
+<span class="logo"
+      title="bar"
+>
+  <svg title="bar">
+  </svg>
+</span>
+
+`;

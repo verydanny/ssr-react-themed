@@ -1,12 +1,14 @@
 import * as React from 'react'
-import styles from './someThing.css'
 import tokenizeCss from 'simple-tokenizer'
 import { themed } from 'react-themed-too'
+import styles from './someThing.css'
 
-const Button = ({ theme, ...props }: { theme: any }) => (
-  <button className={theme.Button}>
-    <h2>Big ass button</h2>
-  </button>
-)
+const Button = ({ theme, ...props }: { theme: any }) => {
+  return (
+    <button className={theme.FooterLogo}>
+      <h2>Big ass button</h2>
+    </button>
+  )
+}
 
-export default themed('Button')(Button)
+export default themed(/Footer/)(Button)

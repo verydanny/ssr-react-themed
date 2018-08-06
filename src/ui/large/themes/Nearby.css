@@ -1,0 +1,25 @@
+@value ( Gray1 ) from 'ui/shared/themes/colors/colors.css';
+
+.Nearby {
+  display: flex;
+  margin: 0 0 0 0;
+}
+
+.Nearby-leftColumn,
+.Nearby-rightColumn {
+  flex: 1;
+}
+
+.Nearby-leftColumn {
+  padding-right: 25px;
+}
+
+.Nearby-leftColumn a,
+.Nearby-rightColumn a {
+  text-decoration: none;
+  display: block;
+  color: Gray1;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 28px;
+}

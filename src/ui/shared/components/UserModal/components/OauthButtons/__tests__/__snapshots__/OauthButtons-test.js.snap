@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OauthButtons Oauth button render properly Oauth buttons output matches the snapshot 1`] = `
+
+<div class="Oauth_Container">
+  <a class="Oauth_FacebookButton Oauth_SocialMediaIcons"
+     href="#"
+  >
+    <div style="height:50px"
+         class="lazyload-placeholder"
+    >
+    </div>
+    <p>
+      Sign in with Facebook
+    </p>
+  </a>
+  <a class="Oauth_GoogleButton Oauth_SocialMediaIcons"
+     href="#"
+  >
+    <div style="height:50px"
+         class="lazyload-placeholder"
+    >
+    </div>
+    <p>
+      Sign in with Google
+    </p>
+  </a>
+</div>
+
+`;

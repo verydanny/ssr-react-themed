@@ -1,0 +1,70 @@
+@value (
+  UniversalGrey, RentBlue, Gray1, Gray3, Gray5
+) from 'ui/shared/themes/colors/colors.css';
+
+/*body style added due to conflict with list style*/
+
+body .SortFilters_ChevronDown {
+  font-size: 12px;
+  fill: RentBlue;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+}
+
+body .SortFilters_Dropdown {
+  background-color: white;
+  box-shadow: 0 8px 20px 2px rgba(0, 0, 0, 0.15);
+  border: solid 1px Gray5;
+  border-radius: 4px;
+  text-align: left;
+  overflow: hidden;
+  margin-top: 8px;
+  width: 150px;
+  float: right;
+  padding: 7px 0 7px 0px;
+}
+
+.SortFilters_Dropdown span{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 0 10px 8px;
+  color: Gray1;
+  display: block;
+}
+
+.SortFilters_Dropdown :hover {
+  background: Gray3;
+  cursor: pointer;
+  color: Gray1;
+}
+
+.SortFilters_Text {
+  color: UniversalGrey;
+  font-size: 14px;
+  font-weight: 600;
+  height: 36px;
+  border-radius: 4px;
+}
+
+.SortFilters_Text Button {
+  position: relative;
+  color: UniversalGrey;
+  border-radius: 4px;
+  text-align: left;
+  padding: 0 7px;
+  background: none;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+body .SortFilter-selected {
+  background-color: RentBlue;
+  color: #fff;
+}
+
+.SortFilters_Text .FiltersButton_ButtonPrefix {
+  position: relative;
+  padding-right: 2px;
+  font-weight: 600;
+}

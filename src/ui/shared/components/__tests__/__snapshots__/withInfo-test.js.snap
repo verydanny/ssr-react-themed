@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withInfo HOC decorates listing info 1`] = `
+Object {
+  "listing": Object {
+    "aggregates": Object {
+      "baths": Object {
+        "high": 3,
+        "low": 1,
+      },
+      "beds": Object {
+        "high": 4,
+        "low": 2,
+      },
+      "prices": Object {
+        "high": 2100,
+        "low": 800,
+      },
+      "totalAvailable": 42,
+    },
+    "isActive": true,
+    "isPaid": true,
+    "listingId": 0,
+    "originalListingProperty": "im available to children",
+  },
+  "someOtherProp": "im availabile to children",
+}
+`;

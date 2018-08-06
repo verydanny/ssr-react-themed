@@ -16,6 +16,8 @@ const serverRenderer = () => (req: express.StoreRequestT, res: express.Response)
         </Router>
       </Provider>
     )
+
+    console.log(global)
   
     const state = JSON.stringify(req.store.getState())
 

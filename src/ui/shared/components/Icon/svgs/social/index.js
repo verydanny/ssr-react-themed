@@ -1,0 +1,5 @@
+export facebook from './facebook.svg'
+export instagram from './instagram.svg'
+export pinterest from './pinterest.svg'
+export twitter from './twitter.svg'
+export youtube from './youtube.svg'

@@ -1,0 +1,27 @@
+@value ( UniversalGrey ) from 'ui/shared/themes/colors/colors.css';
+
+.RecommendedOrNearby {
+  margin-top: 27px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow:hidden;
+}
+
+.RecommendedOrNearby_Caption {
+  color: UniversalGrey;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.RecommendedOrNearby_Cards {
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.RecommendedOrNearby_Cards::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}

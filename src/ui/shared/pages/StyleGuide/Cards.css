@@ -1,0 +1,33 @@
+@value (
+  UniversalGrey, RentBlue
+) from 'ui/shared/themes/colors/colors.css';
+
+.Container {
+  padding: 0 16px;
+}
+
+.Header {
+  width: 127px;
+  height: 34px;
+  text-align: left;
+  color: RentBlue;
+}
+
+.StyleReference {
+  font-size: 15px;
+  line-height: 1.3;
+  color: UniversalGrey;
+}
+
+.WrapCard {
+  margin: 0 auto;
+  max-width: 380px;
+}
+
+.Description {
+  height: 10px;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  color: RentBlue;
+}

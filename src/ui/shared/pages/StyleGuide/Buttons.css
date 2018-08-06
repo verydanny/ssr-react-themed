@@ -1,0 +1,99 @@
+@value ( RentBlue, Gray2) from 'ui/shared/themes/colors/colors.css';
+
+.Row {
+  padding: 10px 0;
+  display: flex;
+}
+
+.Col {
+  min-width: 180px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.toggleGroupCol {
+  width: 400px;
+  height: 80px;
+  clear: both;
+  position: relative;
+  margin: 8px;
+}
+
+.Neighborhoods {
+  display: inline-block;
+  width: 152px;
+  height: 36px;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  background-color: #fff;
+  color: RentBlue;
+  border-radius: 100px;
+  outline: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+}
+
+.Icon {
+  margin: 0 5px 0 0;
+}
+
+.Icon_Neighborhoods {
+  fill: RentBlue;
+}
+
+.Icon_Default {
+  fill: RentBlue;
+}
+
+.Icon_Active {
+  fill: #fff;
+}
+
+.Icon_Disabled {
+  fill: Gray2;
+  cursor: not-allowed;
+}
+
+.ForwardFill {
+  font-size: 24px;
+}
+
+.ForwardFill svg {
+  width: 1em;
+  height: 1em;
+  fill: #fff;
+}
+
+.ButtonFloat-Email,
+.ButtonFloat-Email-active,
+.ButtonFloat-Email:active {
+  font-size: 24px;
+  width: 32px;
+  height: 32px;
+  border-radius: 150px;
+  padding: 2px 0 0 0.5px;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+}
+
+.Email svg,
+.Email-active svg {
+  fill: Gray2;
+  width: 1.6em;
+  height: 0.8em;
+}
+
+.Email-active svg {
+  fill: RentBlue;
+}
+
+.Container-Card {
+  width: 180px;
+  height: 36px;
+  border-radius: 100px;
+  background-color: RentBlue;
+  color: #fff;
+  box-shadow: 0 0.5px 1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

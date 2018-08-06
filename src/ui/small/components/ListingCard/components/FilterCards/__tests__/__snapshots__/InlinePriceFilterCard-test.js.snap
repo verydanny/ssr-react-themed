@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`small/ListingCard/FilterCards/components/InlinePriceFilterCard renders PriceFilterCard 1`] = `
+
+<div class
+     data-tid="inline-price-filter-card"
+     data-tag_section="filter_card"
+>
+  <div data-tid="card-body">
+    <div>
+      <h2 class
+          data-tid="title"
+      >
+        Filter by price
+      </h2>
+      <div data-tid="text"
+           class
+      >
+        Set a maximum price for your search.
+      </div>
+    </div>
+    <div>
+      <div class>
+        <div aria-disabled="false">
+          <span>
+            <span>
+              $500
+            </span>
+          </span>
+          <div>
+            <div style="left:0%;width:0%">
+            </div>
+            <span style="position:absolute;left:0%">
+              <span>
+                <span>
+                  $500
+                </span>
+              </span>
+              <div aria-valuemax="5000"
+                   aria-valuemin="500"
+                   aria-valuenow="500"
+                   draggable="false"
+                   role="slider"
+                   tabindex="0"
+              >
+              </div>
+            </span>
+          </div>
+          <span>
+            <span>
+              $5000
+            </span>
+          </span>
+        </div>
+      </div>
+      <div>
+        <button data-tid="apply-button"
+                data-tag_item="update_results_button"
+                data-tag_selection="price"
+                class
+        >
+          Apply
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+`;

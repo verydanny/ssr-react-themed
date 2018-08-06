@@ -1,0 +1,22 @@
+.FooterSocial {
+  margin-bottom: 36px;
+}
+
+.FooterSocial ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.FooterSocial li {
+  margin: 0 15px;
+  padding: 0;
+  display: inline-block;
+}
+
+.SocialLink_Icon svg {
+  width: 30px;
+  height: 30px;
+}

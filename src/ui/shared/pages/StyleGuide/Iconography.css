@@ -1,0 +1,43 @@
+@value ( Gray1, Gray2, Gray3 ) from 'ui/shared/themes/colors/colors.css';
+
+.Header {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.Group {
+  border-top: 1px solid Gray3;
+  padding-bottom: 30px;
+}
+
+.Group:nth-child(2n+0) {
+  background-color: rgba(237, 237, 237, 0.6);
+}
+
+.Icon_box {
+  width: 70px;
+  box-shadow: 0 1px 3px 0 Gray2;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.Icon {
+  display: inline-flex;
+  align-self: center;
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+}
+
+.Icon_text {
+  padding-top: 4px;
+  font-size: 11px;
+  color: Gray1;
+}
+
+.Row {
+  display:flex;
+  flex-wrap: wrap;
+}

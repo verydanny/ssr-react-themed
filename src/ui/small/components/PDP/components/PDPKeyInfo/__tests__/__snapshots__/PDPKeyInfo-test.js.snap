@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`small/PDP/PDPKeyInfo renders key Info with all fields 1`] = `
+
+<div class="PDPKeyInfo"
+     data-tid="pdpKeyInfo"
+>
+  <div class="PDPKeyInfo_Price"
+       data-tid="pdpKeyInfo_price"
+  >
+    $1,500+
+  </div>
+  <h1 class="PDPKeyInfo_PropertyLabel">
+    Enso - Eco-friendly Community in East Atlanta
+  </h1>
+  <ul class="PDPKeyInfo_PropertyDetails">
+    <li data-tid="pdpKeyInfo_bedText">
+      1-2 Bd
+    </li>
+    <li data-tid="pdpKeyInfo_bathText">
+      1-2 Br
+    </li>
+    <li data-tid="pdpKeyInfo_sqFt">
+      748-1,212 sqft
+    </li>
+    <li class="PDPKeyInfo_AvailabilityLabel"
+        data-tid="pdpKeyInfo_unitsAvailable"
+    >
+      7 units available
+    </li>
+  </ul>
+  <button data-tag_item="favorite_properties"
+          data-tag_selection="save"
+          data-tid="Favorite-off"
+          class
+  >
+  </button>
+</div>
+
+`;

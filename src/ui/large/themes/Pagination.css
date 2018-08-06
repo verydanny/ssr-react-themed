@@ -1,0 +1,31 @@
+@value ( RentBlue ) from 'ui/shared/themes/colors/colors.css';
+
+.Pagination {
+  display: flex;
+  justify-content: space-between;
+  margin: 19px 22px 22px;
+}
+
+.Pagination_Count {
+  padding-right: 1em;
+}
+
+.Pagination_Links {
+  white-space: nowrap;
+}
+
+.Pagination_Prev,
+.Pagination_Next {
+  font-size: 1em;
+  text-decoration: none;
+  color: RentBlue;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.Pagination_Next {
+  margin-left: 2em;
+}

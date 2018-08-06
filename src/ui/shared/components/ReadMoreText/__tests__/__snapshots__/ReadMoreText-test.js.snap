@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReadMoreText /> text that should not truncate text is equal to the triggerCount renders 1`] = `
+
+<div class="ReadMoreText"
+     data-tid="read-more"
+>
+  <div class="ReadMoreText_Text"
+       data-tid="read-more-text"
+  >
+    The quick brown fox The quick brown fox The quick brown fox The quick brown fox
+  </div>
+</div>
+
+`;
+
+exports[`<ReadMoreText /> text that should truncate expanding and collapsing the text renders 1`] = `
+
+<div class="ReadMoreText"
+     data-tid="read-more"
+>
+  <div class="ReadMoreText_Text"
+       data-tid="read-more-text"
+  >
+    The quick brown fox The quick brown fox The quick brown fox The quick brown fox The quick brown fox
+  </div>
+  <div>
+    <button>
+      Read less
+    </button>
+  </div>
+</div>
+
+`;
+
+exports[`<ReadMoreText /> text that should truncate text is well over the triggerCount renders 1`] = `
+
+<div class="ReadMoreText ReadMoreText-collapsed"
+     data-tid="read-more"
+>
+  <div class="ReadMoreText_Text"
+       data-tid="read-more-text"
+  >
+    <span>
+      The quick brown fox The quick brown fox The quick brown fox…
+    </span>
+  </div>
+  <div>
+    <button>
+      Read more +
+    </button>
+  </div>
+</div>
+
+`;

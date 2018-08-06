@@ -1,0 +1,114 @@
+@value ( RentBlue, Gray3, Gray5 ) from 'ui/shared/themes/colors/colors.css';
+@value ( FontFamily ) from 'ui/shared/themes/variables/variables.css';
+
+.Overlay {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.6);
+}
+
+.Features {
+  font-family: FontFamily;
+  text-align: center;
+  width: 90%;
+  max-width: 340px;
+  margin: 30px auto 110px;
+}
+
+.Features label {
+  display: block;
+  text-align: left;
+  margin: 15px auto;
+}
+
+.Features legend {
+  text-align: left;
+}
+
+.Features fieldset {
+  margin-top: 20px;
+}
+
+.Features hr {
+  margin: 20px 15px;
+}
+
+.FullStackGroup a,
+.FullStackGroup a:visited,
+.Subheader a,
+.Subheader a:visited  {
+  color: RentBlue;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.FullStackGroup {
+  width: 100%;
+  background-color: Gray5;
+  padding: 25px 0;
+  border: 1px solid Gray3;
+  margin: 50px 0;
+}
+
+.FullStackList,
+.Toggles {
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.FullStackList li {
+  margin-bottom: 5px;
+  padding: 4px;
+}
+
+.Toggles b {
+  color: RentBlue;
+}
+
+.AdaptiveMessage {
+  margin: 7px auto 0;
+}
+
+.GoToSearch {
+  display: block;
+  color: #fff;
+  background-color: RentBlue;
+  border-radius: 100px;
+  outline: none;
+  height: 36px;
+  width: 175px;
+  padding: 0 16px;
+  font-weight: 700;
+  font-size: 15px;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  text-align: center;
+  line-height: 36px;
+  text-decoration: none;
+  margin: 7px auto;
+}
+
+.Header {
+  font-size: 1.2rem;
+}
+
+.Subheader {
+  font-size: 0.85rem;
+}
+
+.Header,
+.Subheader {
+  display: block;
+  margin-bottom: 0;
+}
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border-top: 3px solid RentBlue;
+}

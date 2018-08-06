@@ -1,0 +1,83 @@
+@value ( Gray3, UniversalGrey, Gray5, RentBlue, White, Gray1 ) from 'ui/shared/themes/colors/colors.css';
+
+.LocationInput_border {
+  width: 158px;
+  position: relative;
+}
+
+.LocationInput {
+  width: 158px;
+  height: 38px;
+  padding: 0 24px 0 5px;
+  border-radius: 4px;
+  border: 1px solid Gray3;
+  box-shadow: 0 0.5px 1px 0 rgba(0, 0, 0, 0.08);
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.LocationInput::placeholder {
+  color: UniversalGrey;
+  font-size: 15px;
+  text-overflow: ellipsis !important;
+  overflow: hidden;
+  padding-top: 4px;
+}
+
+.LocationInput:focus::placeholder {
+  color: Gray3;
+}
+
+.LocationInput_searchIcon {
+  font-size: 20px;
+  fill: RentBlue;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+.LocationInput_searchIcon svg {
+  width: 1em;
+  height: 1em;
+}
+
+.LocationResults {
+  position: absolute;
+  z-index: 10;
+  background: White;
+  width: 476px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid Gray3;
+  box-shadow: 2px 2px 45px 0 rgba(0, 0, 0, 0.1);
+}
+
+.LocationResults_itemWrapper {
+  position: relative;
+  display: flex;
+}
+
+.LocationResults_itemIcon {
+  position: absolute;
+  z-index: 10;
+  top: 9px;
+  left: 10px;
+  fill: Gray1;
+}
+
+.LocationResults_item {
+  padding: 10px 10px 10px 30px;
+  font-size: 14px;
+  color: Gray1;
+  width: 476px;
+}
+
+.LocationResults_itemIcon svg {
+  height: 1em;
+  width: 1em;
+}
+
+.LocationResults_item-active {
+  background-color: Gray3;
+  flex: 1;
+}

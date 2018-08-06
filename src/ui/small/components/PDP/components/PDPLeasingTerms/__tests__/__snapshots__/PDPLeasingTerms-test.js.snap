@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PDPLeasingTerms /> with some terms should match snapshot 1`] = `
+
+<section data-tid="pdpLeasingTerms">
+  <div role="Button"
+       tabindex="0"
+       data-tid="pdpLeasingTerms_Container"
+       class
+  >
+    <div>
+      <h2 data-tid="pdpLeasingTerms_Header">
+        Leasing Terms
+      </h2>
+      <button data-tid="pdpLeasingTerms_Button"
+              class
+      >
+      </button>
+    </div>
+    <div>
+      <span data-tid="pdpLeasingTerms_Description">
+        View our leasing terms.
+      </span>
+    </div>
+  </div>
+  <div>
+    <div class>
+      <h3 data-tid="pdpLeasingTerms_InnerHeader">
+        Leasing Terms
+      </h3>
+      <div data-tid="pdpLeasingTerms_Terms">
+        <div>
+          Some leasing terms
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+`;

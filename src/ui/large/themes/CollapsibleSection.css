@@ -1,0 +1,42 @@
+@value ( RentBlue, Gray1, White, UniversalGrey ) from 'ui/shared/themes/colors/colors.css';
+
+.CollapsibleSection {
+  color: Gray1;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.CollapsibleSection_Header {
+  color: RentBlue;
+  margin-bottom: 0px;
+}
+
+.CollapsibleSection_Button {
+  border: 0;
+  background: White;
+  color: RentBlue;
+  font-weight: 700;
+  text-align: left;
+  padding: 0;
+}
+
+.CollapsibleSection-open {
+  display: block;
+}
+
+.CollapsibleSection-closed {
+  display: none;
+}
+
+.CollapsibleSection_ChevronUp,
+.CollapsibleSection_ChevronDown {
+  font-size: 30px;
+  margin-left: -9px;
+}
+
+
+.CollapsibleSection_ChevronUp svg,
+.CollapsibleSection_ChevronDown svg {
+  width: 24px;
+  height: 24px;
+}

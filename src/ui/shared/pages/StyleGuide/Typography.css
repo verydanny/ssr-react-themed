@@ -1,0 +1,25 @@
+@value (
+  RentBlue,
+  UniversalGrey,
+  Gray1
+) from 'ui/shared/themes/colors/colors.css';
+
+.Header {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.Row {
+  display: flex;
+  margin: 0 0 25px 25px;
+}
+
+.Name {
+  flex-basis: 25%;
+  max-width: 25%
+}
+
+.Desc {
+  flex-basis: 75%;
+  max-width: 75%
+}
