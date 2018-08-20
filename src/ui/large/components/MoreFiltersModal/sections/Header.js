@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import autobind from 'autobind-decorator'
 import PropTypes from 'prop-types'
 import numberWithCommas from 'lib/utils/numberWithCommas'

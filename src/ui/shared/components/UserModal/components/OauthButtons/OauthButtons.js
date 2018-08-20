@@ -1,5 +1,5 @@
 import React from 'react'
-import themed from 'react-themed'
+import themed from 'react-themed-too'
 import PropTypes from 'prop-types'
 import cn from 'classnames'
 import { Icon } from 'ui/shared/components/Icon'

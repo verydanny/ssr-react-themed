@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import Spinner from 'ui/shared/components/Spinner'
 import { Link } from '@rentpath/react-redux-router'
 import cn from 'classnames'

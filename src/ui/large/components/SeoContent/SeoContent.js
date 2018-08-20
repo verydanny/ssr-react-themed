@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import themed from 'react-themed'
+import themed from 'react-themed-too'
 import Nearby from 'ui/shared/components/SeoContent/Nearby'
 import LocalInfo from 'ui/shared/components/SeoContent/LocalInfo'
 import LinkList from 'ui/shared/components/SeoContent/LinkList'

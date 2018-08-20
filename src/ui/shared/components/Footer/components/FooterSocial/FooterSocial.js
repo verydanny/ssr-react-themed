@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import LazyLoad from 'react-lazyload'
 import SocialLink from './SocialLink'
 import linkConfig from './config'

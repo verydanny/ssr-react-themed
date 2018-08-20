@@ -1,4 +1,4 @@
-import { compose } from 'react-themed'
+import { compose } from 'react-themed-too'
 import FooterLogo from './FooterLogo.css'
 import FooterLinks from './FooterLinks.css'
 import FooterSocial from './FooterSocial.css'

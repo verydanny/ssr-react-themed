@@ -1,4 +1,6 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const MqPacker = require('css-mqpacker')
+const CssNano = require('cssnano')
 
 const babelLoader = {
   test: /\.(ts|tsx)$/,
@@ -11,12 +13,11 @@ const cssLoaderClient = {
   exclude: /node_modules/,
   use: [
     {
-      loader: 'css-loader',
+      loader: 'css-loader/locals',
       options: {
         camelCase: true,
         modules: true,
-        sourceMap: true,
-        localIdentName: '[name]__[local]--[hash:base64:5]',
+        localIdentName: '[name]__reactthemed--[hash:base64:5]',
       },
     }
   ],
@@ -30,19 +31,24 @@ const cssLoaderServer = {
       options: {
         camelCase: true,
         modules: true,
-        localIdentName: '[name]__[local]--[hash:base64:5]',
+        localIdentName: '[name]__reactthemed--[hash:base64:5]',
       },
     },
+    {
+      loader: 'postcss-loader',
+      options: {
+        plugins: loader => [
+          MqPacker,
+          CssNano
+        ]
+      }
+    }
   ],
 }
 
 const urlLoaderClient = {
   test: /\.(png|jpe?g|gif|svg)$/,
-  loader: require.resolve('url-loader'),
-  options: {
-    limit: 2048,
-    name: 'assets/[name].[hash:8].[ext]',
-  },
+  loader: require.resolve('url-loader')
 }
 
 const urlLoaderServer = {

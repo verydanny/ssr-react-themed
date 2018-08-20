@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { Cards } from 'ui/small/components/ListingCard'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import { LEAD_MODAL_ID } from 'ui/small/components/LeadModal'
 
 @themed(/^RecommendedOrNearby/)

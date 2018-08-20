@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import { Icon } from 'ui/shared/components/Icon'
 import truncateString from 'lib/utils/truncateString'
 

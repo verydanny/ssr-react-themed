@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import autobind from 'autobind-decorator'
 import { ofType } from 'redux-observable'
-import themed from 'react-themed'
+import themed from 'react-themed-too'
 import { OverlayView } from '@rentpath/react-ui-core'
 import {
   MARKER_CLICK,

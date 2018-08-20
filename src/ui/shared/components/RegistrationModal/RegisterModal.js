@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import cn from 'classnames'
 import autobind from 'autobind-decorator'
 import { Modal } from '@rentpath/react-ui-core'

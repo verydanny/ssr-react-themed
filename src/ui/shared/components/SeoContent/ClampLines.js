@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import cn from 'classnames'
 import autobind from 'autobind-decorator'
-import themed from 'react-themed'
+import themed from 'react-themed-too'
 
 @themed(/^ClampLines/)
 

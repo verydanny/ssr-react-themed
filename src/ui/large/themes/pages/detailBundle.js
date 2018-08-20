@@ -1,4 +1,4 @@
-import { compose } from 'react-themed'
+import { compose } from 'react-themed-too'
 import applicationBundle from './appBundle'
 
 // STOP!!!

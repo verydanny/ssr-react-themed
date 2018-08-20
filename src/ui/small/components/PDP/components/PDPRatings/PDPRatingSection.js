@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 
 const PDPRatingSection = ({ title, subtitle, content, dataTid, theme }) => (
   <div

@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import themed from 'react-themed'
+import themed from 'react-themed-too'
 import { DfpAdSlot } from 'ui/shared/components/DfpAdSlot'
 import { SMALL_FOOTER_AD_KEY, SMALL_SEOCONTENT_AD_KEY } from 'config/dfpAds'
 

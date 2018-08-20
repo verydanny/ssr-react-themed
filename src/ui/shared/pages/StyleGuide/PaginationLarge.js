@@ -1,5 +1,5 @@
 import React from 'react'
-import { ThemeProvider } from 'react-themed'
+import { ThemeProvider } from 'react-themed-too'
 import SearchPageTheme from 'ui/large/themes/pages/searchResultsBundle'
 import Pagination from 'ui/large/components/Pagination'
 import sg from './PaginationLarge.css'

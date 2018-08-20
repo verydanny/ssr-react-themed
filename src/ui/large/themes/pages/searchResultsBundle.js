@@ -2,7 +2,7 @@
 // until some brittle css around Icons has been refactored
 // changing applicationBundles order could cause problems with
 // icon class specificity
-import { compose } from 'react-themed'
+import { compose } from 'react-themed-too'
 import applicationBundle from 'ui/large/themes/pages/appBundle'
 import BreadCrumbs from 'ui/large/themes/BreadCrumbs.css'
 import Card from 'ui/large/themes/Card.css'

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Photo } from '@rentpath/react-ui-core'
 import PropTypes from 'prop-types'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import Slider from 'react-image-gallery'
 import LazyLoad from 'react-lazyload'
 import autobind from 'autobind-decorator'

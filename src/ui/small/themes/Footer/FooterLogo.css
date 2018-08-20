@@ -15,3 +15,9 @@
   width: 146px;
   height: 24px;
 }
+
+@media (min-width: 768px) {
+  .FooterLogo {
+    padding: 59px 40px;
+  }
+}

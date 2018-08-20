@@ -1,6 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import { ThemeProvider } from 'react-themed'
+import { ThemeProvider } from 'react-themed-too'
 import SmallTheme from 'ui/small/themes/SmallTheme'
 import PDPGallery from '../PDPGallery'
 import storyTheme from './PDPGallery.stories.css'

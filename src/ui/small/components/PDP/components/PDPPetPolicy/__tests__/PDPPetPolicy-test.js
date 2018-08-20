@@ -1,6 +1,6 @@
 import React from 'react'
 import { mount } from 'enzyme'
-import { ThemeProvider } from 'react-themed'
+import { ThemeProvider } from 'react-themed-too'
 import { keyMirror } from '@rentpath/react-ui-utils'
 import PDPPetPolicy from '../PDPPetPolicy'
 

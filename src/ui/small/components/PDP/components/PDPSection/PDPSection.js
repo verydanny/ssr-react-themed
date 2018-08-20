@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Button } from '@rentpath/react-ui-core'
 import { Icon } from 'ui/shared/components/Icon'
 import { chevronUp, chevronDown } from 'ui/shared/components/Icon/svgs/global'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import autobind from 'autobind-decorator'
 import cn from 'classnames'
 

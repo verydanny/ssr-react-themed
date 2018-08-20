@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import throttle from 'lodash/throttle'
 import { LIST_SKELETON, NEXT_PAGE, PREV_PAGE } from 'app/store/types'
 import { forceCheck } from 'react-lazyload'

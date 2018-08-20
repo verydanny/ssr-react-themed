@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { ThemeProvider } from 'react-themed'
+import { ThemeProvider } from 'react-themed-too'
 import theme from 'ui/large/themes/pages/detailBundle'
 
 class Detail extends Component {

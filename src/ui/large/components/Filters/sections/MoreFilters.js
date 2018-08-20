@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import cn from 'classnames'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import PropTypes from 'prop-types'
 import { Icon } from 'ui/shared/components/Icon'
 import { chevronDown } from 'ui/shared/components/Icon/svgs/global'

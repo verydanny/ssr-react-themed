@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 // TODO: move to selector
 import formatPhone from 'lib/utils/formatPhone'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import get from 'lodash/fp/get'
 import pick from 'lodash/fp/pick'
 import autobind from 'autobind-decorator'

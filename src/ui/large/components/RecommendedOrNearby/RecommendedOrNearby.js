@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 // TODO: should cards be moved outside of ListView
 import Cards from 'ui/large/components/ListView/ListingCard/Cards'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import { LEAD_MODAL_ID } from 'ui/shared/config/modal-const'
 
 @themed(/^RecommendedOrNearby/)

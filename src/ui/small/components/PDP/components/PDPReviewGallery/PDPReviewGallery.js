@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import ContentGallery from 'ui/shared/components/ContentGallery'
 import PDPReview from 'ui/small/components/PDP/components/PDPReview'
 

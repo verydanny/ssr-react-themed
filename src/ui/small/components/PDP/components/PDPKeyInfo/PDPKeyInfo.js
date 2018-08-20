@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import AggregateRating from 'ui/shared/components/AggregateRating'
 import FavoriteIcon from 'ui/shared/components/FavoriteIcon'
 

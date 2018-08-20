@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import { getPricesAreClose } from 'app/selectors/filters'
 import cn from 'classnames'
 import get from 'lodash/fp/get'

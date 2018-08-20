@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import themed from 'react-themed'
+import themed from 'react-themed-too'
 import { Icon } from 'ui/shared/components/Icon'
 import rentComLogo from 'ui/shared/components/Icon/svgs/rentComLogo.svg'
 import { MENU_LINKS } from 'ui/large/components/Header/const'

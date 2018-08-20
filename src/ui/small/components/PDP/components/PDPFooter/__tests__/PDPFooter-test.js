@@ -1,7 +1,7 @@
 import React from 'react'
 import { mount } from 'enzyme'
 import { keyMirror } from '@rentpath/react-ui-utils'
-import { ThemeProvider } from 'react-themed'
+import { ThemeProvider } from 'react-themed-too'
 import PDPFooter from '../PDPFooter'
 
 const theme = keyMirror([

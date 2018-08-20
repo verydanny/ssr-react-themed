@@ -1,14 +1,14 @@
 import * as React from 'react'
 import { ThemeProvider } from 'react-themed-too'
-import { withRouter } from 'react-router-dom'
-import { connect } from 'react-redux'
-import Footer from 'ui/small/themes/Footer'
-import Button from './Buttons/Button'
+import MobileTheme from 'ui/smallTheme'
+import Header from './Header/Header'
+import Footer from './Footer/Footer'
 
 const App = () => (
-  <ThemeProvider theme={Footer}>
-    <Button />
+  <ThemeProvider theme={MobileTheme}>
+    <Header />
+    <Footer />
   </ThemeProvider>
 )
 
-export default connect()(App)
+export default App

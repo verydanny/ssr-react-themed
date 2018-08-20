@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { LIST_SKELETON } from 'app/store/types'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import { Text } from '@rentpath/react-ui-core'
 
 @themed('*')

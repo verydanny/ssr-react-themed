@@ -1,5 +1,5 @@
 import React from 'react'
-import { compose } from 'react-themed'
+import { compose } from 'react-themed-too'
 import cn from 'classnames'
 import { Button } from '@rentpath/react-ui-core'
 import { Icon } from 'ui/shared/components/Icon'

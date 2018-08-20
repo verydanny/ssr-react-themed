@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import autobind from 'autobind-decorator'
 import PropTypes from 'prop-types'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import Slider from 'react-image-gallery'
 import { forceCheck } from 'react-lazyload'
 import { PAGE_SIZE, PIN_LIMIT } from 'app/graphql/small/queries'

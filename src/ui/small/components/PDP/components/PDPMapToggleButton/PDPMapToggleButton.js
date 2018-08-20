@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import autobind from 'autobind-decorator'
 import ToolTip from 'ui/shared/components/ToolTip'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import { MAP_VIEW, STREET_VIEW } from './const'
 
 @themed(/^PDPMapToggleButton/, { pure: true })

@@ -1,7 +1,7 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
-import { ThemeProvider } from 'react-themed'
+import { ThemeProvider } from 'react-themed-too'
 import SmallTheme from 'ui/small/themes/SmallTheme'
 import PDPKeyInfo from 'ui/small/components/PDP/components/PDPKeyInfo/PDPKeyInfo'
 import storyTheme from './PDPKeyInfo.stories.css'

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import ModalStack from 'ui/shared/components/ModalStack'
 import { modalDefinitions } from 'ui/large/config/modalConfig'
 import { Header as DefaultHeader } from 'ui/large/components/Header'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 
 const Layout = props => (
   <div className={props.theme.Layout_Container}>

@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import autobind from 'autobind-decorator'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import cn from 'classnames'
 import PropTypes from 'prop-types'
 import { Icon } from 'ui/shared/components/Icon'

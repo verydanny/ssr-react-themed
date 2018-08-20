@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import autobind from 'autobind-decorator'
 import PropTypes from 'prop-types'
-import themed from 'react-themed'
+import themed from 'react-themed-too'
 import Menu from 'ui/small/components/Menu'
 import { Icon } from 'ui/shared/components/Icon'
 import rentComLogo from 'ui/shared/components/Icon/svgs/rentComLogo.svg'

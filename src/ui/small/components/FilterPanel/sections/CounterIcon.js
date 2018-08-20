@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import themed from 'react-themed'
+import themed from 'react-themed-too'
 import classnames from 'classnames'
 import { Icon } from 'ui/shared/components/Icon'
 import add from 'ui/shared/components/Icon/svgs/add.svg'

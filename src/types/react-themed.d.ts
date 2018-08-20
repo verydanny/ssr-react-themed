@@ -1,1 +1,1 @@
-declare module 'react-themed'
+declare module 'react-themed-too'

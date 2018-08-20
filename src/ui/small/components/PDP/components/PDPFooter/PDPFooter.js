@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import autobind from 'autobind-decorator'
-import themed from 'react-themed'
+import themed from 'react-themed-too'
 import PropTypes from 'prop-types'
 import throttle from 'lodash/throttle'
 import AggregateRating from 'ui/shared/components/AggregateRating'

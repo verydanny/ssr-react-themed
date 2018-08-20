@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { ThemeProvider } from 'react-themed'
+import { ThemeProvider } from 'react-themed-too'
 import PageViewTracker from 'ui/shared/components/PageViewTracker'
 import ModalStack from 'ui/shared/components/ModalStack'
 import { modalDefinitions } from 'ui/small/config/modalConfig'

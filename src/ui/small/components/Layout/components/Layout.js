@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { ThemeProvider } from 'react-themed'
+import { ThemeProvider } from 'react-themed-too'
 import classNames from 'classnames'
 import theme from 'ui/small/themes/SmallTheme'
 import ModalStack from 'ui/shared/components/ModalStack'

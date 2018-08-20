@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import autobind from 'autobind-decorator'
 import PropTypes from 'prop-types'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import { Tagging } from '@rentpath/react-ui-tracking'
 import AggregateRating from 'ui/shared/components/AggregateRating'
 import cn from 'classnames'

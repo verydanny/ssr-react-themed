@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import PropTypes, { instanceOf } from 'prop-types'
 import autobind from 'autobind-decorator'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import { Tagging } from '@rentpath/react-ui-tracking'
 import { LeadModal as LeadModalUI } from '@rentpath/react-ui-rent'
 import { Cookies } from 'react-cookie'

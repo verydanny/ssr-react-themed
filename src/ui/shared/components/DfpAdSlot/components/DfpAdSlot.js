@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React, { PureComponent } from 'react'
 import { AdSlot, DFPManager } from 'react-dfp'
-import themed from 'react-themed'
+import themed from 'react-themed-too'
 import cn from 'classnames'
 import DfpAds from 'config/dfpAds'
 import { stateAbbreviation } from 'lib/geo/states'

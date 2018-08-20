@@ -7,7 +7,7 @@ import FooterApps from './FooterApps.css'
 import FooterCopyright from './FooterCopyright.css'
 import FooterEqualHousing from './FooterEqualHousing.css'
 
-export default compose({},
+const composed = compose({},
   FooterLogo,
   FooterLinks,
   FooterSocial,
@@ -16,3 +16,5 @@ export default compose({},
   FooterEqualHousing,
   Footer
 )
+
+export default composed

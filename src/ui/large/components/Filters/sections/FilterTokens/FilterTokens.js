@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import map from 'lodash/fp/map'
 import FilterToken from './FilterToken'
 import ToggleTokenCollapse from './ToggleTokenCollapseButton'

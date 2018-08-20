@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import { RangeSlider } from '@rentpath/react-ui-core'
 import PropTypes from 'prop-types'
 import cn from 'classnames'

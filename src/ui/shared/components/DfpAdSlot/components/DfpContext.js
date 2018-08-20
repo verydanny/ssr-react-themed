@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
-import themed from 'react-themed'
+import themed from 'react-themed-too'
 import cn from 'classnames'
 
 @themed(/^Dfp/)

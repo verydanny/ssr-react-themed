@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import themed from 'react-themed'
+import themed from 'react-themed-too'
 import { Text } from '@rentpath/react-ui-core'
 import { Icon } from 'ui/shared/components/Icon'
 import { filters } from 'ui/shared/components/Icon/svgs/global'

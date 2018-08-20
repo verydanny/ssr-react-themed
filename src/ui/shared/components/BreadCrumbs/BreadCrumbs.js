@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import cn from 'classnames'
-import themed from 'react-themed'
+import themed from 'react-themed-too'
 import { LIST_SKELETON } from 'app/store/types'
 
 // NOTE: here is a QA example of custom headline returned for rentjs

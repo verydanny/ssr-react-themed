@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import { ToggleButton } from '@rentpath/react-ui-core'
 import PropTypes from 'prop-types'
 import map from 'lodash/fp/map'

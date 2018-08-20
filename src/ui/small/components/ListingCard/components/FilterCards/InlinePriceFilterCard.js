@@ -3,7 +3,7 @@ import { PriceFilterCard } from '@rentpath/react-ui-core'
 import autobind from 'autobind-decorator'
 import classnames from 'classnames'
 import PropTypes from 'prop-types'
-import { themed } from 'react-themed'
+import { themed } from 'react-themed-too'
 import { PRICE_FILTER_SLIDER_DEFAULTS } from './const'
 
 @themed(/^Inline/)

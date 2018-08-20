@@ -46,7 +46,7 @@
   display: block;
   width: 100%;
   height: 235px;
-  background: url('./images/rent_home_bg_mobile.png'),
+  background: url('/images/rent_home_bg_mobile.png'),
    linear-gradient(to bottom, #003BDE 0%, #003BDE 173px, #fff 173px, #fff 173px);
   background-repeat: no-repeat, no-repeat;
   background-position: bottom center;

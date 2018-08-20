@@ -1,4 +1,4 @@
-import { compose } from 'react-themed'
+import { compose } from 'react-themed-too'
 import Collapsible from 'ui/large/themes/Collapsible.css'
 import Footer from 'ui/large/themes/Footer'
 import HomePopularLinks from 'ui/large/themes/HomePopularLinks.css'
