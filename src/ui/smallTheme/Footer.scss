@@ -1,0 +1,13 @@
+.Footer {
+  background: orange;
+
+  .Text {
+    font-size: 72px;
+  }
+}
+
+@media (min-width: 760px) {
+  .Footer {
+    background: blue;
+  }
+}

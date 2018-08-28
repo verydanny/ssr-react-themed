@@ -1,6 +1,7 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const MqPacker = require('css-mqpacker')
 const CssNano = require('cssnano')
+const { webpackIdentity } = require('react-themed-too')
 
 const babelLoader = {
   test: /\.(ts|tsx)$/,
@@ -17,7 +18,7 @@ const cssLoaderClient = {
       options: {
         camelCase: true,
         modules: true,
-        localIdentName: '[name]__reactthemed--[hash:base64:5]',
+        localIdentName: webpackIdentity,
       },
     }
   ],
@@ -31,7 +32,7 @@ const cssLoaderServer = {
       options: {
         camelCase: true,
         modules: true,
-        localIdentName: '[name]__reactthemed--[hash:base64:5]',
+        localIdentName: webpackIdentity,
       },
     },
     {
@@ -44,6 +45,42 @@ const cssLoaderServer = {
       }
     }
   ],
+}
+
+const scssLoaderClient = {
+  test: /\.scss$/,
+  exclude: /node_modules/,
+  use: [
+    {
+      loader: 'css-loader/locals',
+      options: {
+        camelCase: true,
+        modules: true,
+        localIdentName: webpackIdentity,
+      },
+    },
+    {
+      loader: 'sass-loader'
+    }
+  ]
+}
+
+const scssLoaderServer = {
+  test: /\.scss$/,
+  exclude: /node_modules/,
+  use: [
+    {
+      loader: 'css-loader',
+      options: {
+        camelCase: true,
+        modules: true,
+        localIdentName: webpackIdentity,
+      },
+    },
+    {
+      loader: 'sass-loader'
+    }
+  ]
 }
 
 const urlLoaderClient = {
@@ -95,6 +132,7 @@ const externalCssLoaderServer = {
 const client = [{
   oneOf: [
     babelLoader,
+    scssLoaderClient,
     cssLoaderClient,
     urlLoaderClient,
     fileLoaderClient,
@@ -105,6 +143,7 @@ const client = [{
 const server = [{
   oneOf: [
     babelLoader,
+    scssLoaderServer,
     cssLoaderServer,
     urlLoaderServer,
     fileLoaderServer,
