@@ -11,7 +11,9 @@ export default class Footer extends React.PureComponent {
     const { theme } = this.props
 
     return (
-      <div className={theme.FooterText}>This is the footer</div>
+      <div className={theme.Footer}>
+        <div className={theme.Text}>This is the footer</div>
+      </div>
     )
   }
 }

@@ -14,12 +14,21 @@ const cssLoaderClient = {
   exclude: /node_modules/,
   use: [
     {
-      loader: 'css-loader/locals',
+      loader: 'css-loader',
       options: {
         camelCase: true,
         modules: true,
         localIdentName: webpackIdentity,
       },
+    },
+    {
+      loader: 'postcss-loader',
+      options: {
+        plugins: loader => [
+          MqPacker,
+          CssNano
+        ]
+      }
     }
   ],
 }

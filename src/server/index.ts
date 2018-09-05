@@ -4,6 +4,7 @@ import chalk from 'chalk'
 import path from 'path'
 import bodyParser from 'body-parser'
 import manifestHelpers from 'express-manifest-helpers'
+import { extractCSS } from 'react-themed-too'
 
 import configureStore from '../client/store'
 import paths from '../../config/paths'
@@ -36,6 +37,7 @@ app.use(
 )
 
 app.use(serverRender())
+
 
 app.use((err: any, _req: express.Request, res: express.Response, _next: express.NextFunction) => {
   return res.status(404).json({

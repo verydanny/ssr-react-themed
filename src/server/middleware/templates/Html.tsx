@@ -1,7 +1,7 @@
 import * as React from 'react'
 
-export const HTML = ({ state, scripts, css, children }: { state: string, scripts: string[], css: string, children: string }) => {
-
+export const HTML = ({ state, scripts, css, children }: { state: string, scripts: string[], css: object, children: string }) => {
+  
   return (
     <html lang="en">
       <head>
@@ -12,8 +12,13 @@ export const HTML = ({ state, scripts, css, children }: { state: string, scripts
         />
         <style
           type="text/css"
-          dangerouslySetInnerHTML={{ __html: css }}
+          dangerouslySetInnerHTML={{ __html: css.css }}
         />
+        <style
+          type="text/css"
+          dangerouslySetInnerHTML={{ __html: css.mediaQueries }}
+        />
+        <link  href="/styles/main.css" rel="prefetch stylesheet" />
       </head>
       <body>
         <div id="app" dangerouslySetInnerHTML={{ __html: children }} />
