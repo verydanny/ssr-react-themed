@@ -14,7 +14,7 @@ const cssLoaderClient = {
   exclude: /node_modules/,
   use: [
     {
-      loader: 'css-loader',
+      loader: 'css-loader/locals',
       options: {
         camelCase: true,
         modules: true,

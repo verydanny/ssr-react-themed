@@ -4,7 +4,7 @@ import chalk from 'chalk'
 import path from 'path'
 import bodyParser from 'body-parser'
 import manifestHelpers from 'express-manifest-helpers'
-import { extractCSS } from 'react-themed-too'
+import { extractCss } from 'react-themed-too'
 
 import configureStore from '../client/store'
 import paths from '../../config/paths'
@@ -35,6 +35,14 @@ app.use(
     manifestPath: `${manifestPath}/manifest.json`,
   })
 )
+
+app.get(/\/reactThemedstyles\/.*\.css/, async (req, res) => {
+  const CSS = extractCss()
+
+  res.set('Content-Type', 'text/css')
+    .status(200)
+    .send(CSS.globalCss + CSS.body.css + CSS.body.mediaQueries)
+})
 
 app.use(serverRender())
 
